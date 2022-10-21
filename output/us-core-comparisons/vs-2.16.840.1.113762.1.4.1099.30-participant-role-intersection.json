@@ -1,0 +1,9 @@
+{
+  "resourceType" : "ValueSet",
+  "id" : "31bb0ed9-0bdc-4ced-8332-4cb6c4b9c627-6",
+  "url" : "http://hl7.org/fhir/comparison/ValueSet/31bb0ed9-0bdc-4ced-8332-4cb6c4b9c627-6",
+  "name" : "IntersectionCare Team Member FunctionAndParticipantRoles",
+  "title" : "Intersection of null And Participant Roles",
+  "status" : "active",
+  "date" : "2022-10-20T20:37:53-04:00"
+}

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="EndpointConnectionTypeVS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="http://terminology.hl7.org/4.0.0/CodeSystem-endpoint-connection-type.html"><code>http://terminology.hl7.org/CodeSystem/endpoint-connection-type</code></a></li><li>Include all codes defined in <a href="CodeSystem-EndpointConnectionTypeCS.html"><code>http://hl7.org/fhir/us/ndh/CodeSystem/EndpointConnectionTypeCS</code></a></li></ul></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/ndh/ValueSet/EndpointConnectionTypeVS"/>
+  <version value="1.0.0"/>
+  <name value="EndpointConnectionTypeVS"/>
+  <title value="Endpoint Connection Types Value Set"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2022-10-20T20:37:10-04:00"/>
+  <publisher value="HL7 International - Patient Administration Work Group"/>
+  <contact>
+    <name value="HL7 International - Patient Administration Work Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/Special/committees/pafm"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="pafm@lists.hl7.org"/>
+    </telecom>
+  </contact>
+  <description value="Endpoint Connection Types"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/endpoint-connection-type"/>
+    </include>
+    <include>
+      <system value="http://hl7.org/fhir/us/ndh/CodeSystem/EndpointConnectionTypeCS"/>
+    </include>
+  </compose>
+</ValueSet>

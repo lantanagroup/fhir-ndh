@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>HL7.FHIR.US.NDH\Individual Specialties, Degrees, Licenses, and Certificates Value Set - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"27.52"}
+    h3,h4,h5,h6{--heading-prefix:"27.52"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">National Directory of Healthcare Providers &amp; Services (NDH) Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">1.0.0 - draft
+
+
+
+  <img alt="United States of America flag" src="assets/images/usa.svg" height="16" title="United States of America"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="base-artifacts.html">Base Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Exchange Standard
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="exchange-use-cases.html">Exchange Use Cases</a>
+      </li>
+      <li>
+        <a href="exchange-flow-diagrams.html">Exchange Flow Diagrams</a>
+      </li>
+      <li>
+        <a href="exchange-ig.html">Exchange Implementation Guild</a>
+      </li>
+      <li>
+        <a href="exchange-artifacts.html">Exchange Artifacts</a>
+      </li>
+      <li>
+        <a href="exchange-capability.html">Exchange CapabilityStatement</a>
+      </li>
+      <li>
+        <a href="exchange-examples.html">Exchange Examples</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Attestation Standard
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="attestation-use-cases.html">Attestation Use Cases</a>
+      </li>
+      <li>
+        <a href="attestation-flow-diagrams.html">Attestation Flow Diagrams</a>
+      </li>
+      <li>
+        <a href="attestation-ig.html">Attestation Implementation Guild</a>
+      </li>
+      <li>
+        <a href="attestation-artifacts.html">Attestation Artifacts</a>
+      </li>
+      <li>
+        <a href="attestation-capability.html">Attestation CapabilityStatement</a>
+      </li>
+      <li>
+        <a href="attestation-examples.html">Attestation Examples</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Verification Standard
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="verification-use-cases.html">Verification Use Cases</a>
+      </li>
+      <li>
+        <a href="verification-flow-diagrams.html">Verification Flow Diagrams</a>
+      </li>
+      <li>
+        <a href="verification-ig.html">Verification Implementation Guild</a>
+      </li>
+      <li>
+        <a href="verification-artifacts.html">Verification Artifacts</a>
+      </li>
+      <li>
+        <a href="verification-capability.html">Verification CapabilityStatement</a>
+      </li>
+      <li>
+        <a href="verification-examples.html">Verification Examples</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Distributed Query Standard
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="distributed-query-use-cases.html">Distributed Query Use Cases</a>
+      </li>
+      <li>
+        <a href="distributed-query-flow-diagrams.html">Distributed Query ation Flow Diagrams</a>
+      </li>
+      <li>
+        <a href="distributed-query-ig.html">Distributed Query Implementation Guild</a>
+      </li>
+      <li>
+        <a href="distributed-query-artifacts.html">Distributed Query Artifacts</a>
+      </li>
+      <li>
+        <a href="distributed-query-capability.html">Distributed Query CapabilityStatement</a>
+      </li>
+      <li>
+        <a href="distributed-query-examples.html">Distributed Query Examples</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Individual Specialties, Degrees, Licenses, and Certificates Value Set</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">National Directory of Healthcare Providers &amp; Services (NDH) Implementation Guide - Local Development build (v1.0.0). See the <a href="http://hl7.org/fhir/us/ndh/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+  
+    <li>
+      <a href="ValueSet-IndividualSpecialtyAndDegreeLicenseCertificateVS.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-IndividualSpecialtyAndDegreeLicenseCertificateVS.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-IndividualSpecialtyAndDegreeLicenseCertificateVS.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">ValueSet: Individual Specialties, Degrees, Licenses, and Certificates Value Set
+
+  </h2>
+  <table class="colsi">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://hl7.org/fhir/us/ndh/ValueSet/IndividualSpecialtyAndDegreeLicenseCertificateVS<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/us/ndh/ValueSet/IndividualSpecialtyAndDegreeLicenseCertificateVS"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">1.0.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/us/ndh/ValueSet/IndividualSpecialtyAndDegreeLicenseCertificateVS|1.0.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Active
+          
+            as of 2022-10-20
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">IndividualSpecialtyAndDegreeLicenseCertificateVS</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>Individual Specialties, Degrees, Licenses, and Certificates</p>
+
+</p>
+
+
+  <p>
+    <b>References</b>
+  </p>
+  
+<ul>
+ <li><a href="StructureDefinition-ndh-Practitioner.html">NDH Practitioner</a></li>
+</ul>
+
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <a name="definition"> </a>
+
+<!-- Content Logical Definition heading in the fragment -->
+  <h3>Logical Definition (CLD)</h3>
+<div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include all codes defined in <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html"><code>http://terminology.hl7.org/CodeSystem/v2-0360</code></a></li></ul></div>
+
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 61 concepts</p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html">degreeLicenseCertificate v2.1.0 (CodeSystem)</a></p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-PN"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-PN">PN</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Advanced Practice Nurse</td><td><div><p>Advanced Practice Nurse</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-AAS"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-AAS">AAS</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Associate of Applied Science</td><td><div><p>Associate of Applied Science</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-AA"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-AA">AA</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Associate of Arts</td><td><div><p>Associate of Arts</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-ABA"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-ABA">ABA</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Associate of Business Administration</td><td><div><p>Associate of Business Administration</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-AE"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-AE">AE</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Associate of Engineering</td><td><div><p>Associate of Engineering</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-AS"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-AS">AS</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Associate of Science</td><td><div><p>Associate of Science</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-BA"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-BA">BA</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Bachelor of Arts</td><td><div><p>Bachelor of Arts</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-BBA"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-BBA">BBA</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Bachelor of Business Administration</td><td><div><p>Bachelor of Business Administration</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-BE"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-BE">BE</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Bachelor or Engineering</td><td><div><p>Bachelor or Engineering</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-BFA"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-BFA">BFA</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Bachelor of Fine Arts</td><td><div><p>Bachelor of Fine Arts</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-BN"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-BN">BN</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Bachelor of Nursing</td><td><div><p>Bachelor of Nursing</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-BS"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-BS">BS</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Bachelor of Science</td><td><div><p>Bachelor of Science</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-BSL"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-BSL">BSL</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Bachelor of Science - Law</td><td><div><p>Bachelor of Science - Law</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-BSN"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-BSN">BSN</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Bachelor on Science - Nursing</td><td><div><p>Bachelor on Science - Nursing</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-BT"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-BT">BT</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Bachelor of Theology</td><td><div><p>Bachelor of Theology</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-CER"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-CER">CER</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Certificate</td><td><div><p>Certificate</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-CANP"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-CANP">CANP</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Certified Adult Nurse Practitioner</td><td><div><p>Certified Adult Nurse Practitioner</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-CMA"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-CMA">CMA</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Certified Medical Assistant</td><td><div><p>Certified Medical Assistant</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-CNP"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-CNP">CNP</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Certified Nurse Practitioner</td><td><div><p>Certified Nurse Practitioner</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-CNM"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-CNM">CNM</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Certified Nurse Midwife</td><td><div><p>Certified Nurse Midwife</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-CRN"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-CRN">CRN</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Certified Registered Nurse</td><td><div><p>Certified Registered Nurse</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-CNS"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-CNS">CNS</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Certified Nurse Specialist</td><td><div><p>Certified Nurse Specialist</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-CPNP"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-CPNP">CPNP</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Certified Pediatric Nurse Practitioner</td><td><div><p>Certified Pediatric Nurse Practitioner</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-CTR"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-CTR">CTR</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Certified Tumor Registrar</td><td><div><p>Certified Tumor Registrar</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-DIP"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-DIP">DIP</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Diploma</td><td><div><p>Diploma</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-DBA"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-DBA">DBA</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Doctor of Business Administration</td><td><div><p>Doctor of Business Administration</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-DED"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-DED">DED</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Doctor of Education</td><td><div><p>Doctor of Education</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-PharmD"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-PharmD">PharmD</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Doctor of Pharmacy</td><td><div><p>Doctor of Pharmacy</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-PHE"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-PHE">PHE</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Doctor of Engineering</td><td><div><p>Doctor of Engineering</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-PHD"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-PHD">PHD</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Doctor of Philosophy</td><td><div><p>Doctor of Philosophy</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-PHS"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-PHS">PHS</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Doctor of Science</td><td><div><p>Doctor of Science</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-MD"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-MD">MD</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Doctor of Medicine</td><td><div><p>Doctor of Medicine</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-DO"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-DO">DO</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Doctor of Osteopathy</td><td><div><p>Doctor of Osteopathy</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-EMT"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-EMT">EMT</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Emergency Medical Technician</td><td><div><p>Emergency Medical Technician</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-EMTP"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-EMTP">EMTP</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Emergency Medical Technician - Paramedic</td><td><div><p>Emergency Medical Technician - Paramedic</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-FPNP"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-FPNP">FPNP</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Family Practice Nurse Practitioner</td><td><div><p>Family Practice Nurse Practitioner</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-HS"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-HS">HS</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>High School Graduate</td><td><div><p>High School Graduate</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-JD"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-JD">JD</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Juris Doctor</td><td><div><p>Juris Doctor</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-MA"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-MA">MA</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Master of Arts</td><td><div><p>Master of Arts</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-MBA"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-MBA">MBA</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Master of Business Administration</td><td><div><p>Master of Business Administration</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-MCE"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-MCE">MCE</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Master of Civil Engineering</td><td><div><p>Master of Civil Engineering</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-MDI"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-MDI">MDI</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Master of Divinity</td><td><div><p>Master of Divinity</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-MED"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-MED">MED</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Master of Education</td><td><div><p>Master of Education</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-MEE"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-MEE">MEE</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Master of Electrical Engineering</td><td><div><p>Master of Electrical Engineering</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-ME"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-ME">ME</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Master of Engineering</td><td><div><p>Master of Engineering</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-MFA"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-MFA">MFA</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Master of Fine Arts</td><td><div><p>Master of Fine Arts</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-MME"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-MME">MME</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Master of Mechanical Engineering</td><td><div><p>Master of Mechanical Engineering</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-MS"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-MS">MS</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Master of Science</td><td><div><p>Master of Science</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-MSL"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-MSL">MSL</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Master of Science - Law</td><td><div><p>Master of Science - Law</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-MSN"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-MSN">MSN</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Master of Science - Nursing</td><td><div><p>Master of Science - Nursing</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-MTH"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-MTH">MTH</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Master of Theology</td><td><div><p>Master of Theology</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-MDA"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-MDA">MDA</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Medical Assistant</td><td><div><p>Medical Assistant</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-MT"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-MT">MT</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Medical Technician</td><td><div><p>Medical Technician</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-NG"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-NG">NG</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Non-Graduate</td><td><div><p>Non-Graduate</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-NP"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-NP">NP</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Nurse Practitioner</td><td><div><p>Nurse Practitioner</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-PA"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-PA">PA</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Physician Assistant</td><td><div><p>Physician Assistant</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-RMA"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-RMA">RMA</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Registered Medical Assistant</td><td><div><p>Registered Medical Assistant</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-RN"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-RN">RN</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Registered Nurse</td><td><div><p>Registered Nurse</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-RPH"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-RPH">RPH</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Registered Pharmacist</td><td><div><p>Registered Pharmacist</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-SEC"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-SEC">SEC</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Secretarial Certificate</td><td><div><p>Secretarial Certificate</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v2-0360-TS"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v2-0360.html#v2-0360-TS">TS</a></td><td>http://terminology.hl7.org/CodeSystem/v2-0360</td><td>Trade School Graduate</td><td><div><p>Trade School Graduate</p>
+</div></td></tr></table></div>
+
+  <hr/>
+  <p>
+    Explanation of the columns that may appear on this page:
+  </p>
+  <table class="grid">
+    <tr>
+      <td>Level</td>
+      <td>A few code lists that FHIR defines are hierarchical - each code is assigned a level.
+          In this scheme, some codes are under other codes, and imply that the code they are under also applies</td>
+    </tr>
+    <tr>
+      <td>System</td>
+      <td>The source of the definition of the code (when the value set draws in codes defined elsewhere)</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>The code (used as the code in the resource instance)</td>
+    </tr>
+    <tr>
+      <td>Display</td>
+      <td>The display (used in the <i>display</i> element of a <a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a>). If there is no display, implementers should not simply display the code, but map the concept into their application</td>
+    </tr>
+    <tr>
+      <td>Definition</td>
+      <td>An explanation of the meaning of the concept</td>
+    </tr>
+    <tr>
+      <td>Comments</td>
+      <td>Additional notes about how to use the code</td>
+    </tr>
+  </table>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/pafm">HL7 International - Patient Administration Work Group</a>.  Package hl7.fhir.us.ndh#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 20, 2022 20:37-0400">2022-10-20</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="IgTypeCS"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system <code>http://hl7.org/fhir/us/ndh/CodeSystem/IgTypeCS</code> defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td style="white-space:nowrap">FHIR<a name="IgTypeCS-FHIR"> </a></td><td>FHIR</td></tr><tr><td style="white-space:nowrap">direct<a name="IgTypeCS-direct"> </a></td><td>Direct</td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/ndh/CodeSystem/IgTypeCS"/>
+  <version value="1.0.0"/>
+  <name value="IgTypeCS"/>
+  <title value="IG Type Code System"/>
+  <status value="active"/>
+  <experimental value="false"/>
+  <date value="2022-10-20T20:37:10-04:00"/>
+  <publisher value="HL7 International - Patient Administration Work Group"/>
+  <contact>
+    <name value="HL7 International - Patient Administration Work Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/Special/committees/pafm"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="pafm@lists.hl7.org"/>
+    </telecom>
+  </contact>
+  <description value="IG Type"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <caseSensitive value="true"/>
+  <content value="complete"/>
+  <count value="2"/>
+  <concept>
+    <code value="FHIR"/>
+    <display value="FHIR"/>
+  </concept>
+  <concept>
+    <code value="direct"/>
+    <display value="Direct"/>
+  </concept>
+</CodeSystem>

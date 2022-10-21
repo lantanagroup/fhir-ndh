@@ -1,0 +1,235 @@
+﻿NDH : Validation Results
+=========================================
+
+err = 1, warn = 45, info = 0
+IG Publisher Version: 1.2.7 Out of date - current version is 1.2.8
+Generated Thu Oct 20 20:43:31 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.ndh#1.0.0 (canonical = http://hl7.org/fhir/us/ndh)
+ Build Errors : 0 / 4 / 0
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\CodeSystem-AcceptingPatientsCS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\CodeSystem-AccessibilityCS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\CodeSystem-CredentialStatusCS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\CodeSystem-DeliveryMethodCS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\CodeSystem-EndpointConnectionTypeCS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\CodeSystem-EndpointPayloadTypeCS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\CodeSystem-EndpointTypeCS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\CodeSystem-HealthcareServiceCategoryCS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\CodeSystem-IgTypeCS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\CodeSystem-InsurancePlanTypeCS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\CodeSystem-InsuranceProductTypeCS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\CodeSystem-LanguageProficiencyCS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\CodeSystem-OrgAliasTypeCS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\CodeSystem-OrgTypeCS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\CodeSystem-OrganizationAffiliationRoleCS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\CodeSystem-ProviderRoleCS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\CodeSystem-QualificationStatusCS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\CodeSystem-TrustFrameworkTypeCS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\CodeSystem-ValidationTypeCS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\CodeSystem-VirtualModalitiesCS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ImplementationGuide-hl7.fhir.us.ndh : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-accessibility : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-associatedServers : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-careteam-alias : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-communication-proficiency : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-contactpoint-availabletime : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-delivery-method : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-dynamicRegistration : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-endpoint-reference : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-endpoint-usecase : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-endpointType : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-fundingSource : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-healthcareservice-reference : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-identifier-status : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-igsSupported : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-location-reference : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-ndh-CareTeam : 0 / 2 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-ndh-Endpoint : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-ndh-HealthcareService : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-ndh-InsurancePlan : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-ndh-Location : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-ndh-Network : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-ndh-Organization : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-ndh-OrganizationAffiliation : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-ndh-Practitioner : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-ndh-PractitionerRole : 0 / 2 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-ndh-Restriction : 1 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-ndh-Verification : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-network-reference : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-newpatients : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-org-description : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-paymentAccepted : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-practitioner-qualification : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-rating : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-requiredDocument : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-secureEndpoint : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-secureExchangeArtifacts : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-trustFramework : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-usage-restriction : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\StructureDefinition-via-intermediary : 0 / 1 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-AcceptingPatientsVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-AccessibilityVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-DeliveryMethodVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-EndpointConnectionTypeVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-EndpointPayloadTypeVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-EndpointTypeVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-EndpointUsecaseVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-HealthcareServiceCategoryVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-HealthcareServiceTypeVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-IdentifierStatusVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-IgTypeVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-IndividualAndGroupSpecialtiesVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-IndividualSpecialtyAndDegreeLicenseCertificateVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-InsurancePlanTypeVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-InsuranceProductTypeVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-LanguageProficiencyVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-MinEndpointConnectionTypeVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-NetworkTypeVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-NonIndividualSpecialtiesVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-NonIndividualSpecialtyAndDegreeLicenseCertificateVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-OrgAliasTypeVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-OrgTypeVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-OrganizationAffiliationRoleVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-PractitionerRoleVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-QualificationStatusVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-SpecialtiesVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-SpecialtyAndDegreeLicenseCertificateVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-TrustFrameworkTypeVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-ValidationProcessVS : 0 / 0 / 1
+ C:\lantana-ndh\fhir-ndh\fsh-generated\resources\ValueSet-VirtualModalitiesVS : 0 / 0 / 1
+</table>
+== n/a ==
+WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 2: The HTML fragment 'cross-version-analysis.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 3: The HTML fragment 'dependency-table.xhtml' is not included anywhere in the produced implementation guide
+WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated\resources\CodeSystem-AcceptingPatientsCS.json ==
+== fsh-generated\resources\CodeSystem-AccessibilityCS.json ==
+== fsh-generated\resources\CodeSystem-CredentialStatusCS.json ==
+== fsh-generated\resources\CodeSystem-DeliveryMethodCS.json ==
+== fsh-generated\resources\CodeSystem-EndpointConnectionTypeCS.json ==
+== fsh-generated\resources\CodeSystem-EndpointPayloadTypeCS.json ==
+== fsh-generated\resources\CodeSystem-EndpointTypeCS.json ==
+== fsh-generated\resources\CodeSystem-HealthcareServiceCategoryCS.json ==
+== fsh-generated\resources\CodeSystem-IgTypeCS.json ==
+== fsh-generated\resources\CodeSystem-InsurancePlanTypeCS.json ==
+== fsh-generated\resources\CodeSystem-InsuranceProductTypeCS.json ==
+== fsh-generated\resources\CodeSystem-LanguageProficiencyCS.json ==
+== fsh-generated\resources\CodeSystem-OrgAliasTypeCS.json ==
+== fsh-generated\resources\CodeSystem-OrgTypeCS.json ==
+== fsh-generated\resources\CodeSystem-OrganizationAffiliationRoleCS.json ==
+== fsh-generated\resources\CodeSystem-ProviderRoleCS.json ==
+== fsh-generated\resources\CodeSystem-QualificationStatusCS.json ==
+== fsh-generated\resources\CodeSystem-TrustFrameworkTypeCS.json ==
+== fsh-generated\resources\CodeSystem-ValidationTypeCS.json ==
+== fsh-generated\resources\CodeSystem-VirtualModalitiesCS.json ==
+== fsh-generated\resources\ImplementationGuide-hl7.fhir.us.ndh.json ==
+== fsh-generated\resources\StructureDefinition-accessibility.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/accessibility'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-associatedServers.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/associatedServers'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-careteam-alias.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/careteam-alias'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-communication-proficiency.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/communication-proficiency'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-contactpoint-availabletime.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/contactpoint-availabletime'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-delivery-method.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/delivery-method'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-dynamicRegistration.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/dynamicRegistration'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-endpoint-reference.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/endpoint-reference'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-endpoint-usecase.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/endpoint-usecase'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-endpointType.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/endpointType'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-fundingSource.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/fundingSource'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-healthcareservice-reference.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/healthcareservice-reference'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-identifier-status.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/identifier-status'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-igsSupported.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/igsSupported'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-location-reference.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/location-reference'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-ndh-CareTeam.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-CareTeam').baseDefinition: US FHIR Usage rules require that all profiles on CareTeam derive from the core US profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-CareTeam'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-ndh-Endpoint.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Endpoint'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-ndh-HealthcareService.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-HealthcareService'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-ndh-InsurancePlan.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-InsurancePlan'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-ndh-Location.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Location'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-ndh-Network.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Network'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-ndh-Organization.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Organization'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-ndh-OrganizationAffiliation.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-OrganizationAffiliation'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-ndh-Practitioner.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Practitioner'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-ndh-PractitionerRole.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-PractitionerRole').baseDefinition: US FHIR Usage rules require that all profiles on PractitionerRole derive from the core US profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-PractitionerRole'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-ndh-Restriction.json ==
+ERROR: StructureDefinition/ndh-Restriction: StructureDefinition.snapshot.element[9].example[0].value.ofType(Identifier): if identifier.system is ''urn:ietf:rfc:3986'', then the identifier.value must be a full URI (e.g. start with a scheme)
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Restriction'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-ndh-Verification.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Verification'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-network-reference.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/network-reference'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-newpatients.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/newpatients'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-org-description.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/org-description'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-paymentAccepted.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/paymentAccepted'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-practitioner-qualification.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/practitioner-qualification'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-rating.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/rating'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-requiredDocument.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/requiredDocument'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-secureEndpoint.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/secureEndpoint'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-secureExchangeArtifacts.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/secureExchangeArtifacts'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-trustFramework.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/trustFramework'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-usage-restriction.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/usage-restriction'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\StructureDefinition-via-intermediary.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/via-intermediary'): The Implementation Guide contains no examples for this extension
+== fsh-generated\resources\ValueSet-AcceptingPatientsVS.json ==
+== fsh-generated\resources\ValueSet-AccessibilityVS.json ==
+== fsh-generated\resources\ValueSet-DeliveryMethodVS.json ==
+== fsh-generated\resources\ValueSet-EndpointConnectionTypeVS.json ==
+== fsh-generated\resources\ValueSet-EndpointPayloadTypeVS.json ==
+== fsh-generated\resources\ValueSet-EndpointTypeVS.json ==
+== fsh-generated\resources\ValueSet-EndpointUsecaseVS.json ==
+== fsh-generated\resources\ValueSet-HealthcareServiceCategoryVS.json ==
+== fsh-generated\resources\ValueSet-HealthcareServiceTypeVS.json ==
+== fsh-generated\resources\ValueSet-IdentifierStatusVS.json ==
+== fsh-generated\resources\ValueSet-IgTypeVS.json ==
+== fsh-generated\resources\ValueSet-IndividualAndGroupSpecialtiesVS.json ==
+== fsh-generated\resources\ValueSet-IndividualSpecialtyAndDegreeLicenseCertificateVS.json ==
+== fsh-generated\resources\ValueSet-InsurancePlanTypeVS.json ==
+== fsh-generated\resources\ValueSet-InsuranceProductTypeVS.json ==
+== fsh-generated\resources\ValueSet-LanguageProficiencyVS.json ==
+== fsh-generated\resources\ValueSet-MinEndpointConnectionTypeVS.json ==
+== fsh-generated\resources\ValueSet-NetworkTypeVS.json ==
+== fsh-generated\resources\ValueSet-NonIndividualSpecialtiesVS.json ==
+== fsh-generated\resources\ValueSet-NonIndividualSpecialtyAndDegreeLicenseCertificateVS.json ==
+== fsh-generated\resources\ValueSet-OrgAliasTypeVS.json ==
+== fsh-generated\resources\ValueSet-OrgTypeVS.json ==
+== fsh-generated\resources\ValueSet-OrganizationAffiliationRoleVS.json ==
+== fsh-generated\resources\ValueSet-PractitionerRoleVS.json ==
+== fsh-generated\resources\ValueSet-QualificationStatusVS.json ==
+== fsh-generated\resources\ValueSet-SpecialtiesVS.json ==
+== fsh-generated\resources\ValueSet-SpecialtyAndDegreeLicenseCertificateVS.json ==
+== fsh-generated\resources\ValueSet-TrustFrameworkTypeVS.json ==
+== fsh-generated\resources\ValueSet-ValidationProcessVS.json ==
+== fsh-generated\resources\ValueSet-VirtualModalitiesVS.json ==

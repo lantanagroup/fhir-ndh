@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>HL7.FHIR.US.NDH\HealthcareService Type Value Set - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"27.48"}
+    h3,h4,h5,h6{--heading-prefix:"27.48"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">National Directory of Healthcare Providers &amp; Services (NDH) Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">1.0.0 - draft
+
+
+
+  <img alt="United States of America flag" src="assets/images/usa.svg" height="16" title="United States of America"/>
+
+
+            </span>
+          </p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="base-artifacts.html">Base Artifacts</a>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Exchange Standard
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="exchange-use-cases.html">Exchange Use Cases</a>
+      </li>
+      <li>
+        <a href="exchange-flow-diagrams.html">Exchange Flow Diagrams</a>
+      </li>
+      <li>
+        <a href="exchange-ig.html">Exchange Implementation Guild</a>
+      </li>
+      <li>
+        <a href="exchange-artifacts.html">Exchange Artifacts</a>
+      </li>
+      <li>
+        <a href="exchange-capability.html">Exchange CapabilityStatement</a>
+      </li>
+      <li>
+        <a href="exchange-examples.html">Exchange Examples</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Attestation Standard
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="attestation-use-cases.html">Attestation Use Cases</a>
+      </li>
+      <li>
+        <a href="attestation-flow-diagrams.html">Attestation Flow Diagrams</a>
+      </li>
+      <li>
+        <a href="attestation-ig.html">Attestation Implementation Guild</a>
+      </li>
+      <li>
+        <a href="attestation-artifacts.html">Attestation Artifacts</a>
+      </li>
+      <li>
+        <a href="attestation-capability.html">Attestation CapabilityStatement</a>
+      </li>
+      <li>
+        <a href="attestation-examples.html">Attestation Examples</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Verification Standard
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="verification-use-cases.html">Verification Use Cases</a>
+      </li>
+      <li>
+        <a href="verification-flow-diagrams.html">Verification Flow Diagrams</a>
+      </li>
+      <li>
+        <a href="verification-ig.html">Verification Implementation Guild</a>
+      </li>
+      <li>
+        <a href="verification-artifacts.html">Verification Artifacts</a>
+      </li>
+      <li>
+        <a href="verification-capability.html">Verification CapabilityStatement</a>
+      </li>
+      <li>
+        <a href="verification-examples.html">Verification Examples</a>
+      </li>
+    </ul>
+  </li>
+  <li class="dropdown">
+    <a data-toggle="dropdown" href="#" class="dropdown-toggle">Distributed Query Standard
+      <b class="caret"></b>
+    </a>
+    <ul class="dropdown-menu">
+      <li>
+        <a href="distributed-query-use-cases.html">Distributed Query Use Cases</a>
+      </li>
+      <li>
+        <a href="distributed-query-flow-diagrams.html">Distributed Query ation Flow Diagrams</a>
+      </li>
+      <li>
+        <a href="distributed-query-ig.html">Distributed Query Implementation Guild</a>
+      </li>
+      <li>
+        <a href="distributed-query-artifacts.html">Distributed Query Artifacts</a>
+      </li>
+      <li>
+        <a href="distributed-query-capability.html">Distributed Query CapabilityStatement</a>
+      </li>
+      <li>
+        <a href="distributed-query-examples.html">Distributed Query Examples</a>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>HealthcareService Type Value Set</b></li>
+
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <a name="top"> </a>
+    <div id="segment-content" class="segment">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">National Directory of Healthcare Providers &amp; Services (NDH) Implementation Guide - Local Development build (v1.0.0). See the <a href="http://hl7.org/fhir/us/ndh/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  
+
+
+
+
+
+
+
+
+<ul class="nav nav-tabs">
+
+  <li class="active">
+    <a href="#">Narrative Content</a>
+  </li>
+
+
+  
+    <li>
+      <a href="ValueSet-HealthcareServiceTypeVS.xml.html">XML</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-HealthcareServiceTypeVS.json.html">JSON</a>
+    </li>
+  
+
+
+  
+    <li>
+      <a href="ValueSet-HealthcareServiceTypeVS.ttl.html">TTL</a>
+    </li>
+  
+
+
+
+</ul>
+
+  <a name="root"> </a>
+  <h2 id="root">ValueSet: HealthcareService Type Value Set
+
+  </h2>
+  <table class="colsi">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://hl7.org/fhir/us/ndh/ValueSet/HealthcareServiceTypeVS<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/us/ndh/ValueSet/HealthcareServiceTypeVS"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">1.0.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://hl7.org/fhir/us/ndh/ValueSet/HealthcareServiceTypeVS|1.0.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Active
+          
+            as of 2022-10-20
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">HealthcareServiceTypeVS</span></td>
+    </tr>
+
+
+
+
+  </table>
+
+<p>
+<p>HealthCareService type Value Set</p>
+
+</p>
+
+
+  <p>
+    <b>References</b>
+  </p>
+  
+<ul>
+ <li><a href="StructureDefinition-ndh-HealthcareService.html">NDH HealthcareService</a></li>
+</ul>
+
+
+  <!-- insert intro if present -->
+  
+
+
+
+  <a name="definition"> </a>
+
+<!-- Content Logical Definition heading in the fragment -->
+  <h3>Logical Definition (CLD)</h3>
+<div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://terminology.hl7.org/3.1.0/CodeSystem-service-type.html"><code>http://terminology.hl7.org/CodeSystem/service-type</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>1</td><td>Adoption/Permanent Care Info/Support</td></tr><tr><td>3</td><td>Aged Care Information/Referral</td></tr><tr><td>8</td><td>Home Care/Housekeeping Assistance</td></tr><tr><td>9</td><td>Home Maintenance and Repair</td></tr><tr><td>10</td><td>Personal Alarms/Alerts</td></tr><tr><td>11</td><td>Personal Care for Older Persons</td></tr><tr><td>21</td><td>Hydrotherapy</td></tr><tr><td>26</td><td>Meditation</td></tr><tr><td>31</td><td>Relaxation Therapy</td></tr><tr><td>33</td><td>Western Herbal Medicine</td></tr><tr><td>34</td><td>Family Day care</td></tr><tr><td>36</td><td>Kindergarten Inclusion Support</td></tr><tr><td>42</td><td>Parenting/Family Support/Education</td></tr><tr><td>51</td><td>Blood Donation</td></tr><tr><td>55</td><td>Health Advocacy/Liaison Service</td></tr><tr><td>67</td><td>Sexual Health</td></tr><tr><td>68</td><td>Speech Pathology/Therapy</td></tr><tr><td>69</td><td>Bereavement Counselling</td></tr><tr><td>70</td><td>Crisis Counselling</td></tr><tr><td>71</td><td>Family Counselling/Therapy</td></tr><tr><td>72</td><td>Family Violence Counselling</td></tr><tr><td>75</td><td>Genetic Counselling</td></tr><tr><td>76</td><td>Health Counselling</td></tr><tr><td>78</td><td>Problem Gambling Counselling</td></tr><tr><td>79</td><td>Relationship Counselling</td></tr><tr><td>80</td><td>Sexual Assault Counselling</td></tr><tr><td>81</td><td>Trauma Counselling</td></tr><tr><td>82</td><td>Victims of Crime Counselling</td></tr><tr><td>96</td><td>Disability Advocacy</td></tr><tr><td>97</td><td>Disability Aids &amp; Equipment</td></tr><tr><td>99</td><td>Disability Day Programs/Activities</td></tr><tr><td>102</td><td>Disability Supported Accommodation</td></tr><tr><td>103</td><td>Early Childhood Intervention</td></tr><tr><td>105</td><td>Drug and/or Alcohol Counselling</td></tr><tr><td>106</td><td>Drug/Alcohol Information/Referral</td></tr><tr><td>107</td><td>Needle &amp; Syringe Exchange</td></tr><tr><td>108</td><td>Non-resid. Alcohol/Drug Treatment</td></tr><tr><td>111</td><td>Residential Alcohol/Drug Treatment</td></tr><tr><td>118</td><td>Employment Placement and/or Support</td></tr><tr><td>119</td><td>Vocational Rehabilitation</td></tr><tr><td>126</td><td>Crisis/Emergency Accommodation</td></tr><tr><td>127</td><td>Homelessness Support</td></tr><tr><td>128</td><td>Housing Information/Referral</td></tr><tr><td>130</td><td>Interpreting/Multilingual Service</td></tr><tr><td>134</td><td>Mental Health Advocacy</td></tr><tr><td>146</td><td>Physical Activity Programs</td></tr><tr><td>147</td><td>Physical Fitness Testing</td></tr><tr><td>224</td><td>Support Groups</td></tr><tr><td>230</td><td>Patient Transport</td></tr><tr><td>233</td><td>Abuse</td></tr><tr><td>238</td><td>Adult Day Programs</td></tr><tr><td>245</td><td>Aids</td></tr><tr><td>275</td><td>Cancer Support</td></tr><tr><td>284</td><td>Child Care</td></tr><tr><td>296</td><td>Companion Visiting</td></tr><tr><td>301</td><td>Contraception Inform</td></tr><tr><td>308</td><td>Crisis Assessment An</td></tr><tr><td>309</td><td>Crisis Assistance</td></tr><tr><td>310</td><td>Crisis Refuge</td></tr><tr><td>316</td><td>Depression</td></tr><tr><td>317</td><td>Detoxification</td></tr><tr><td>323</td><td>Divorce</td></tr><tr><td>328</td><td>Eating Disorder</td></tr><tr><td>331</td><td>Employment And Train</td></tr><tr><td>344</td><td>Food</td></tr><tr><td>345</td><td>Food Vouchers</td></tr><tr><td>352</td><td>Grief Counselling</td></tr><tr><td>366</td><td>Household Items</td></tr><tr><td>400</td><td>Pain</td></tr><tr><td>409</td><td>Postnatal</td></tr><tr><td>411</td><td>Pregnancy Tests</td></tr><tr><td>427</td><td>Rent Assistance</td></tr><tr><td>429</td><td>Residential Respite</td></tr><tr><td>440</td><td>Sexual Issues</td></tr><tr><td>446</td><td>Speech Therapist</td></tr><tr><td>459</td><td>Tenancy Advice</td></tr><tr><td>468</td><td>Vocational Guidance</td></tr><tr><td>470</td><td>Welfare Assistance</td></tr><tr><td>488</td><td>Diabetes Educator</td></tr><tr><td>494</td><td>Youth Services</td></tr><tr><td>495</td><td>Youth Health</td></tr><tr><td>501</td><td>Cancer Services</td></tr><tr><td>513</td><td>Cancer Support Groups</td></tr><tr><td>530</td><td>Disability Care Transport</td></tr><tr><td>531</td><td>Aged Care Transport</td></tr><tr><td>532</td><td>Diabetes Education s</td></tr><tr><td>534</td><td>Young Adult Diabetes</td></tr><tr><td>535</td><td>Pulmonary Rehabilita</td></tr><tr><td>537</td><td>Medication Reviews</td></tr><tr><td>539</td><td>Telephone Help Line</td></tr><tr><td>546</td><td>Veterans Services</td></tr><tr><td>548</td><td>Food Relief/Food/Meals</td></tr><tr><td>552</td><td>Drug and/or Alcohol Support Groups</td></tr><tr><td>554</td><td>Chronic Disease Management</td></tr><tr><td>559</td><td>Women's Health</td></tr><tr><td>560</td><td>Men's Health</td></tr><tr><td>565</td><td>Youth Drop In/Assistance/Support</td></tr><tr><td>569</td><td>Migrant Health Clinic</td></tr><tr><td>570</td><td>Refugee Health Clinic</td></tr><tr><td>571</td><td>Aboriginal Health Clinic</td></tr><tr><td>614</td><td>Development-Life Skills</td></tr><tr><td>628</td><td>Vehicle modifications</td></tr></table></li></ul></div>
+
+  <p>&#160;</p>
+  <a name="expansion"> </a>
+  <h3 id="expansion">Expansion</h3>
+
+  <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><p>This value set contains 102 concepts</p><p style="border: black 1px dotted; background-color: #ffcccc; padding: 8px; margin-bottom: 8px">Expansion based on example code system http://terminology.hl7.org/CodeSystem/service-type version 4.0.1</p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on http://terminology.hl7.org/CodeSystem/service-type version 4.0.1</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-1"> </a>  1</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Adoption/Permanent Care Info/Support</td><td><div><p>Adoption &amp; permanent care information/support</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-3"> </a>  3</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Aged Care Information/Referral</td><td><div><p>Aged Care information/referral</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-8"> </a>  8</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Home Care/Housekeeping Assistance</td><td><div><p>Home care/housekeeping assistance</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-9"> </a>  9</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Home Maintenance and Repair</td><td><div><p>Home maintenance and repair</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-10"> </a>  10</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Personal Alarms/Alerts</td><td><div><p>Personal alarms/alerts</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-11"> </a>  11</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Personal Care for Older Persons</td><td><div><p>Personal care for older persons</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-21"> </a>  21</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Hydrotherapy</td><td><div><p>Hydrotherapy</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-26"> </a>  26</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Meditation</td><td><div><p>Meditation</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-31"> </a>  31</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Relaxation Therapy</td><td><div><p>Relaxation therapy</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-33"> </a>  33</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Western Herbal Medicine</td><td><div><p>Western herbal medicine</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-34"> </a>  34</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Family Day care</td><td><div><p>Family day care</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-36"> </a>  36</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Kindergarten Inclusion Support</td><td><div><p>Kindergarten inclusion support for children with a disability</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-42"> </a>  42</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Parenting/Family Support/Education</td><td><div><p>Parenting &amp; family management support/education</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-51"> </a>  51</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Blood Donation</td><td><div><p>Blood donation</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-55"> </a>  55</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Health Advocacy/Liaison Service</td><td><div><p>Health advocacy/Liaison service</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-67"> </a>  67</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Sexual Health</td><td><div><p>Sexual health</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-68"> </a>  68</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Speech Pathology/Therapy</td><td><div><p>Speech pathology/therapy</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-69"> </a>  69</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Bereavement Counselling</td><td><div><p>Bereavement counselling</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-70"> </a>  70</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Crisis Counselling</td><td><div><p>Crisis counselling</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-71"> </a>  71</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Family Counselling/Therapy</td><td><div><p>Family counselling and/or family therapy</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-72"> </a>  72</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Family Violence Counselling</td><td><div><p>Family violence counselling</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-75"> </a>  75</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Genetic Counselling</td><td><div><p>Genetic counselling</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-76"> </a>  76</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Health Counselling</td><td><div><p>Health counselling</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-78"> </a>  78</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Problem Gambling Counselling</td><td><div><p>Problem gambling counselling</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-79"> </a>  79</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Relationship Counselling</td><td><div><p>Relationship counselling</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-80"> </a>  80</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Sexual Assault Counselling</td><td><div><p>Sexual assault counselling</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-81"> </a>  81</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Trauma Counselling</td><td><div><p>Trauma counselling</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-82"> </a>  82</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Victims of Crime Counselling</td><td><div><p>Victims of crime counselling</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-96"> </a>  96</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Disability Advocacy</td><td><div><p>Disability advocacy</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-97"> </a>  97</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Disability Aids &amp; Equipment</td><td><div><p>Disability aids &amp; equipment</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-99"> </a>  99</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Disability Day Programs/Activities</td><td><div><p>Disability day programs &amp; activities</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-102"> </a>  102</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Disability Supported Accommodation</td><td><div><p>Disability supported accommodation</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-103"> </a>  103</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Early Childhood Intervention</td><td><div><p>Early childhood intervention</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-105"> </a>  105</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Drug and/or Alcohol Counselling</td><td><div><p>Drug and/or alcohol counselling</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-106"> </a>  106</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Drug/Alcohol Information/Referral</td><td><div><p>Drug and/or alcohol information/referral</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-107"> </a>  107</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Needle &amp; Syringe Exchange</td><td><div><p>Needle &amp; Syringe exchange</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-108"> </a>  108</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Non-resid. Alcohol/Drug Treatment</td><td><div><p>Non-residential alcohol and/or drug dependence treatment</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-111"> </a>  111</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Residential Alcohol/Drug Treatment</td><td><div><p>Residential alcohol and/or drug dependence treatment</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-118"> </a>  118</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Employment Placement and/or Support</td><td><div><p>Employment placement and/or support</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-119"> </a>  119</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Vocational Rehabilitation</td><td><div><p>Vocational Rehabilitation</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-126"> </a>  126</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Crisis/Emergency Accommodation</td><td><div><p>Crisis/emergency accommodation</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-127"> </a>  127</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Homelessness Support</td><td><div><p>Homelessness support</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-128"> </a>  128</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Housing Information/Referral</td><td><div><p>Housing information/referral</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-130"> </a>  130</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Interpreting/Multilingual Service</td><td><div><p>Interpreting/Multilingual/Language service</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-134"> </a>  134</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Mental Health Advocacy</td><td><div><p>Mental health advocacy</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-146"> </a>  146</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Physical Activity Programs</td><td><div><p>Physical activity programs</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-147"> </a>  147</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Physical Fitness Testing</td><td><div><p>Physical fitness testing</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-224"> </a>  224</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Support Groups</td><td><div><p>Support groups</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-230"> </a>  230</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Patient Transport</td><td><div><p>Patient transport</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-233"> </a>  233</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Abuse</td><td><div><p>Abuse</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-238"> </a>  238</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Adult Day Programs</td><td><div><p>Adult Day Programs</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-245"> </a>  245</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Aids</td><td><div><p>Aids</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-275"> </a>  275</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Cancer Support</td><td><div><p>Cancer Support</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-284"> </a>  284</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Child Care</td><td><div><p>Child Care</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-296"> </a>  296</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Companion Visiting</td><td><div><p>Companion Visiting</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-301"> </a>  301</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Contraception Inform</td><td><div><p>Contraception Information</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-308"> </a>  308</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Crisis Assessment An</td><td><div><p>Crisis Assessment And Treatment Services (Cats)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-309"> </a>  309</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Crisis Assistance</td><td><div><p>Crisis Assistance</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-310"> </a>  310</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Crisis Refuge</td><td><div><p>Crisis Refuge</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-316"> </a>  316</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Depression</td><td><div><p>Depression</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-317"> </a>  317</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Detoxification</td><td><div><p>Detoxification</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-323"> </a>  323</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Divorce</td><td><div><p>Divorce</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-328"> </a>  328</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Eating Disorder</td><td><div><p>Eating Disorder</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-331"> </a>  331</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Employment And Train</td><td><div><p>Employment And Training</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-344"> </a>  344</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Food</td><td><div><p>Food</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-345"> </a>  345</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Food Vouchers</td><td><div><p>Food Vouchers</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-352"> </a>  352</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Grief Counselling</td><td><div><p>Grief Counselling</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-366"> </a>  366</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Household Items</td><td><div><p>Household Items</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-400"> </a>  400</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Pain</td><td><div><p>Pain</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-409"> </a>  409</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Postnatal</td><td><div><p>Postnatal</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-411"> </a>  411</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Pregnancy Tests</td><td><div><p>Pregnancy Tests</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-427"> </a>  427</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Rent Assistance</td><td><div><p>Rent Assistance</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-429"> </a>  429</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Residential Respite</td><td><div><p>Residential Respite</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-440"> </a>  440</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Sexual Issues</td><td><div><p>Sexual Issues</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-446"> </a>  446</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Speech Therapist</td><td><div><p>Speech Therapist</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-459"> </a>  459</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Tenancy Advice</td><td><div><p>Tenancy Advice</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-468"> </a>  468</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Vocational Guidance</td><td><div><p>Vocational Guidance</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-470"> </a>  470</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Welfare Assistance</td><td><div><p>Welfare Assistance</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-488"> </a>  488</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Diabetes Educator</td><td><div><p>Diabetes Educator</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-494"> </a>  494</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Youth Services</td><td><div><p>Youth Services</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-495"> </a>  495</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Youth Health</td><td><div><p>Youth Health</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-501"> </a>  501</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Cancer Services</td><td><div><p>Cancer Services</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-513"> </a>  513</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Cancer Support Groups</td><td><div><p>Cancer Support Groups</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-530"> </a>  530</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Disability Care Transport</td><td><div><p>Disability Care Transport</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-531"> </a>  531</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Aged Care Transport</td><td><div><p>Aged Care Transport</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-532"> </a>  532</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Diabetes Education s</td><td><div><p>Diabetes Education service</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-534"> </a>  534</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Young Adult Diabetes</td><td><div><p>Young Adult Diabetes services (YADS)</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-535"> </a>  535</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Pulmonary Rehabilita</td><td><div><p>Pulmonary Rehabilitation Service</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-537"> </a>  537</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Medication Reviews</td><td><div><p>Medication Reviews</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-539"> </a>  539</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Telephone Help Line</td><td><div><p>Telephone Help Line</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-546"> </a>  546</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Veterans Services</td><td><div><p>Veterans Services</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-548"> </a>  548</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Food Relief/Food/Meals</td><td><div><p>Food Relief/food/meals</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-552"> </a>  552</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Drug and/or Alcohol Support Groups</td><td><div><p>Drug and/or alcohol support groups</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-554"> </a>  554</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Chronic Disease Management</td><td><div><p>Chronic Disease Management</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-559"> </a>  559</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Women's Health</td><td><div><p>Women's Health</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-560"> </a>  560</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Men's Health</td><td><div><p>Men's Health</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-565"> </a>  565</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Youth Drop In/Assistance/Support</td><td><div><p>Youth drop in/assistance/support</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-569"> </a>  569</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Migrant Health Clinic</td><td><div><p>Migrant Health Clinic</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-570"> </a>  570</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Refugee Health Clinic</td><td><div><p>Refugee Health Clinic</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-571"> </a>  571</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Aboriginal Health Clinic</td><td><div><p>Aboriginal Health Clinic</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-614"> </a>  614</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Development-Life Skills</td><td><div><p>Development-Life Skills</p>
+</div></td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-service-type-628"> </a>  628</td><td>http://terminology.hl7.org/CodeSystem/service-type</td><td>Vehicle modifications</td><td><div><p>Vehicle modifications</p>
+</div></td></tr></table></div>
+
+  <hr/>
+  <p>
+    Explanation of the columns that may appear on this page:
+  </p>
+  <table class="grid">
+    <tr>
+      <td>Level</td>
+      <td>A few code lists that FHIR defines are hierarchical - each code is assigned a level.
+          In this scheme, some codes are under other codes, and imply that the code they are under also applies</td>
+    </tr>
+    <tr>
+      <td>System</td>
+      <td>The source of the definition of the code (when the value set draws in codes defined elsewhere)</td>
+    </tr>
+    <tr>
+      <td>Code</td>
+      <td>The code (used as the code in the resource instance)</td>
+    </tr>
+    <tr>
+      <td>Display</td>
+      <td>The display (used in the <i>display</i> element of a <a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a>). If there is no display, implementers should not simply display the code, but map the concept into their application</td>
+    </tr>
+    <tr>
+      <td>Definition</td>
+      <td>An explanation of the meaning of the concept</td>
+    </tr>
+    <tr>
+      <td>Comments</td>
+      <td>Additional notes about how to use the code</td>
+    </tr>
+  </table>
+
+  
+
+  <!-- insert notes if present -->
+  
+
+
+
+  
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <a name="bottom"> </a>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/pafm">HL7 International - Patient Administration Work Group</a>.  Package hl7.fhir.us.ndh#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 20, 2022 20:37-0400">2022-10-20</span>
+          <br/>
+          <span style="color: var(--footer-highlight-text-color)">
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
+                 
+                
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+<!-- feedback form - Google forms -->
+<!-- v0.1, 2021-01-09 -->
+
+
+
+<!-- / feedback form  -->
+
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
+
