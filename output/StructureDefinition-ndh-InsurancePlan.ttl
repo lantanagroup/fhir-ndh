@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "NdhInsurancePlan"];
   fhir:StructureDefinition.title [ fhir:value "NDH InsurancePlan"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-10-20T20:37:10-04:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-10-31T22:12:57-04:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 International - Patient Administration Work Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

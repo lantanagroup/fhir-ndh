@@ -5,14 +5,14 @@
   "jurisdiction": "US",
   "extensions": [
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/accessibility",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-accessibility",
       "title": "Accessibility",
       "types": [
         "CodeableConcept"
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/associatedServers",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-associatedServers",
       "title": "Associated Servers",
       "types": [
         "string",
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/careteam-alias",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-careteam-alias",
       "title": "NDH Careteam Alias",
       "types": [
         "string",
@@ -78,7 +78,7 @@
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/communication-proficiency",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-communication-proficiency",
       "title": "Communication Proficiency",
       "types": [
         "CodeableConcept",
@@ -86,7 +86,7 @@
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/contactpoint-availabletime",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-contactpoint-availabletime",
       "title": "Contactpoint Availabletime",
       "types": [
         "code",
@@ -147,7 +147,7 @@
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/delivery-method",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-delivery-method",
       "title": "Delivery Method",
       "types": [
         "CodeableConcept",
@@ -205,7 +205,7 @@
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/dynamicRegistration",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-dynamicRegistration",
       "title": "Dynamic Registration",
       "types": [
         "string",
@@ -263,7 +263,7 @@
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/endpoint-reference",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-endpoint-reference",
       "title": "NDH Practitioner Endpoint Reference",
       "types": [
         "Reference",
@@ -271,7 +271,7 @@
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/endpoint-usecase",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-endpoint-usecase",
       "title": "Endpoint Usecase",
       "types": [
         "CodeableConcept",
@@ -329,7 +329,7 @@
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/endpointType",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-endpointType",
       "title": "Endpoint Type",
       "types": [
         "CodeableConcept",
@@ -386,7 +386,7 @@
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/fundingSource",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-fundingSource",
       "title": "Funding Source",
       "types": [
         "string",
@@ -445,7 +445,7 @@
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/healthcareservice-reference",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-healthcareservice-reference",
       "title": "NDH Healthcareservice Reference",
       "types": [
         "Reference",
@@ -453,7 +453,7 @@
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/identifier-status",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-identifier-status",
       "title": "NDH Identifier Status",
       "types": [
         "code",
@@ -461,7 +461,7 @@
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/igsSupported",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-igsSupported",
       "title": "IGs Supported",
       "types": [
         "CodeableConcept",
@@ -520,21 +520,21 @@
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/location-reference",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-location-reference",
       "title": "Location Reference",
       "types": [
         "Reference"
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/network-reference",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-network-reference",
       "title": "Network Reference",
       "types": [
         "Reference"
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/newpatients",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-newpatients",
       "title": "New Patients",
       "types": [
         "CodeableConcept",
@@ -593,14 +593,14 @@
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/org-description",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-org-description",
       "title": "Org Description",
       "types": [
         "string"
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/paymentAccepted",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-paymentAccepted",
       "title": "Payment Accepted",
       "types": [
         "CodeableConcept",
@@ -608,7 +608,7 @@
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/practitioner-qualification",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-practitioner-qualification",
       "title": "Practitioner Qualification",
       "types": [
         "code",
@@ -668,7 +668,7 @@
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/rating",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-rating",
       "title": "Rating",
       "types": [
         "CodeableConcept",
@@ -726,7 +726,7 @@
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/requiredDocument",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-requiredDocument",
       "title": "Required Document",
       "types": [
         "string",
@@ -784,14 +784,14 @@
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/secureEndpoint",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-secureEndpoint",
       "title": "Secure Endpoint",
       "types": [
         "boolean"
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/secureExchangeArtifacts",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-secureExchangeArtifacts",
       "title": "Secure Exchange Artifacts",
       "types": [
         "string",
@@ -850,7 +850,7 @@
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/trustFramework",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-trustFramework",
       "title": "Trust Framework",
       "types": [
         "CodeableConcept",
@@ -910,7 +910,7 @@
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/usage-restriction",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-usage-restriction",
       "title": "NDH Usage Restriction",
       "types": [
         "Reference",
@@ -924,7 +924,7 @@
       ]
     },
     {
-      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/via-intermediary",
+      "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-via-intermediary",
       "title": "Via Intermediary",
       "types": [
         "Reference"
@@ -1004,6 +1004,11 @@
     ]
   },
   "usage": {
+    "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation": [
+      "CapabilityStatement.rest.resource",
+      "CapabilityStatement.rest.resource.interaction",
+      "CapabilityStatement.rest.resource.supportedProfile"
+    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -1055,19 +1060,19 @@
     "http://hl7.org/fhir/tools/StructureDefinition/resource-information": [
       "ImplementationGuide.definition.resource"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/accessibility": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-accessibility": [
       "Location"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/associatedServers": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-associatedServers": [
       "Endpoint"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/careteam-alias": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-careteam-alias": [
       "CareTeam"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/communication-proficiency": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-communication-proficiency": [
       "Practitioner.communication"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/contactpoint-availabletime": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-contactpoint-availabletime": [
       "CareTeam.telecom",
       "HealthcareService.telecom",
       "Location.telecom",
@@ -1076,78 +1081,78 @@
       "Practitioner.telecom",
       "PractitionerRole.telecom"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/delivery-method": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-delivery-method": [
       "HealthcareService"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/dynamicRegistration": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-dynamicRegistration": [
       "Endpoint"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/endpoint-reference": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-endpoint-reference": [
       "CareTeam"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/endpoint-usecase": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-endpoint-usecase": [
       "Endpoint"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/endpointType": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-endpointType": [
       "Endpoint"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/fundingSource": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-fundingSource": [
       "HealthcareService",
       "Organization"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/healthcareservice-reference": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-healthcareservice-reference": [
       "CareTeam"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/identifier-status": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-identifier-status": [
       "CareTeam.identifier"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/igsSupported": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-igsSupported": [
       "Endpoint"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/location-reference": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-location-reference": [
       "CareTeam",
       "Organization"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/network-reference": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-network-reference": [
       "PractitionerRole"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/newpatients": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-newpatients": [
       "HealthcareService",
       "Location",
       "PractitionerRole"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/org-description": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-org-description": [
       "Organization"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/paymentAccepted": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-paymentAccepted": [
       "HealthcareService",
       "Organization"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/practitioner-qualification": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-practitioner-qualification": [
       "Practitioner.qualification"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/rating": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-rating": [
       "HealthcareService",
       "Organization",
       "Practitioner",
       "PractitionerRole"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/requiredDocument": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-requiredDocument": [
       "HealthcareService"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/secureEndpoint": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-secureEndpoint": [
       "Endpoint"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/secureExchangeArtifacts": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-secureExchangeArtifacts": [
       "Endpoint"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/trustFramework": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-trustFramework": [
       "Endpoint"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/usage-restriction": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-usage-restriction": [
       "CareTeam"
     ],
-    "http://hl7.org/fhir/us/ndh/StructureDefinition/via-intermediary": [
+    "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-via-intermediary": [
       "CareTeam.telecom",
       "HealthcareService.telecom",
       "Location.telecom",

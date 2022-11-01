@@ -49,35 +49,35 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Endpoint.extension:endpoint-usecase","Endpoint.extension","endpoint-usecase","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/endpoint-usecase]]} {[]}
+"Endpoint.extension:endpoint-usecase","Endpoint.extension","endpoint-usecase","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-endpoint-usecase]]} {[]}
 ","Endpoint Usecase","EndpointUseCase is an enumeration of the specific use cases (service descriptions) supported by the endpoint","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Endpoint.extension:ig-supported","Endpoint.extension","ig-supported","","",0,*,"Y","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/igsSupported]]} {[]}
+"Endpoint.extension:ig-supported","Endpoint.extension","ig-supported","","",0,*,"Y","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-igsSupported]]} {[]}
 ","IGs Supported","IGs Supported document the different types of IGs supported by the Endpoint.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Endpoint.extension:endpoint-type","Endpoint.extension","endpoint-type","","",1,1,"Y","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/endpointType]]} {[]}
+"Endpoint.extension:endpoint-type","Endpoint.extension","endpoint-type","","",1,1,"Y","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-endpointType]]} {[]}
 ","Endpoint Type","Type of Endpoint","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Endpoint.extension:secure-exchange-artifacts","Endpoint.extension","secure-exchange-artifacts","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/secureExchangeArtifacts]]} {[]}
+"Endpoint.extension:secure-exchange-artifacts","Endpoint.extension","secure-exchange-artifacts","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-secureExchangeArtifacts]]} {[]}
 ","Secure Exchange Artifacts","Secure Exchange Artifacts","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Endpoint.extension:trust-framework","Endpoint.extension","trust-framework","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/trustFramework]]} {[]}
+"Endpoint.extension:trust-framework","Endpoint.extension","trust-framework","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-trustFramework]]} {[]}
 ","Trust Framework","Trust Framework","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Endpoint.extension:dynamic-registration","Endpoint.extension","dynamic-registration","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/dynamicRegistration]]} {[]}
+"Endpoint.extension:dynamic-registration","Endpoint.extension","dynamic-registration","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-dynamicRegistration]]} {[]}
 ","Dynamic Registration","Dynamic Registration","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Endpoint.extension:associated-servers","Endpoint.extension","associated-servers","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/associatedServers]]} {[]}
+"Endpoint.extension:associated-servers","Endpoint.extension","associated-servers","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-associatedServers]]} {[]}
 ","Associated Servers","Associated Servers","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Endpoint.extension:secured-endpoint","Endpoint.extension","secured-endpoint","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/secureEndpoint]]} {[]}
+"Endpoint.extension:secured-endpoint","Endpoint.extension","secured-endpoint","","",0,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-secureEndpoint]]} {[]}
 ","Secure Endpoint","Is the Endpoint Secured","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

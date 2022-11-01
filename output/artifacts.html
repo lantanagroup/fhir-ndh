@@ -233,16 +233,22 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
    <p>Contents:</p>
    <ul>
       <li>
-         <a href="#1">Structures: Resource Profiles</a>
+         <a href="#1">Behavior: Capability Statements</a>
       </li>
       <li>
-         <a href="#2">Structures: Extension Definitions</a>
+         <a href="#2">Behavior: Search Parameters</a>
       </li>
       <li>
-         <a href="#3">Terminology: Value Sets</a>
+         <a href="#3">Structures: Resource Profiles</a>
       </li>
       <li>
-         <a href="#4">Terminology: Code Systems</a>
+         <a href="#4">Structures: Extension Definitions</a>
+      </li>
+      <li>
+         <a href="#5">Terminology: Value Sets</a>
+      </li>
+      <li>
+         <a href="#6">Terminology: Code Systems</a>
       </li>
    </ul>
 </div>
@@ -251,6 +257,228 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
      xmlns:f="http://hl7.org/fhir">
    <p>This page provides a list of the FHIR artifacts defined as part of this implementation guide.</p>
    <a name="1"> </a>
+   <h3>Behavior: Capability Statements </h3>
+   <p>
+    <p>The following artifacts define the specific capabilities that different types of systems are expected to have in order to comply with this implementation guide.  Systems conforming to this implementation guide are expected to declare conformance to one or more of the following capability statements.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="CapabilityStatement-ndh-query-BasicEndpoint.html"
+                     title="CapabilityStatement/ndh-query-BasicEndpoint">NDH Query Basic Endpoint Capability Statement</a>
+               </td>
+               <td>
+<p>Capabilities for a basic Query Server where endpoint search capabilities are met</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="2"> </a>
+   <h3>Behavior: Search Parameters </h3>
+   <p>
+    <p>These define the properties by which a RESTful server can be searched.  They can also be used for sorting and including related resources.</p>
+</p>
+   <p>
+      <table class="grid">
+         <col style="width:20%"/>
+         <tbody>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-sp-careteam-endpoint.html"
+                     title="SearchParameter/sp-careteam-endpoint">CareTeam endpoint</a>
+               </td>
+               <td>
+<p>Select CareTeams with the specified endpoint</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-sp-careteam-location.html"
+                     title="SearchParameter/sp-careteam-location">CareTeam location</a>
+               </td>
+               <td>
+<p>Select CareTeams operating at the specified location</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-sp-careteam-name.html"
+                     title="SearchParameter/sp-careteam-name">CareTeam name</a>
+               </td>
+               <td>
+<p>Select CareTeams with the specified name</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-sp-careteam-organization.html"
+                     title="SearchParameter/sp-careteam-organization">CareTeam organization</a>
+               </td>
+               <td>
+<p>Select CareTeams managed by the specified organization</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-sp-careteam-service.html"
+                     title="SearchParameter/sp-careteam-service">CareTeam service</a>
+               </td>
+               <td>
+<p>Select CareTeams providing the specified service</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-sp-endpoint-mime-type.html"
+                     title="SearchParameter/sp-endpoint-mime-type">Endpoint mime-type</a>
+               </td>
+               <td>
+<p>Select Endpoints that support the specified mime-type</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-sp-endpoint-organization.html"
+                     title="SearchParameter/sp-endpoint-organization">Endpoint organization</a>
+               </td>
+               <td>
+<p>Select Endpoints managed by the specified organization</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-sp-endpoint-usecase-standard.html"
+                     title="SearchParameter/sp-endpoint-usecase-standard">Endpoint usecase-standard</a>
+               </td>
+               <td>
+<p>Select Endpoints that support the specified usecase standard</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-sp-endpoint-usecase-type.html"
+                     title="SearchParameter/sp-endpoint-usecase-type">Endpoint usecase-type</a>
+               </td>
+               <td>
+<p>Select Endpoints that support the type of services indicated by the specified usecase-type</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-sp-insuranceplan-coverage-area.html"
+                     title="SearchParameter/sp-insuranceplan-coverage-area">InsurancePlan coverage-area</a>
+               </td>
+               <td>
+<p>Select products that are offered in the specified location</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-sp-insuranceplan-coverage-benefit-type.html"
+                     title="SearchParameter/sp-insuranceplan-coverage-benefit-type">InsurancePlan coverage-benefit-type</a>
+               </td>
+               <td>
+<p>Select products that are offered in the specified location</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-sp-insuranceplan-coverage-network.html"
+                     title="SearchParameter/sp-insuranceplan-coverage-network">InsurancePlan coverage-network</a>
+               </td>
+               <td>
+<p>Select products offering covered benefits through the specified health insurance provider network</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-sp-locaion-physical-type.html"
+                     title="SearchParameter/sp-locaion-physical-type">Location physical-type</a>
+               </td>
+               <td>
+<p>Select Locations of the specified physical type</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-sp-network-coverage-area.html"
+                     title="SearchParameter/sp-network-coverage-area">Network coverage-area</a>
+               </td>
+               <td>
+<p>Select health insurance provider networks available in a regin described by the specified location</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-sp-organization-endpoint.html"
+                     title="SearchParameter/sp-organization-endpoint">Organization endpoint</a>
+               </td>
+               <td>
+<p>Select Organizations with the specified endpoint</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-sp-practitioner-identifier-assigner.html"
+                     title="SearchParameter/sp-practitioner-identifier-assigner">Practitioner identifier-assigner</a>
+               </td>
+               <td>
+<p>Select Practitioners with an identifier issued by the specified organition</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-sp-practitioner-qualification-code.html"
+                     title="SearchParameter/sp-practitioner-qualification-code">Practitioner qualification-code</a>
+               </td>
+               <td>
+<p>Select Practitioner with a type of qualification matching the specific code</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-sp-practitioner-qualification-issuer.html"
+                     title="SearchParameter/sp-practitioner-qualification-issuer">Practitioner qualification-issuer</a>
+               </td>
+               <td>
+<p>Select Practitioners with a qualification issued by the specified organition</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-sp-practitionerrole-network.html"
+                     title="SearchParameter/sp-practitionerrole-network">PractitionerRole network</a>
+               </td>
+               <td>
+<p>Select roles where the practitioner is a member of the specified health insurance provider network</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-sp-verificationresult-attestation-who.html"
+                     title="SearchParameter/sp-verificationresult-attestation-who">VerificationResult attestation-who</a>
+               </td>
+               <td>
+<p>Select validation information for data that was attested to by the specified individual or organization</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="SearchParameter-sp-verificationresult-primarysource-who.html"
+                     title="SearchParameter/sp-verificationresult-primarysource-who">VerificationResult primarysource-who</a>
+               </td>
+               <td>
+<p>Select verification information for data that was verified against the specified primary source</p>
+</td>
+            </tr>
+         </tbody>
+      </table>
+   </p>
+   <a name="3"> </a>
    <h3>Structures: Resource Profiles </h3>
    <p>
     <p>These define constraints on FHIR resources for systems conforming to this implementation guide</p>
@@ -385,7 +613,7 @@ be a relationship to an organization. Practitioner participation in healthcare p
          </tbody>
       </table>
    </p>
-   <a name="2"> </a>
+   <a name="4"> </a>
    <h3>Structures: Extension Definitions </h3>
    <p>
     <p>These define constraints on FHIR data types for systems conforming to this implementation guide</p>
@@ -396,8 +624,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
          <tbody>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-accessibility.html"
-                     title="StructureDefinition/accessibility">Accessibility</a>
+                  <a href="StructureDefinition-base-ext-accessibility.html"
+                     title="StructureDefinition/base-ext-accessibility">Accessibility</a>
                </td>
                <td>
 <p>An extension to describe accessibility options offered by a practitioner or at a location.</p>
@@ -405,8 +633,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-associatedServers.html"
-                     title="StructureDefinition/associatedServers">Associated Servers</a>
+                  <a href="StructureDefinition-base-ext-associatedServers.html"
+                     title="StructureDefinition/base-ext-associatedServers">Associated Servers</a>
                </td>
                <td>
 <p>Associated Servers</p>
@@ -414,8 +642,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-careteam-alias.html"
-                     title="StructureDefinition/careteam-alias">NDH Careteam Alias</a>
+                  <a href="StructureDefinition-base-ext-careteam-alias.html"
+                     title="StructureDefinition/base-ext-careteam-alias">NDH Careteam Alias</a>
                </td>
                <td>
 <p>Alternate names by which the team is known</p>
@@ -423,8 +651,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-communication-proficiency.html"
-                     title="StructureDefinition/communication-proficiency">Communication Proficiency</a>
+                  <a href="StructureDefinition-base-ext-communication-proficiency.html"
+                     title="StructureDefinition/base-ext-communication-proficiency">Communication Proficiency</a>
                </td>
                <td>
 <p>An extension to express a practitioner’s spoken proficiency with the language indicated in practitioner.communication.</p>
@@ -432,8 +660,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-contactpoint-availabletime.html"
-                     title="StructureDefinition/contactpoint-availabletime">Contactpoint Availabletime</a>
+                  <a href="StructureDefinition-base-ext-contactpoint-availabletime.html"
+                     title="StructureDefinition/base-ext-contactpoint-availabletime">Contactpoint Availabletime</a>
                </td>
                <td>
 <p>An extension representing the days and times a contact point is available</p>
@@ -441,8 +669,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-delivery-method.html"
-                     title="StructureDefinition/delivery-method">Delivery Method</a>
+                  <a href="StructureDefinition-base-ext-delivery-method.html"
+                     title="StructureDefinition/base-ext-delivery-method">Delivery Method</a>
                </td>
                <td>
 <p>An extension describing the service delivery method.   If service delivery is virtual, one or more delivery modalities should be specified.</p>
@@ -450,8 +678,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-dynamicRegistration.html"
-                     title="StructureDefinition/dynamicRegistration">Dynamic Registration</a>
+                  <a href="StructureDefinition-base-ext-dynamicRegistration.html"
+                     title="StructureDefinition/base-ext-dynamicRegistration">Dynamic Registration</a>
                </td>
                <td>
 <p>Dynamic Registration</p>
@@ -459,8 +687,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-endpoint-reference.html"
-                     title="StructureDefinition/endpoint-reference">NDH Practitioner Endpoint Reference</a>
+                  <a href="StructureDefinition-base-ext-endpoint-reference.html"
+                     title="StructureDefinition/base-ext-endpoint-reference">NDH Practitioner Endpoint Reference</a>
                </td>
                <td>
 <p>The technical details of an endpoint that can be used for electronic services</p>
@@ -468,8 +696,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-endpointType.html"
-                     title="StructureDefinition/endpointType">Endpoint Type</a>
+                  <a href="StructureDefinition-base-ext-endpointType.html"
+                     title="StructureDefinition/base-ext-endpointType">Endpoint Type</a>
                </td>
                <td>
 <p>Type of Endpoint</p>
@@ -477,8 +705,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-endpoint-usecase.html"
-                     title="StructureDefinition/endpoint-usecase">Endpoint Usecase</a>
+                  <a href="StructureDefinition-base-ext-endpoint-usecase.html"
+                     title="StructureDefinition/base-ext-endpoint-usecase">Endpoint Usecase</a>
                </td>
                <td>
 <p>EndpointUseCase is an enumeration of the specific use cases (service descriptions) supported by the endpoint</p>
@@ -486,8 +714,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-fundingSource.html"
-                     title="StructureDefinition/fundingSource">Funding Source</a>
+                  <a href="StructureDefinition-base-ext-fundingSource.html"
+                     title="StructureDefinition/base-ext-fundingSource">Funding Source</a>
                </td>
                <td>
 <p>The sources of funding for a service or organization</p>
@@ -495,8 +723,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-healthcareservice-reference.html"
-                     title="StructureDefinition/healthcareservice-reference">NDH Healthcareservice Reference</a>
+                  <a href="StructureDefinition-base-ext-healthcareservice-reference.html"
+                     title="StructureDefinition/base-ext-healthcareservice-reference">NDH Healthcareservice Reference</a>
                </td>
                <td>
 <p>Reference to healthcareservice resource</p>
@@ -504,8 +732,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-igsSupported.html"
-                     title="StructureDefinition/igsSupported">IGs Supported</a>
+                  <a href="StructureDefinition-base-ext-igsSupported.html"
+                     title="StructureDefinition/base-ext-igsSupported">IGs Supported</a>
                </td>
                <td>
 <p>IGs Supported document the different types of IGs supported by the Endpoint.</p>
@@ -513,8 +741,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-identifier-status.html"
-                     title="StructureDefinition/identifier-status">NDH Identifier Status</a>
+                  <a href="StructureDefinition-base-ext-identifier-status.html"
+                     title="StructureDefinition/base-ext-identifier-status">NDH Identifier Status</a>
                </td>
                <td>
 <p>Describes the status of an identifier</p>
@@ -522,8 +750,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-location-reference.html"
-                     title="StructureDefinition/location-reference">Location Reference</a>
+                  <a href="StructureDefinition-base-ext-location-reference.html"
+                     title="StructureDefinition/base-ext-location-reference">Location Reference</a>
                </td>
                <td>
 <p>A reference to a Location resource (NDH-Location) defining the coverage area of a health insurance provider network</p>
@@ -531,8 +759,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-network-reference.html"
-                     title="StructureDefinition/network-reference">Network Reference</a>
+                  <a href="StructureDefinition-base-ext-network-reference.html"
+                     title="StructureDefinition/base-ext-network-reference">Network Reference</a>
                </td>
                <td>
 <p>A reference to the healthcare provider insurance networks (NdhNetwork) the practitioner participates in through their role</p>
@@ -540,8 +768,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-newpatients.html"
-                     title="StructureDefinition/newpatients">New Patients</a>
+                  <a href="StructureDefinition-base-ext-newpatients.html"
+                     title="StructureDefinition/base-ext-newpatients">New Patients</a>
                </td>
                <td>
 <p>New Patients indicates whether new patients are being accepted in general, or from a specific network.   
@@ -551,8 +779,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-org-description.html"
-                     title="StructureDefinition/org-description">Org Description</a>
+                  <a href="StructureDefinition-base-ext-org-description.html"
+                     title="StructureDefinition/base-ext-org-description">Org Description</a>
                </td>
                <td>
 <p>An extension to provide a human-readable description of an organization</p>
@@ -560,8 +788,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-paymentAccepted.html"
-                     title="StructureDefinition/paymentAccepted">Payment Accepted</a>
+                  <a href="StructureDefinition-base-ext-paymentAccepted.html"
+                     title="StructureDefinition/base-ext-paymentAccepted">Payment Accepted</a>
                </td>
                <td>
 <p>Methods of payment that can be used for a healthcare service</p>
@@ -569,8 +797,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-practitioner-qualification.html"
-                     title="StructureDefinition/practitioner-qualification">Practitioner Qualification</a>
+                  <a href="StructureDefinition-base-ext-practitioner-qualification.html"
+                     title="StructureDefinition/base-ext-practitioner-qualification">Practitioner Qualification</a>
                </td>
                <td>
 <p>An extension to add status and whereValid elements to a practitioner’s qualifications.</p>
@@ -578,8 +806,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-rating.html"
-                     title="StructureDefinition/rating">Rating</a>
+                  <a href="StructureDefinition-base-ext-rating.html"
+                     title="StructureDefinition/base-ext-rating">Rating</a>
                </td>
                <td>
 <p>Rating</p>
@@ -587,8 +815,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-requiredDocument.html"
-                     title="StructureDefinition/requiredDocument">Required Document</a>
+                  <a href="StructureDefinition-base-ext-requiredDocument.html"
+                     title="StructureDefinition/base-ext-requiredDocument">Required Document</a>
                </td>
                <td>
 <p>Documents that are required in order to access or use services (eg. Gov’t issued ID, passport)</p>
@@ -596,8 +824,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-secureEndpoint.html"
-                     title="StructureDefinition/secureEndpoint">Secure Endpoint</a>
+                  <a href="StructureDefinition-base-ext-secureEndpoint.html"
+                     title="StructureDefinition/base-ext-secureEndpoint">Secure Endpoint</a>
                </td>
                <td>
 <p>Is the Endpoint Secured</p>
@@ -605,8 +833,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-secureExchangeArtifacts.html"
-                     title="StructureDefinition/secureExchangeArtifacts">Secure Exchange Artifacts</a>
+                  <a href="StructureDefinition-base-ext-secureExchangeArtifacts.html"
+                     title="StructureDefinition/base-ext-secureExchangeArtifacts">Secure Exchange Artifacts</a>
                </td>
                <td>
 <p>Secure Exchange Artifacts</p>
@@ -614,8 +842,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-trustFramework.html"
-                     title="StructureDefinition/trustFramework">Trust Framework</a>
+                  <a href="StructureDefinition-base-ext-trustFramework.html"
+                     title="StructureDefinition/base-ext-trustFramework">Trust Framework</a>
                </td>
                <td>
 <p>Trust Framework</p>
@@ -623,8 +851,8 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-usage-restriction.html"
-                     title="StructureDefinition/usage-restriction">NDH Usage Restriction</a>
+                  <a href="StructureDefinition-base-ext-usage-restriction.html"
+                     title="StructureDefinition/base-ext-usage-restriction">NDH Usage Restriction</a>
                </td>
                <td>
 <p>The FHIR specification contains a security meta tag which can be used to inform systems of the sensitivity of resources, as well as by access control 
@@ -635,8 +863,8 @@ then all the properties of the identifier should not be exposed unless it is und
             </tr>
             <tr>
                <td style="column-width:30%">
-                  <a href="StructureDefinition-via-intermediary.html"
-                     title="StructureDefinition/via-intermediary">Via Intermediary</a>
+                  <a href="StructureDefinition-base-ext-via-intermediary.html"
+                     title="StructureDefinition/base-ext-via-intermediary">Via Intermediary</a>
                </td>
                <td>
 <p>A reference to an alternative point of contact (NdhPractitionerRole, NdhOrganization, NdhOrganizationAffiliation, or NdhLocation) for this organization</p>
@@ -645,7 +873,7 @@ then all the properties of the identifier should not be exposed unless it is und
          </tbody>
       </table>
    </p>
-   <a name="3"> </a>
+   <a name="5"> </a>
    <h3>Terminology: Value Sets </h3>
    <p>
     <p>These define sets of codes used by systems conforming to this implementation guide</p>
@@ -919,7 +1147,7 @@ then all the properties of the identifier should not be exposed unless it is und
          </tbody>
       </table>
    </p>
-   <a name="4"> </a>
+   <a name="6"> </a>
    <h3>Terminology: Code Systems </h3>
    <p>
     <p>These define new code systems used by systems conforming to this implementation guide</p>
@@ -1130,7 +1358,7 @@ then all the properties of the identifier should not be exposed unless it is und
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/pafm">HL7 International - Patient Administration Work Group</a>.  Package hl7.fhir.us.ndh#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 20, 2022 20:37-0400">2022-10-20</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/pafm">HL7 International - Patient Administration Work Group</a>.  Package hl7.fhir.us.ndh#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Oct 31, 2022 22:12-0400">2022-10-31</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

@@ -22,23 +22,23 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"CareTeam.extension:alias","CareTeam.extension","alias","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/careteam-alias]]} {[]}
+"CareTeam.extension:alias","CareTeam.extension","alias","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-careteam-alias]]} {[]}
 ","Alternate name for care team","Alternate names by which the team is also known","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"CareTeam.extension:location","CareTeam.extension","location","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/location-reference]]} {[]}
+"CareTeam.extension:location","CareTeam.extension","location","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-location-reference]]} {[]}
 ","Where the care team operates","An extension to indicate the location(s) at which the care team operates","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"CareTeam.extension:service","CareTeam.extension","service","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/healthcareservice-reference]]} {[]}
+"CareTeam.extension:service","CareTeam.extension","service","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-healthcareservice-reference]]} {[]}
 ","Services provided by the care team","An extension to describe the healthcare services provided by the care team","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"CareTeam.extension:endpoint","CareTeam.extension","endpoint","","",0,*,"Y","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/endpoint-reference]]} {[]}
+"CareTeam.extension:endpoint","CareTeam.extension","endpoint","","",0,*,"Y","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-endpoint-reference]]} {[]}
 ","Endpoints for the care team","An extensions indicating endpoints for the care team","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"CareTeam.extension:restriction","CareTeam.extension","restriction","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/usage-restriction]]} {[]}
+"CareTeam.extension:restriction","CareTeam.extension","restriction","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-usage-restriction]]} {[]}
 ","Restriction","Identifies and conveys information about restrictions on the use or release of exchanged information, e.g. information that can only be shared 
 under particular condition, such as a signed data use agreement between parties","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
@@ -58,7 +58,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"CareTeam.identifier.extension:status","CareTeam.identifier.extension","status","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/identifier-status]]} {[]}
+"CareTeam.identifier.extension:status","CareTeam.identifier.extension","status","","",1,1,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-identifier-status]]} {[]}
 ","Status","Describes the status of an identifier","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "CareTeam.identifier.use","CareTeam.identifier.use","","","",0,1,"","Y","Y","code {[]} {[]}
@@ -148,10 +148,10 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
-"CareTeam.telecom.extension:contactpoint-availabletime","CareTeam.telecom.extension","contactpoint-availabletime","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/contactpoint-availabletime]]} {[]}
+"CareTeam.telecom.extension:contactpoint-availabletime","CareTeam.telecom.extension","contactpoint-availabletime","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-contactpoint-availabletime]]} {[]}
 ","Contactpoint Availabletime","An extension representing the days and times a contact point is available","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"CareTeam.telecom.extension:via-intermediary","CareTeam.telecom.extension","via-intermediary","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/via-intermediary]]} {[]}
+"CareTeam.telecom.extension:via-intermediary","CareTeam.telecom.extension","via-intermediary","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-via-intermediary]]} {[]}
 ","Via Intermediary","A reference to an alternative point of contact (NdhPractitionerRole, NdhOrganization, NdhOrganizationAffiliation, or NdhLocation) for this organization","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "CareTeam.telecom.system","CareTeam.telecom.system","","","",0,1,"","","Y","code {[]} {[]}

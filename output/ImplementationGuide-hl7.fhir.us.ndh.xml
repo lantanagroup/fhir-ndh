@@ -10,7 +10,7 @@
   <name value="NDH"/>
   <title value="National Directory of Healthcare Providers &amp; Services (NDH) Implementation Guide"/>
   <status value="active"/>
-  <date value="2022-10-20T20:37:10-04:00"/>
+  <date value="2022-10-31T22:12:57-04:00"/>
   <publisher value="HL7 International - Patient Administration Work Group"/>
   <contact>
     <name value="HL7 International - Patient Administration Work Group"/>
@@ -597,7 +597,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/accessibility"/>
+        <reference value="StructureDefinition/base-ext-accessibility"/>
       </reference>
       <name value="Accessibility"/>
       <description value="An extension to describe accessibility options offered by a practitioner or at a location."/>
@@ -608,7 +608,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/associatedServers"/>
+        <reference value="StructureDefinition/base-ext-associatedServers"/>
       </reference>
       <name value="Associated Servers"/>
       <description value="Associated Servers"/>
@@ -619,7 +619,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/careteam-alias"/>
+        <reference value="StructureDefinition/base-ext-careteam-alias"/>
       </reference>
       <name value="NDH Careteam Alias"/>
       <description value="Alternate names by which the team is known"/>
@@ -630,7 +630,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/communication-proficiency"/>
+        <reference value="StructureDefinition/base-ext-communication-proficiency"/>
       </reference>
       <name value="Communication Proficiency"/>
       <description value="An extension to express a practitioner’s spoken proficiency with the language indicated in practitioner.communication."/>
@@ -641,7 +641,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/contactpoint-availabletime"/>
+        <reference value="StructureDefinition/base-ext-contactpoint-availabletime"/>
       </reference>
       <name value="Contactpoint Availabletime"/>
       <description value="An extension representing the days and times a contact point is available"/>
@@ -652,7 +652,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/delivery-method"/>
+        <reference value="StructureDefinition/base-ext-delivery-method"/>
       </reference>
       <name value="Delivery Method"/>
       <description value="An extension describing the service delivery method.   If service delivery is virtual, one or more delivery modalities should be specified."/>
@@ -663,7 +663,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/dynamicRegistration"/>
+        <reference value="StructureDefinition/base-ext-dynamicRegistration"/>
       </reference>
       <name value="Dynamic Registration"/>
       <description value="Dynamic Registration"/>
@@ -674,7 +674,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/endpoint-reference"/>
+        <reference value="StructureDefinition/base-ext-endpoint-reference"/>
       </reference>
       <name value="NDH Practitioner Endpoint Reference"/>
       <description value="The technical details of an endpoint that can be used for electronic services"/>
@@ -685,7 +685,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/endpointType"/>
+        <reference value="StructureDefinition/base-ext-endpointType"/>
       </reference>
       <name value="Endpoint Type"/>
       <description value="Type of Endpoint"/>
@@ -696,7 +696,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/endpoint-usecase"/>
+        <reference value="StructureDefinition/base-ext-endpoint-usecase"/>
       </reference>
       <name value="Endpoint Usecase"/>
       <description value="EndpointUseCase is an enumeration of the specific use cases (service descriptions) supported by the endpoint"/>
@@ -707,7 +707,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/fundingSource"/>
+        <reference value="StructureDefinition/base-ext-fundingSource"/>
       </reference>
       <name value="Funding Source"/>
       <description value="The sources of funding for a service or organization"/>
@@ -718,7 +718,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/healthcareservice-reference"/>
+        <reference value="StructureDefinition/base-ext-healthcareservice-reference"/>
       </reference>
       <name value="NDH Healthcareservice Reference"/>
       <description value="Reference to healthcareservice resource"/>
@@ -729,7 +729,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/igsSupported"/>
+        <reference value="StructureDefinition/base-ext-igsSupported"/>
       </reference>
       <name value="IGs Supported"/>
       <description value="IGs Supported document the different types of IGs supported by the Endpoint."/>
@@ -740,7 +740,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/identifier-status"/>
+        <reference value="StructureDefinition/base-ext-identifier-status"/>
       </reference>
       <name value="NDH Identifier Status"/>
       <description value="Describes the status of an identifier"/>
@@ -751,7 +751,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/location-reference"/>
+        <reference value="StructureDefinition/base-ext-location-reference"/>
       </reference>
       <name value="Location Reference"/>
       <description value="A reference to a Location resource (NDH-Location) defining the coverage area of a health insurance provider network"/>
@@ -762,7 +762,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/network-reference"/>
+        <reference value="StructureDefinition/base-ext-network-reference"/>
       </reference>
       <name value="Network Reference"/>
       <description value="A reference to the healthcare provider insurance networks (NdhNetwork) the practitioner participates in through their role"/>
@@ -773,7 +773,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/newpatients"/>
+        <reference value="StructureDefinition/base-ext-newpatients"/>
       </reference>
       <name value="New Patients"/>
       <description value="New Patients indicates whether new patients are being accepted in general, or from a specific network.   &#xD;&#xA;              This extension is included in the PractitionerRole, HealthcareService, and Location profiles.  &#xD;&#xA;              This provides needed flexibility for specifying whether a provider accepts new patients by location and network."/>
@@ -784,7 +784,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/org-description"/>
+        <reference value="StructureDefinition/base-ext-org-description"/>
       </reference>
       <name value="Org Description"/>
       <description value="An extension to provide a human-readable description of an organization"/>
@@ -795,7 +795,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/paymentAccepted"/>
+        <reference value="StructureDefinition/base-ext-paymentAccepted"/>
       </reference>
       <name value="Payment Accepted"/>
       <description value="Methods of payment that can be used for a healthcare service"/>
@@ -806,7 +806,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/practitioner-qualification"/>
+        <reference value="StructureDefinition/base-ext-practitioner-qualification"/>
       </reference>
       <name value="Practitioner Qualification"/>
       <description value="An extension to add status and whereValid elements to a practitioner’s qualifications."/>
@@ -817,7 +817,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/rating"/>
+        <reference value="StructureDefinition/base-ext-rating"/>
       </reference>
       <name value="Rating"/>
       <description value="Rating"/>
@@ -828,7 +828,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/requiredDocument"/>
+        <reference value="StructureDefinition/base-ext-requiredDocument"/>
       </reference>
       <name value="Required Document"/>
       <description value="Documents that are required in order to access or use services (eg. Gov't issued ID, passport)"/>
@@ -839,7 +839,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/secureEndpoint"/>
+        <reference value="StructureDefinition/base-ext-secureEndpoint"/>
       </reference>
       <name value="Secure Endpoint"/>
       <description value="Is the Endpoint Secured"/>
@@ -850,7 +850,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/secureExchangeArtifacts"/>
+        <reference value="StructureDefinition/base-ext-secureExchangeArtifacts"/>
       </reference>
       <name value="Secure Exchange Artifacts"/>
       <description value="Secure Exchange Artifacts"/>
@@ -861,7 +861,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/trustFramework"/>
+        <reference value="StructureDefinition/base-ext-trustFramework"/>
       </reference>
       <name value="Trust Framework"/>
       <description value="Trust Framework"/>
@@ -872,7 +872,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/usage-restriction"/>
+        <reference value="StructureDefinition/base-ext-usage-restriction"/>
       </reference>
       <name value="NDH Usage Restriction"/>
       <description value="The FHIR specification contains a security meta tag which can be used to inform systems of the sensitivity of resources, as well as by access control &#xA;mechanisms to ensure content isn't exposed that shouldn't be. This mechanism only goes to the resource level, this reference to a usage-restriction (consent) extends &#xA;this further into the resource, and can be applied to any element, and may apply to all properties beneath the element (e.g. If applied to an identifier on a practitioner, &#xA;then all the properties of the identifier should not be exposed unless it is understood) This will be expected to be used as a modifier extension."/>
@@ -883,7 +883,7 @@
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/via-intermediary"/>
+        <reference value="StructureDefinition/base-ext-via-intermediary"/>
       </reference>
       <name value="Via Intermediary"/>
       <description value="A reference to an alternative point of contact (NdhPractitionerRole, NdhOrganization, NdhOrganizationAffiliation, or NdhLocation) for this organization"/>
@@ -1437,6 +1437,248 @@
       </reference>
       <name value="Virtual Modalities Code System"/>
       <description value="Categories of virtual service delivery modalities."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CapabilityStatement"/>
+      </extension>
+      <reference>
+        <reference value="CapabilityStatement/ndh-query-BasicEndpoint"/>
+      </reference>
+      <name value="NDH Query Basic Endpoint Capability Statement"/>
+      <description value="Capabilities for a basic Query Server where endpoint search capabilities are met"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/sp-careteam-endpoint"/>
+      </reference>
+      <name value="CareTeam endpoint"/>
+      <description value="Select CareTeams with the specified endpoint"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/sp-careteam-location"/>
+      </reference>
+      <name value="CareTeam location"/>
+      <description value="Select CareTeams operating at the specified location"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/sp-careteam-name"/>
+      </reference>
+      <name value="CareTeam name"/>
+      <description value="Select CareTeams with the specified name"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/sp-careteam-organization"/>
+      </reference>
+      <name value="CareTeam organization"/>
+      <description value="Select CareTeams managed by the specified organization"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/sp-careteam-service"/>
+      </reference>
+      <name value="CareTeam service"/>
+      <description value="Select CareTeams providing the specified service"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/sp-endpoint-mime-type"/>
+      </reference>
+      <name value="Endpoint mime-type"/>
+      <description value="Select Endpoints that support the specified mime-type"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/sp-endpoint-organization"/>
+      </reference>
+      <name value="Endpoint organization"/>
+      <description value="Select Endpoints managed by the specified organization"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/sp-endpoint-usecase-standard"/>
+      </reference>
+      <name value="Endpoint usecase-standard"/>
+      <description value="Select Endpoints that support the specified usecase standard"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/sp-endpoint-usecase-type"/>
+      </reference>
+      <name value="Endpoint usecase-type"/>
+      <description value="Select Endpoints that support the type of services indicated by the specified usecase-type"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/sp-insuranceplan-coverage-area"/>
+      </reference>
+      <name value="InsurancePlan coverage-area"/>
+      <description value="Select products that are offered in the specified location"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/sp-insuranceplan-coverage-benefit-type"/>
+      </reference>
+      <name value="InsurancePlan coverage-benefit-type"/>
+      <description value="Select products that are offered in the specified location"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/sp-insuranceplan-coverage-network"/>
+      </reference>
+      <name value="InsurancePlan coverage-network"/>
+      <description value="Select products offering covered benefits through the specified health insurance provider network"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/sp-locaion-physical-type"/>
+      </reference>
+      <name value="Location physical-type"/>
+      <description value="Select Locations of the specified physical type"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/sp-network-coverage-area"/>
+      </reference>
+      <name value="Network coverage-area"/>
+      <description value="Select health insurance provider networks available in a regin described by the specified location"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/sp-organization-endpoint"/>
+      </reference>
+      <name value="Organization endpoint"/>
+      <description value="Select Organizations with the specified endpoint"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/sp-practitioner-identifier-assigner"/>
+      </reference>
+      <name value="Practitioner identifier-assigner"/>
+      <description value="Select Practitioners with an identifier issued by the specified organition"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/sp-practitioner-qualification-code"/>
+      </reference>
+      <name value="Practitioner qualification-code"/>
+      <description value="Select Practitioner with a type of qualification matching the specific code"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/sp-practitioner-qualification-issuer"/>
+      </reference>
+      <name value="Practitioner qualification-issuer"/>
+      <description value="Select Practitioners with a qualification issued by the specified organition"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/sp-practitionerrole-network"/>
+      </reference>
+      <name value="PractitionerRole network"/>
+      <description value="Select roles where the practitioner is a member of the specified health insurance provider network"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/sp-verificationresult-attestation-who"/>
+      </reference>
+      <name value="VerificationResult attestation-who"/>
+      <description value="Select validation information for data that was attested to by the specified individual or organization"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/sp-verificationresult-primarysource-who"/>
+      </reference>
+      <name value="VerificationResult primarysource-who"/>
+      <description value="Select verification information for data that was verified against the specified primary source"/>
       <exampleBoolean value="false"/>
     </resource>
     <page>

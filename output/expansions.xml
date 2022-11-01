@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="21df27f4-b276-4f4f-b6ff-be26778d557b"/>
+  <id value="ee5a8d63-5e3c-4dec-a41e-6bc5d926a069"/>
   <meta>
-    <lastUpdated value="2022-10-20T20:37:10.606-04:00"/>
+    <lastUpdated value="2022-10-31T22:12:57.635-04:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -98,7 +98,7 @@
         <title value="Accepting Patients Codes Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -120,8 +120,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:11ae48f5-95d1-41df-b9a7-d086f666a53e"/>
-          <timestamp value="2022-10-20T20:40:19-04:00"/>
+          <identifier value="urn:uuid:a7dea42c-28dd-4b17-9555-bcd78b32a59c"/>
+          <timestamp value="2022-10-31T22:16:40-04:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -289,7 +289,7 @@
         <title value="Accessibility Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -311,8 +311,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:cb95e649-7cb1-40a8-8e59-d26ae3bb2e92"/>
-          <timestamp value="2022-10-20T20:40:20-04:00"/>
+          <identifier value="urn:uuid:32bdc978-28ba-40b9-88d4-0171954d084b"/>
+          <timestamp value="2022-10-31T22:16:40-04:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -425,7 +425,7 @@
         <title value="Delivery Methods Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -447,8 +447,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5c8adfde-2f66-45c1-90f8-43817c9c8d90"/>
-          <timestamp value="2022-10-20T20:40:20-04:00"/>
+          <identifier value="urn:uuid:568c6fd0-d149-47e9-a4ec-ea7b0ee2b6a7"/>
+          <timestamp value="2022-10-31T22:16:40-04:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -684,7 +684,7 @@
         <title value="Endpoint Connection Types Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -706,8 +706,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:9056a765-281b-455f-a03b-18a7910259cb"/>
-          <timestamp value="2022-10-20T20:40:21-04:00"/>
+          <identifier value="urn:uuid:ab90907f-e464-4f42-8538-f6b63c2120d6"/>
+          <timestamp value="2022-10-31T22:16:41-04:00"/>
           <total value="12"/>
           <parameter>
             <name value="excludeNested"/>
@@ -835,7 +835,7 @@
         <title value="Endpoint Payload Type Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -857,8 +857,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:924ee8e9-cf32-45a5-8f11-5bc7a8366b8a"/>
-          <timestamp value="2022-10-20T20:40:22-04:00"/>
+          <identifier value="urn:uuid:e507ebe9-8449-4b16-82dc-d554ddda416e"/>
+          <timestamp value="2022-10-31T22:16:41-04:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -934,7 +934,7 @@
         <title value="Endpoint Type Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -956,8 +956,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:18a3a8b5-6d28-4ac9-9afc-0407750b3dd1"/>
-          <timestamp value="2022-10-20T20:40:22-04:00"/>
+          <identifier value="urn:uuid:f72774ea-1533-4b4d-9c92-e0858cfbffb8"/>
+          <timestamp value="2022-10-31T22:16:42-04:00"/>
           <total value="3"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1160,7 +1160,7 @@
         <title value="Endpoint Usecases Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -1182,8 +1182,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:167dfedd-e3f5-452e-80a6-3036c0260261"/>
-          <timestamp value="2022-10-20T20:40:23-04:00"/>
+          <identifier value="urn:uuid:a979a3c9-a595-4c30-bf22-ce84dbb42453"/>
+          <timestamp value="2022-10-31T22:16:42-04:00"/>
           <total value="9"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1488,7 +1488,7 @@
         <title value="Healthcare Service Category Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -1510,8 +1510,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3b9632cf-f9fc-4f88-be07-caf775441684"/>
-          <timestamp value="2022-10-20T20:40:23-04:00"/>
+          <identifier value="urn:uuid:1308e1de-20d9-4e9b-826c-799c26b8340c"/>
+          <timestamp value="2022-10-31T22:16:42-04:00"/>
           <total value="15"/>
           <parameter>
             <name value="excludeNested"/>
@@ -2962,7 +2962,7 @@
         <title value="HealthcareService Type Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-19T21:50:15-04:00"/>
+        <date value="2022-10-31T16:41:01-04:00"/>
         <jurisdiction>
           <coding>
             <system value="urn:iso:std:iso:3166"/>
@@ -2971,8 +2971,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1a9c4cad-2893-43b8-8628-b178a168f58f"/>
-          <timestamp value="2022-10-20T01:52:00.296Z"/>
+          <identifier value="urn:uuid:6dab055a-3d40-4f94-8c11-a7106c3fbd08"/>
+          <timestamp value="2022-10-31T20:43:11.499Z"/>
           <parameter>
             <name value="expansion-source"/>
             <valueUri value="ValueSet/HealthcareServiceTypeVS"/>
@@ -3929,7 +3929,7 @@
         <title value="Identifier Status Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -3951,8 +3951,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:ad1138e0-3e1c-4858-bec2-b6f35481ff71"/>
-          <timestamp value="2022-10-20T20:40:25-04:00"/>
+          <identifier value="urn:uuid:cff210c0-0862-4ecd-a3ec-55ef2bef3356"/>
+          <timestamp value="2022-10-31T22:16:43-04:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -4045,7 +4045,7 @@
         <title value="IG Type Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -4067,8 +4067,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:42f9b53f-301a-4357-b245-783cd486bc25"/>
-          <timestamp value="2022-10-20T20:40:25-04:00"/>
+          <identifier value="urn:uuid:0600d548-15c8-42fe-aa74-971e476e2624"/>
+          <timestamp value="2022-10-31T22:16:44-04:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -8820,7 +8820,7 @@
         <title value="Individual and Group Specialties"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -8842,8 +8842,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3cebe997-4e4b-49ef-a2be-b76ff9af9ee3"/>
-          <timestamp value="2022-10-20T20:40:26-04:00"/>
+          <identifier value="urn:uuid:61172b92-92e9-453a-8e64-5977d410f51b"/>
+          <timestamp value="2022-10-31T22:16:45-04:00"/>
           <total value="671"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13106,7 +13106,7 @@
         <title value="Individual Specialties, Degrees, Licenses, and Certificates Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -13128,8 +13128,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:37a567a5-0006-469d-b37c-02b2435c3f2d"/>
-          <timestamp value="2022-10-20T20:40:27-04:00"/>
+          <identifier value="urn:uuid:0e71722c-7783-4b9b-8cee-223509316923"/>
+          <timestamp value="2022-10-31T22:16:45-04:00"/>
           <total value="61"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13596,7 +13596,7 @@
         <title value="Insurance Plan Type Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -13618,8 +13618,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1bf402f4-07aa-446c-a25b-e02e08c26ce1"/>
-          <timestamp value="2022-10-20T20:40:27-04:00"/>
+          <identifier value="urn:uuid:8dbad39f-bfc4-4d60-9954-41bacc91db05"/>
+          <timestamp value="2022-10-31T22:16:45-04:00"/>
           <total value="8"/>
           <parameter>
             <name value="excludeNested"/>
@@ -14017,7 +14017,7 @@
         <title value="Insurance Product Type Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -14039,8 +14039,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b75e90c3-e73f-438a-980f-2c17b43009e0"/>
-          <timestamp value="2022-10-20T20:40:28-04:00"/>
+          <identifier value="urn:uuid:56a1ea4f-1d65-4129-ab0c-69db605cae35"/>
+          <timestamp value="2022-10-31T22:16:46-04:00"/>
           <total value="22"/>
           <parameter>
             <name value="excludeNested"/>
@@ -14284,7 +14284,7 @@
         <title value="Language Proficiency Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -14306,8 +14306,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5ca1daa3-8701-4619-a785-04129f2724d1"/>
-          <timestamp value="2022-10-20T20:40:29-04:00"/>
+          <identifier value="urn:uuid:88da80e8-5b69-4dd1-bb96-9748eeed184f"/>
+          <timestamp value="2022-10-31T22:16:46-04:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -14465,7 +14465,7 @@
         <title value="Minimum Endpoint Connection Types Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -14487,8 +14487,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6d20359d-0879-4210-a8a1-6ef16e699526"/>
-          <timestamp value="2022-10-20T20:40:29-04:00"/>
+          <identifier value="urn:uuid:e3a567a2-18b4-4cd9-a226-5063d54049e4"/>
+          <timestamp value="2022-10-31T22:16:46-04:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -14581,7 +14581,7 @@
         <title value="Network Type Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -14603,8 +14603,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:49c492ec-269a-4a6c-9e97-982bedfe0cdf"/>
-          <timestamp value="2022-10-20T20:40:30-04:00"/>
+          <identifier value="urn:uuid:55ddd3e6-db86-46ee-a19c-9d706098194f"/>
+          <timestamp value="2022-10-31T22:16:46-04:00"/>
           <total value="1"/>
           <parameter>
             <name value="excludeNested"/>
@@ -15928,7 +15928,7 @@
         <title value="Non-Individual Specialties"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -15950,8 +15950,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:00e27a15-7ca0-4743-a4fd-69d230e43de4"/>
-          <timestamp value="2022-10-20T20:40:30-04:00"/>
+          <identifier value="urn:uuid:c5ba1dee-6460-410c-8b2a-ff812a92028d"/>
+          <timestamp value="2022-10-31T22:16:47-04:00"/>
           <total value="182"/>
           <parameter>
             <name value="excludeNested"/>
@@ -19234,7 +19234,7 @@
         <title value="Non-Individual Specialties, Degrees, Licenses, and Certificates Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -19256,8 +19256,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:8e62140c-e82b-46ba-9a31-4c5cff4c17f0"/>
-          <timestamp value="2022-10-20T20:40:31-04:00"/>
+          <identifier value="urn:uuid:6380dafc-7985-48aa-9f3e-e7283b039bc7"/>
+          <timestamp value="2022-10-31T22:16:47-04:00"/>
           <total value="243"/>
           <parameter>
             <name value="excludeNested"/>
@@ -20562,7 +20562,7 @@
         <title value="Organization Alias Typ Value Sete"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -20584,8 +20584,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:1fbd6b7a-1e24-4039-a5a4-d5f8639af164"/>
-          <timestamp value="2022-10-20T20:40:32-04:00"/>
+          <identifier value="urn:uuid:d7822d2a-40e1-4b2c-9e98-f7dd18bf35d5"/>
+          <timestamp value="2022-10-31T22:16:48-04:00"/>
           <total value="2"/>
           <parameter>
             <name value="excludeNested"/>
@@ -20984,7 +20984,7 @@
         <title value="OrganizationAffiliation Roles"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -21006,8 +21006,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:cb8c74eb-0cd5-46d3-93c3-3a28e0e8c7bb"/>
-          <timestamp value="2022-10-20T20:40:33-04:00"/>
+          <identifier value="urn:uuid:3fc06bc3-29ff-4949-821d-86712fbbd2d7"/>
+          <timestamp value="2022-10-31T22:16:48-04:00"/>
           <total value="24"/>
           <parameter>
             <name value="excludeNested"/>
@@ -21251,7 +21251,7 @@
         <title value="Organization Type Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -21273,8 +21273,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6a33626b-3134-40bf-8595-ed3cdee19b8a"/>
-          <timestamp value="2022-10-20T20:40:33-04:00"/>
+          <identifier value="urn:uuid:b2594645-0483-4a8f-884b-fb66f250b1cc"/>
+          <timestamp value="2022-10-31T22:16:48-04:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -22015,7 +22015,7 @@
         <title value="PractitionerRole Code Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -22037,8 +22037,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:b55e8eab-48ef-4842-ba99-25a10f699c96"/>
-          <timestamp value="2022-10-20T20:40:34-04:00"/>
+          <identifier value="urn:uuid:c8ac84dd-101d-41ab-8003-9d40afbd98d9"/>
+          <timestamp value="2022-10-31T22:16:48-04:00"/>
           <total value="47"/>
           <parameter>
             <name value="excludeNested"/>
@@ -22411,7 +22411,7 @@
         <title value="Qualification Status Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -22433,8 +22433,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:a10d1991-57fe-4c8f-b044-24693894c8db"/>
-          <timestamp value="2022-10-20T20:40:35-04:00"/>
+          <identifier value="urn:uuid:32c9d628-6d5d-483e-bf58-348ed7a3a91f"/>
+          <timestamp value="2022-10-31T22:16:49-04:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -28491,7 +28491,7 @@
         <title value="Specialties Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -28513,8 +28513,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:967d28d1-b847-464f-b0cc-9814d2f644ea"/>
-          <timestamp value="2022-10-20T20:40:35-04:00"/>
+          <identifier value="urn:uuid:e25d9b8f-d7c3-400c-adf9-cb030361866d"/>
+          <timestamp value="2022-10-31T22:16:49-04:00"/>
           <total value="853"/>
           <parameter>
             <name value="excludeNested"/>
@@ -40534,7 +40534,7 @@
         <title value="Specialties, Degrees, Licenses, and Certificates Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -40556,8 +40556,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:248cff27-fdb6-4e68-ae0c-1d992df495b8"/>
-          <timestamp value="2022-10-20T20:40:36-04:00"/>
+          <identifier value="urn:uuid:645ec1cb-f8fa-462f-a356-13f86a1a22b1"/>
+          <timestamp value="2022-10-31T22:16:49-04:00"/>
           <total value="914"/>
           <parameter>
             <name value="excludeNested"/>
@@ -45250,7 +45250,7 @@
         <title value="Trust Framework Type Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -45272,8 +45272,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:f479697e-de72-4def-b16b-7b5c66eb8c82"/>
-          <timestamp value="2022-10-20T20:40:37-04:00"/>
+          <identifier value="urn:uuid:e6e41a96-d0a5-4073-8a66-6d5342826b9c"/>
+          <timestamp value="2022-10-31T22:16:50-04:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -45442,7 +45442,7 @@
         <title value="Validation Type Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -45464,8 +45464,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5e4577f7-a279-4fd6-be3d-f89b37b31231"/>
-          <timestamp value="2022-10-20T20:40:38-04:00"/>
+          <identifier value="urn:uuid:a8ad2927-1056-4c51-a298-33a1900d4192"/>
+          <timestamp value="2022-10-31T22:16:50-04:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
@@ -45629,7 +45629,7 @@
         <title value="Virtual Modalities Value Set"/>
         <status value="active"/>
         <experimental value="false"/>
-        <date value="2022-10-20T20:37:10-04:00"/>
+        <date value="2022-10-31T22:12:57-04:00"/>
         <publisher value="HL7 International - Patient Administration Work Group"/>
         <contact>
           <name value="HL7 International - Patient Administration Work Group"/>
@@ -45651,8 +45651,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:3675543b-cee0-4f32-866c-ae40db099987"/>
-          <timestamp value="2022-10-20T20:40:39-04:00"/>
+          <identifier value="urn:uuid:a3d7e4e6-f192-4bed-a988-2f1b7a556825"/>
+          <timestamp value="2022-10-31T22:16:51-04:00"/>
           <total value="6"/>
           <parameter>
             <name value="excludeNested"/>

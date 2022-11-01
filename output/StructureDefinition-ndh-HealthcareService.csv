@@ -49,29 +49,29 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"HealthcareService.extension:rating","HealthcareService.extension","rating","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/rating]]} {[]}
+"HealthcareService.extension:rating","HealthcareService.extension","rating","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-rating]]} {[]}
 ","Rating","Rating","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"HealthcareService.extension:newpatients","HealthcareService.extension","newpatients","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/newpatients]]} {[]}
+"HealthcareService.extension:newpatients","HealthcareService.extension","newpatients","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-newpatients]]} {[]}
 ","New Patients","New Patients indicates whether new patients are being accepted in general, or from a specific network.   
               This extension is included in the PractitionerRole, HealthcareService, and Location profiles.  
               This provides needed flexibility for specifying whether a provider accepts new patients by location and network.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}new-patients-characteristics:If no new patients are accepted, no characteristics are allowed {extension('acceptingPatients').valueCodeableConcept.coding.exists(code = 'no') implies extension('characteristics').empty()}"
-"HealthcareService.extension:deliverymethod","HealthcareService.extension","deliverymethod","","",1,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/delivery-method]]} {[]}
+"HealthcareService.extension:deliverymethod","HealthcareService.extension","deliverymethod","","",1,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-delivery-method]]} {[]}
 ","Delivery Method","An extension describing the service delivery method.   If service delivery is virtual, one or more delivery modalities should be specified.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"HealthcareService.extension:paymentaccepted","HealthcareService.extension","paymentaccepted","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/paymentAccepted]]} {[]}
+"HealthcareService.extension:paymentaccepted","HealthcareService.extension","paymentaccepted","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-paymentAccepted]]} {[]}
 ","Payment Accepted","Methods of payment that can be used for a healthcare service","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"HealthcareService.extension:requiredDocument","HealthcareService.extension","requiredDocument","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/requiredDocument]]} {[]}
+"HealthcareService.extension:requiredDocument","HealthcareService.extension","requiredDocument","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-requiredDocument]]} {[]}
 ","Required Document","Documents that are required in order to access or use services (eg. Gov't issued ID, passport)","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"HealthcareService.extension:fundingSource","HealthcareService.extension","fundingSource","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/fundingSource]]} {[]}
+"HealthcareService.extension:fundingSource","HealthcareService.extension","fundingSource","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-fundingSource]]} {[]}
 ","Funding Source","The sources of funding for a service or organization","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -126,10 +126,10 @@ user content","",0,*,"","","","Extension {[]} {[]}
 ","Additional content defined by implementations","May be used to represent additional information that is not part of the basic definition of the element. To make the use of extensions safe and manageable, there is a strict set of governance  applied to the definition and use of extensions. Though any implementer can define an extension, there is a set of requirements that SHALL be met as part of the definition of the extension.","There can be no stigma associated with the use of extensions by any application, project, or standard - regardless of the institution or jurisdiction that uses or defines the extensions.  The use of extensions is what allows the FHIR specification to retain a core level of simplicity for everyone.","","","","","","","","",,,,,"","value:url}
 ","Extensions are always sliced by (at least) url",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","n/a"
-"HealthcareService.telecom.extension:contactpoint-availabletime","HealthcareService.telecom.extension","contactpoint-availabletime","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/contactpoint-availabletime]]} {[]}
+"HealthcareService.telecom.extension:contactpoint-availabletime","HealthcareService.telecom.extension","contactpoint-availabletime","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-contactpoint-availabletime]]} {[]}
 ","Contactpoint Availabletime","An extension representing the days and times a contact point is available","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"HealthcareService.telecom.extension:via-intermediary","HealthcareService.telecom.extension","via-intermediary","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/via-intermediary]]} {[]}
+"HealthcareService.telecom.extension:via-intermediary","HealthcareService.telecom.extension","via-intermediary","","",0,*,"","","","Extension {[CanonicalType[http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-via-intermediary]]} {[]}
 ","Via Intermediary","A reference to an alternative point of contact (NdhPractitionerRole, NdhOrganization, NdhOrganizationAffiliation, or NdhLocation) for this organization","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "HealthcareService.telecom.system","HealthcareService.telecom.system","","","",0,1,"","","Y","code {[]} {[]}

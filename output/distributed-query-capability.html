@@ -237,10 +237,211 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
     <p><!-- white space is critical inside of capture --></p>
-<div>
-<!-- do not remove - needed to prevent Jekyll from adding a p tag to any non block level element in the markdown.-->
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#ndh-distributed-query-endpoint-capabality-statement-summary" id="markdown-toc-ndh-distributed-query-endpoint-capabality-statement-summary">NDH Distributed Query Endpoint Capabality Statement Summary</a></li>
+  <li><a href="#ndh-distributed-query-endpoint-capabality-statement" id="markdown-toc-ndh-distributed-query-endpoint-capabality-statement">NDH Distributed Query Endpoint Capabality Statement:</a></li>
+</ul>
+
 </div>
-<p>Distributed CapabilityStatement</p>
+<h3 id="ndh-distributed-query-endpoint-capabality-statement-summary">NDH Distributed Query Endpoint Capabality Statement Summary</h3>
+
+<table class="grid">
+  <thead>
+    <tr>
+      <th>Profile/Capability</th>
+      <th style="text-align: center"><a href="CapabilityStatement-ndh-query-BasicEndpoint.html">Basic</a></th>
+      <th style="text-align: center">Basic Expanded</th>
+      <th style="text-align: center">Health and Human Service</th>
+      <th style="text-align: center">Health and Human Service Expanded</th>
+      <th style="text-align: center">Human Service</th>
+      <th style="text-align: center">Human Service Expanded</th>
+      <th style="text-align: center">Provider</th>
+      <th style="text-align: center">Provider Expended</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>CareTeam</strong></td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">SHOULD</td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">MAY</td>
+    </tr>
+    <tr>
+      <td><strong>Endpoint</strong></td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+    </tr>
+    <tr>
+      <td><strong>HealthcareService</strong></td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHOULD</td>
+      <td style="text-align: center">SHALL</td>
+    </tr>
+    <tr>
+      <td><strong>InsurancePlan</strong></td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">SHOULD</td>
+    </tr>
+    <tr>
+      <td><strong>Location</strong></td>
+      <td style="text-align: center">SHOULD</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+    </tr>
+    <tr>
+      <td><strong>Network</strong></td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHOULD</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">SHOULD</td>
+    </tr>
+    <tr>
+      <td><strong>Organization</strong></td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+    </tr>
+    <tr>
+      <td><strong>OrganizationAffiliation</strong></td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHOULD</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHOULD</td>
+      <td style="text-align: center">SAHLL</td>
+    </tr>
+    <tr>
+      <td><strong>Practitioner</strong></td>
+      <td style="text-align: center">SHOULD</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+    </tr>
+    <tr>
+      <td><strong>PractitionerRole</strong></td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHOULD</td>
+      <td style="text-align: center">SHOULD</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+    </tr>
+    <tr>
+      <td><strong>Restriction</strong></td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+      <td style="text-align: center">SHALL</td>
+    </tr>
+    <tr>
+      <td><strong>Validation</strong></td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">MAY</td>
+      <td style="text-align: center">MAY</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="ndh-distributed-query-endpoint-capabality-statement">NDH Distributed Query Endpoint Capabality Statement:</h3>
+
+<h4 id="basic-endpoint">Basic Endpoint</h4>
+
+<p><a href="CapabilityStatement-ndh-query-BasicEndpoint.html">ndh-query-BasicEndpoint</a></p>
+
+<!-- NDH Code System -->
+
+<!--NDH ValueSet -->
+
+<!--Extensions -->
+
+<!--Base Profiles -->
+
+<!-- Query Capability Statement -->
+
+<!--
+#### Part 1
+
+|Capability/Resources  |   CareTeam     |  Endpoint     |  HealthcareService     |  Endpoint     |  InsurancePlan     |  Location     |
+|----------------------|   :-------:    |  :------:     |  :----------------:    |  :------:     |  :-----------:     |  :------:     |
+|**Basic Endpoint**| MAY | SHALL | MAY | SHALL | MAY | SHOULD |
+|**Basic Expanded**| MAY | SHALL | SHALL | SHALL | MAY | SHALL |
+|**Health & Human Service Endpoint**| MAY | SHALL | MAY | SHALL | MAY | SHALL |
+|**Health & Human Service Expaned**| SHOULD | SHALL | SHALL | SHALL | SHALL | SHALL |
+|**Human Service Endpoint**|MAY|SHALL|SHALL|SHALL|MAY|SHALL|
+|**Human Service Expand**|MAY|SHALL|SHALL|SHALL|SHALL|SHALL|
+|**Provider Endpoint**|MAY|SHALL|SHOULD|SHALL|MAY|SHALL|
+|**Provider Expanded**|MAY|SHALL|SHALL|SHALL|SHOULD|SHALL|
+{: .grid}
+
+#### Part 2
+
+|Capability/Resources  |Network|Organization|OrganizationAffiliation|Practitioner|PractitionerRole|Restriction|Verification|
+|----------------------|:-----:|:----------:|:---------------------:|:----------:|:--------------:|:---------:|:----------:|
+|**Basic Endpoint**|MAY|SHALL|MAY|SHOULD|SHOULD|MAY|MAY|
+|**Basic Expanded**|MAY|SHALL|MAY|SHALL|SHALL|MAY|MAY|
+|**Health & Human Service Endpoint**|SHALL|SHALL|MAY|SHALL|SHALL|SHALL|MAY|
+|**Health & Human Service Expaned**|SHOULD|SHALL|SHALL|SHALL|SHALL|SHALL|MAY|
+|**Human Service Endpoint**|SHOULD|SHALL|SHOULD|MAY|SHOULD|SHALL|MAY|
+|**Human Service Expand**|SHALL|SHALL|SHALL|MAY|SHALL|MAY|MAY|
+|**Provider Endpoint**|MAY|SHALL|SHOULD|SHALL|SHALL|SHALL|MAY|
+|**Provider Expanded**|SHOULD|SHALL|SHALL|SHALL|SHALL|SHALL|MAY|
+{: .grid}
+
+-->
 
 
 
@@ -266,7 +467,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/pafm">HL7 International - Patient Administration Work Group</a>.  Package hl7.fhir.us.ndh#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Thu, Oct 20, 2022 20:37-0400">2022-10-20</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/pafm">HL7 International - Patient Administration Work Group</a>.  Package hl7.fhir.us.ndh#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Oct 31, 2022 22:12-0400">2022-10-31</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

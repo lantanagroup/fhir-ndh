@@ -12,7 +12,7 @@
   <sch:pattern>
     <sch:title>f:Organization</sch:title>
     <sch:rule context="f:Organization">
-      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/org-description']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/us/ndh/StructureDefinition/org-description': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-org-description']) &lt;= 1">extension with URL = 'http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-org-description': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:type) &gt;= 1">type: minimum cardinality of 'type' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>

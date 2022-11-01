@@ -1,0 +1,76 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://hl7.org/fhir/us/ndh/SearchParameter/sp-practitioner-qualification-issuer> a fhir:SearchParameter;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "sp-practitioner-qualification-issuer"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p><b>Generated Narrative: SearchParameter</b><a name=\"sp-practitioner-qualification-issuer\"> </a></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Resource SearchParameter \"sp-practitioner-qualification-issuer\" </p></div><p><b>url</b>: <code>http://hl7.org/fhir/us/ndh/SearchParameter/sp-practitioner-qualification-issuer</code></p><p><b>version</b>: 1.0.0</p><p><b>name</b>: Practitioner-qualification-issuer</p><p><b>status</b>: active</p><p><b>date</b>: 2022-10-31 10:12:57-0400</p><p><b>publisher</b>: HL7 International - Patient Administration Work Group</p><p><b>contact</b>: HL7 International - Patient Administration Work Group: <a href=\"http://hl7.org/Special/committees/pafm\">http://hl7.org/Special/committees/pafm</a>,<a href=\"mailto:pafm@lists.hl7.org\">pafm@lists.hl7.org</a></p><p><b>description</b>: Select Practitioners with a qualification issued by the specified organition</p><p><b>jurisdiction</b>: United States of America <span style=\"background: LightGoldenRodYellow; margin: 4px; border: 1px solid khaki\"> (<a href=\"http://terminology.hl7.org/4.0.0/CodeSystem-ISO3166Part1.html\">ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code</a>#US)</span></p><p><b>code</b>: qualification-issuer</p><p><b>base</b>: Practitioner</p><p><b>type</b>: reference</p><p><b>expression</b>: Practitioner.qualification.issuer</p><p><b>target</b>: Organization</p><p><b>multipleOr</b>: true</p><p><b>multipleAnd</b>: true</p><p><b>modifier</b>: below</p><p><b>chain</b>: identifier, name</p></div>"
+  ];
+  fhir:SearchParameter.url [ fhir:value "http://hl7.org/fhir/us/ndh/SearchParameter/sp-practitioner-qualification-issuer"];
+  fhir:SearchParameter.version [ fhir:value "1.0.0"];
+  fhir:SearchParameter.name [ fhir:value "Practitioner-qualification-issuer"];
+  fhir:SearchParameter.status [ fhir:value "active"];
+  fhir:SearchParameter.date [ fhir:value "2022-10-31T22:12:57-04:00"^^xsd:dateTime];
+  fhir:SearchParameter.publisher [ fhir:value "HL7 International - Patient Administration Work Group"];
+  fhir:SearchParameter.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "HL7 International - Patient Administration Work Group" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "http://hl7.org/Special/committees/pafm" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "pafm@lists.hl7.org" ]
+     ]
+  ];
+  fhir:SearchParameter.description [ fhir:value "Select Practitioners with a qualification issued by the specified organition"];
+  fhir:SearchParameter.jurisdiction [
+     fhir:index 0;
+     fhir:CodeableConcept.coding [
+       fhir:index 0;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ];
+       fhir:Coding.code [ fhir:value "US" ];
+       fhir:Coding.display [ fhir:value "United States of America" ]
+     ]
+  ];
+  fhir:SearchParameter.code [ fhir:value "qualification-issuer"];
+  fhir:SearchParameter.base [
+     fhir:value "Practitioner";
+     fhir:index 0
+  ];
+  fhir:SearchParameter.type [ fhir:value "reference"];
+  fhir:SearchParameter.expression [ fhir:value "Practitioner.qualification.issuer"];
+  fhir:SearchParameter.target [
+     fhir:value "Organization";
+     fhir:index 0
+  ];
+  fhir:SearchParameter.multipleOr [ fhir:value "true"^^xsd:boolean];
+  fhir:SearchParameter.multipleAnd [ fhir:value "true"^^xsd:boolean];
+  fhir:SearchParameter.modifier [
+     fhir:value "below";
+     fhir:index 0
+  ];
+  fhir:SearchParameter.chain [
+     fhir:value "identifier";
+     fhir:index 0
+  ], [
+     fhir:value "name";
+     fhir:index 1
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://hl7.org/fhir/us/ndh/SearchParameter/sp-practitioner-qualification-issuer.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl;
+  owl:versionIRI <http://build.fhir.org/us/ndh/SearchParameter/sp-practitioner-qualification-issuer.ttl> .
+
+# -------------------------------------------------------------------------------------
+

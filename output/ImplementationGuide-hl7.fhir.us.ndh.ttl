@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "NDH"];
   fhir:ImplementationGuide.title [ fhir:value "National Directory of Healthcare Providers & Services (NDH) Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "active"];
-  fhir:ImplementationGuide.date [ fhir:value "2022-10-20T20:37:10-04:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2022-10-31T22:12:57-04:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "HL7 International - Patient Administration Work Group"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -868,8 +868,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/accessibility>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/accessibility" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-accessibility>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-accessibility" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Accessibility" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension to describe accessibility options offered by a practitioner or at a location." ];
@@ -882,8 +882,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/associatedServers>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/associatedServers" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-associatedServers>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-associatedServers" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Associated Servers" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Associated Servers" ];
@@ -896,8 +896,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/careteam-alias>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/careteam-alias" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-careteam-alias>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-careteam-alias" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "NDH Careteam Alias" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Alternate names by which the team is known" ];
@@ -910,8 +910,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/communication-proficiency>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/communication-proficiency" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-communication-proficiency>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-communication-proficiency" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Communication Proficiency" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension to express a practitioner’s spoken proficiency with the language indicated in practitioner.communication." ];
@@ -924,8 +924,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/contactpoint-availabletime>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/contactpoint-availabletime" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-contactpoint-availabletime>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-contactpoint-availabletime" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Contactpoint Availabletime" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension representing the days and times a contact point is available" ];
@@ -938,8 +938,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/delivery-method>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/delivery-method" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-delivery-method>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-delivery-method" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Delivery Method" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension describing the service delivery method.   If service delivery is virtual, one or more delivery modalities should be specified." ];
@@ -952,8 +952,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/dynamicRegistration>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/dynamicRegistration" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-dynamicRegistration>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-dynamicRegistration" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Dynamic Registration" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Dynamic Registration" ];
@@ -966,8 +966,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/endpoint-reference>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/endpoint-reference" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-endpoint-reference>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-endpoint-reference" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "NDH Practitioner Endpoint Reference" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The technical details of an endpoint that can be used for electronic services" ];
@@ -980,8 +980,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/endpointType>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/endpointType" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-endpointType>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-endpointType" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Endpoint Type" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Type of Endpoint" ];
@@ -994,8 +994,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/endpoint-usecase>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/endpoint-usecase" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-endpoint-usecase>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-endpoint-usecase" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Endpoint Usecase" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "EndpointUseCase is an enumeration of the specific use cases (service descriptions) supported by the endpoint" ];
@@ -1008,8 +1008,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/fundingSource>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/fundingSource" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-fundingSource>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-fundingSource" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Funding Source" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The sources of funding for a service or organization" ];
@@ -1022,8 +1022,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/healthcareservice-reference>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/healthcareservice-reference" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-healthcareservice-reference>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-healthcareservice-reference" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "NDH Healthcareservice Reference" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Reference to healthcareservice resource" ];
@@ -1036,8 +1036,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/igsSupported>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/igsSupported" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-igsSupported>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-igsSupported" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "IGs Supported" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "IGs Supported document the different types of IGs supported by the Endpoint." ];
@@ -1050,8 +1050,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/identifier-status>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/identifier-status" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-identifier-status>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-identifier-status" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "NDH Identifier Status" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Describes the status of an identifier" ];
@@ -1064,8 +1064,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/location-reference>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/location-reference" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-location-reference>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-location-reference" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Location Reference" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A reference to a Location resource (NDH-Location) defining the coverage area of a health insurance provider network" ];
@@ -1078,8 +1078,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/network-reference>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/network-reference" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-network-reference>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-network-reference" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Network Reference" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A reference to the healthcare provider insurance networks (NdhNetwork) the practitioner participates in through their role" ];
@@ -1092,8 +1092,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/newpatients>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/newpatients" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-newpatients>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-newpatients" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "New Patients" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "New Patients indicates whether new patients are being accepted in general, or from a specific network.   \r\n              This extension is included in the PractitionerRole, HealthcareService, and Location profiles.  \r\n              This provides needed flexibility for specifying whether a provider accepts new patients by location and network." ];
@@ -1106,8 +1106,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/org-description>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/org-description" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-org-description>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-org-description" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Org Description" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension to provide a human-readable description of an organization" ];
@@ -1120,8 +1120,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/paymentAccepted>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/paymentAccepted" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-paymentAccepted>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-paymentAccepted" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Payment Accepted" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Methods of payment that can be used for a healthcare service" ];
@@ -1134,8 +1134,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/practitioner-qualification>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/practitioner-qualification" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-practitioner-qualification>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-practitioner-qualification" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner Qualification" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An extension to add status and whereValid elements to a practitioner’s qualifications." ];
@@ -1148,8 +1148,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/rating>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/rating" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-rating>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-rating" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Rating" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Rating" ];
@@ -1162,8 +1162,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/requiredDocument>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/requiredDocument" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-requiredDocument>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-requiredDocument" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Required Document" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Documents that are required in order to access or use services (eg. Gov't issued ID, passport)" ];
@@ -1176,8 +1176,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/secureEndpoint>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/secureEndpoint" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-secureEndpoint>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-secureEndpoint" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Secure Endpoint" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Is the Endpoint Secured" ];
@@ -1190,8 +1190,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/secureExchangeArtifacts>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/secureExchangeArtifacts" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-secureExchangeArtifacts>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-secureExchangeArtifacts" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Secure Exchange Artifacts" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Secure Exchange Artifacts" ];
@@ -1204,8 +1204,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/trustFramework>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/trustFramework" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-trustFramework>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-trustFramework" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Trust Framework" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Trust Framework" ];
@@ -1218,8 +1218,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/usage-restriction>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/usage-restriction" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-usage-restriction>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-usage-restriction" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "NDH Usage Restriction" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "The FHIR specification contains a security meta tag which can be used to inform systems of the sensitivity of resources, as well as by access control \nmechanisms to ensure content isn't exposed that shouldn't be. This mechanism only goes to the resource level, this reference to a usage-restriction (consent) extends \nthis further into the resource, and can be applied to any element, and may apply to all properties beneath the element (e.g. If applied to an identifier on a practitioner, \nthen all the properties of the identifier should not be exposed unless it is understood) This will be expected to be used as a modifier extension." ];
@@ -1232,8 +1232,8 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:extension" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/via-intermediary>;
-         fhir:Reference.reference [ fhir:value "StructureDefinition/via-intermediary" ]
+         fhir:link <http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-via-intermediary>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/base-ext-via-intermediary" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Via Intermediary" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A reference to an alternative point of contact (NdhPractitionerRole, NdhOrganization, NdhOrganizationAffiliation, or NdhLocation) for this organization" ];
@@ -1938,6 +1938,314 @@
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Virtual Modalities Code System" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Categories of virtual service delivery modalities." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 89;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "CapabilityStatement" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/ndh/CapabilityStatement/ndh-query-BasicEndpoint>;
+         fhir:Reference.reference [ fhir:value "CapabilityStatement/ndh-query-BasicEndpoint" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "NDH Query Basic Endpoint Capability Statement" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Capabilities for a basic Query Server where endpoint search capabilities are met" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 90;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/ndh/SearchParameter/sp-careteam-endpoint>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/sp-careteam-endpoint" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CareTeam endpoint" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select CareTeams with the specified endpoint" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 91;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/ndh/SearchParameter/sp-careteam-location>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/sp-careteam-location" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CareTeam location" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select CareTeams operating at the specified location" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 92;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/ndh/SearchParameter/sp-careteam-name>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/sp-careteam-name" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CareTeam name" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select CareTeams with the specified name" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 93;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/ndh/SearchParameter/sp-careteam-organization>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/sp-careteam-organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CareTeam organization" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select CareTeams managed by the specified organization" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 94;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/ndh/SearchParameter/sp-careteam-service>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/sp-careteam-service" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "CareTeam service" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select CareTeams providing the specified service" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 95;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/ndh/SearchParameter/sp-endpoint-mime-type>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/sp-endpoint-mime-type" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Endpoint mime-type" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Endpoints that support the specified mime-type" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 96;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/ndh/SearchParameter/sp-endpoint-organization>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/sp-endpoint-organization" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Endpoint organization" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Endpoints managed by the specified organization" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 97;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/ndh/SearchParameter/sp-endpoint-usecase-standard>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/sp-endpoint-usecase-standard" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Endpoint usecase-standard" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Endpoints that support the specified usecase standard" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 98;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/ndh/SearchParameter/sp-endpoint-usecase-type>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/sp-endpoint-usecase-type" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Endpoint usecase-type" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Endpoints that support the type of services indicated by the specified usecase-type" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 99;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/ndh/SearchParameter/sp-insuranceplan-coverage-area>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/sp-insuranceplan-coverage-area" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "InsurancePlan coverage-area" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select products that are offered in the specified location" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 100;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/ndh/SearchParameter/sp-insuranceplan-coverage-benefit-type>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/sp-insuranceplan-coverage-benefit-type" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "InsurancePlan coverage-benefit-type" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select products that are offered in the specified location" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 101;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/ndh/SearchParameter/sp-insuranceplan-coverage-network>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/sp-insuranceplan-coverage-network" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "InsurancePlan coverage-network" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select products offering covered benefits through the specified health insurance provider network" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 102;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/ndh/SearchParameter/sp-locaion-physical-type>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/sp-locaion-physical-type" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Location physical-type" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Locations of the specified physical type" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 103;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/ndh/SearchParameter/sp-network-coverage-area>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/sp-network-coverage-area" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Network coverage-area" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select health insurance provider networks available in a regin described by the specified location" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 104;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/ndh/SearchParameter/sp-organization-endpoint>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/sp-organization-endpoint" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Organization endpoint" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Organizations with the specified endpoint" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 105;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/ndh/SearchParameter/sp-practitioner-identifier-assigner>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/sp-practitioner-identifier-assigner" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner identifier-assigner" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Practitioners with an identifier issued by the specified organition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 106;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/ndh/SearchParameter/sp-practitioner-qualification-code>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/sp-practitioner-qualification-code" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner qualification-code" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Practitioner with a type of qualification matching the specific code" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 107;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/ndh/SearchParameter/sp-practitioner-qualification-issuer>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/sp-practitioner-qualification-issuer" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Practitioner qualification-issuer" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select Practitioners with a qualification issued by the specified organition" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 108;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/ndh/SearchParameter/sp-practitionerrole-network>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/sp-practitionerrole-network" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "PractitionerRole network" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select roles where the practitioner is a member of the specified health insurance provider network" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 109;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/ndh/SearchParameter/sp-verificationresult-attestation-who>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/sp-verificationresult-attestation-who" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "VerificationResult attestation-who" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select validation information for data that was attested to by the specified individual or organization" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 110;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "SearchParameter" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://hl7.org/fhir/us/ndh/SearchParameter/sp-verificationresult-primarysource-who>;
+         fhir:Reference.reference [ fhir:value "SearchParameter/sp-verificationresult-primarysource-who" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "VerificationResult primarysource-who" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Select verification information for data that was verified against the specified primary source" ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ];
      fhir:ImplementationGuide.definition.page [
        fhir:Element.extension [
@@ -2297,59 +2605,59 @@
 
 <http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Verification> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/accessibility> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-accessibility> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/associatedServers> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-associatedServers> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/careteam-alias> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-careteam-alias> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/communication-proficiency> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-communication-proficiency> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/contactpoint-availabletime> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-contactpoint-availabletime> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/delivery-method> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-delivery-method> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/dynamicRegistration> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-dynamicRegistration> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/endpoint-reference> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-endpoint-reference> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/endpointType> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-endpointType> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/endpoint-usecase> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-endpoint-usecase> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/fundingSource> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-fundingSource> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/healthcareservice-reference> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-healthcareservice-reference> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/igsSupported> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-igsSupported> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/identifier-status> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-identifier-status> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/location-reference> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-location-reference> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/network-reference> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-network-reference> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/newpatients> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-newpatients> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/org-description> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-org-description> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/paymentAccepted> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-paymentAccepted> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/practitioner-qualification> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-practitioner-qualification> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/rating> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-rating> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/requiredDocument> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-requiredDocument> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/secureEndpoint> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-secureEndpoint> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/secureExchangeArtifacts> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-secureExchangeArtifacts> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/trustFramework> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-trustFramework> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/usage-restriction> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-usage-restriction> a fhir:us .
 
-<http://hl7.org/fhir/us/ndh/StructureDefinition/via-intermediary> a fhir:us .
+<http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-via-intermediary> a fhir:us .
 
 <http://hl7.org/fhir/us/ndh/ValueSet/AcceptingPatientsVS> a fhir:us .
 
@@ -2450,6 +2758,50 @@
 <http://hl7.org/fhir/us/ndh/CodeSystem/ValidationTypeCS> a fhir:us .
 
 <http://hl7.org/fhir/us/ndh/CodeSystem/VirtualModalitiesCS> a fhir:us .
+
+<http://hl7.org/fhir/us/ndh/CapabilityStatement/ndh-query-BasicEndpoint> a fhir:us .
+
+<http://hl7.org/fhir/us/ndh/SearchParameter/sp-careteam-endpoint> a fhir:us .
+
+<http://hl7.org/fhir/us/ndh/SearchParameter/sp-careteam-location> a fhir:us .
+
+<http://hl7.org/fhir/us/ndh/SearchParameter/sp-careteam-name> a fhir:us .
+
+<http://hl7.org/fhir/us/ndh/SearchParameter/sp-careteam-organization> a fhir:us .
+
+<http://hl7.org/fhir/us/ndh/SearchParameter/sp-careteam-service> a fhir:us .
+
+<http://hl7.org/fhir/us/ndh/SearchParameter/sp-endpoint-mime-type> a fhir:us .
+
+<http://hl7.org/fhir/us/ndh/SearchParameter/sp-endpoint-organization> a fhir:us .
+
+<http://hl7.org/fhir/us/ndh/SearchParameter/sp-endpoint-usecase-standard> a fhir:us .
+
+<http://hl7.org/fhir/us/ndh/SearchParameter/sp-endpoint-usecase-type> a fhir:us .
+
+<http://hl7.org/fhir/us/ndh/SearchParameter/sp-insuranceplan-coverage-area> a fhir:us .
+
+<http://hl7.org/fhir/us/ndh/SearchParameter/sp-insuranceplan-coverage-benefit-type> a fhir:us .
+
+<http://hl7.org/fhir/us/ndh/SearchParameter/sp-insuranceplan-coverage-network> a fhir:us .
+
+<http://hl7.org/fhir/us/ndh/SearchParameter/sp-locaion-physical-type> a fhir:us .
+
+<http://hl7.org/fhir/us/ndh/SearchParameter/sp-network-coverage-area> a fhir:us .
+
+<http://hl7.org/fhir/us/ndh/SearchParameter/sp-organization-endpoint> a fhir:us .
+
+<http://hl7.org/fhir/us/ndh/SearchParameter/sp-practitioner-identifier-assigner> a fhir:us .
+
+<http://hl7.org/fhir/us/ndh/SearchParameter/sp-practitioner-qualification-code> a fhir:us .
+
+<http://hl7.org/fhir/us/ndh/SearchParameter/sp-practitioner-qualification-issuer> a fhir:us .
+
+<http://hl7.org/fhir/us/ndh/SearchParameter/sp-practitionerrole-network> a fhir:us .
+
+<http://hl7.org/fhir/us/ndh/SearchParameter/sp-verificationresult-attestation-who> a fhir:us .
+
+<http://hl7.org/fhir/us/ndh/SearchParameter/sp-verificationresult-primarysource-who> a fhir:us .
 
 # - ontology header ------------------------------------------------------------
 

@@ -1,5 +1,12 @@
 [
   {
+    "id": "ndh-query-BasicEndpoint",
+    "type": "CapabilityStatement",
+    "url": "http://hl7.org/fhir/us/ndh/CapabilityStatement/ndh-query-BasicEndpoint",
+    "version": "1.0.0",
+    "name": "NDH Query Basic Endpoint Capability Statement"
+  },
+  {
     "id": "AcceptingPatientsCS",
     "type": "CodeSystem",
     "url": "http://hl7.org/fhir/us/ndh/CodeSystem/AcceptingPatientsCS",
@@ -147,109 +154,340 @@
     "name": "NDH"
   },
   {
-    "id": "accessibility",
+    "id": "sp-careteam-endpoint",
+    "type": "SearchParameter",
+    "url": "http://hl7.org/fhir/us/ndh/SearchParameter/sp-careteam-endpoint",
+    "version": "1.0.0",
+    "name": "CareTeam-endpoint"
+  },
+  {
+    "id": "sp-careteam-location",
+    "type": "SearchParameter",
+    "url": "http://hl7.org/fhir/us/ndh/SearchParameter/sp-careteam-location",
+    "version": "1.0.0",
+    "name": "CareTeam-location"
+  },
+  {
+    "id": "sp-careteam-name",
+    "type": "SearchParameter",
+    "url": "http://hl7.org/fhir/us/ndh/SearchParameter/sp-careteam-name",
+    "version": "1.0.0",
+    "name": "CareTeam-service"
+  },
+  {
+    "id": "sp-careteam-organization",
+    "type": "SearchParameter",
+    "url": "http://hl7.org/fhir/us/ndh/SearchParameter/sp-careteam-organization",
+    "version": "1.0.0",
+    "name": "CareTeam-organization"
+  },
+  {
+    "id": "sp-careteam-service",
+    "type": "SearchParameter",
+    "url": "http://hl7.org/fhir/us/ndh/SearchParameter/sp-careteam-service",
+    "version": "1.0.0",
+    "name": "CareTeam-service"
+  },
+  {
+    "id": "sp-endpoint-mime-type",
+    "type": "SearchParameter",
+    "url": "http://hl7.org/fhir/us/ndh/SearchParameter/sp-endpoint-mime-type",
+    "version": "1.0.0",
+    "name": "Endpoint-mine-type"
+  },
+  {
+    "id": "sp-endpoint-organization",
+    "type": "SearchParameter",
+    "url": "http://hl7.org/fhir/us/ndh/SearchParameter/sp-endpoint-organization",
+    "version": "1.0.0",
+    "name": "Endpoint-organization"
+  },
+  {
+    "id": "sp-endpoint-usecase-standard",
+    "type": "SearchParameter",
+    "url": "http://hl7.org/fhir/us/ndh/SearchParameter/sp-endpoint-usecase-standard",
+    "version": "1.0.0",
+    "name": "Endpoint-usecase-standard"
+  },
+  {
+    "id": "sp-endpoint-usecase-type",
+    "type": "SearchParameter",
+    "url": "http://hl7.org/fhir/us/ndh/SearchParameter/sp-endpoint-usecase-type",
+    "version": "1.0.0",
+    "name": "Endpoint-usecase-type"
+  },
+  {
+    "id": "sp-insuranceplan-coverage-area",
+    "type": "SearchParameter",
+    "url": "http://hl7.org/fhir/us/ndh/SearchParameter/sp-insuranceplan-coverage-area",
+    "version": "1.0.0",
+    "name": "Insurance-coverage-area"
+  },
+  {
+    "id": "sp-insuranceplan-coverage-benefit-type",
+    "type": "SearchParameter",
+    "url": "http://hl7.org/fhir/us/ndh/SearchParameter/sp-insuranceplan-coverage-benefit-type",
+    "version": "1.0.0",
+    "name": "Insuranceplan-coverage-benefit-type"
+  },
+  {
+    "id": "sp-insuranceplan-coverage-network",
+    "type": "SearchParameter",
+    "url": "http://hl7.org/fhir/us/ndh/SearchParameter/sp-insuranceplan-coverage-network",
+    "version": "1.0.0",
+    "name": "Insuranceplan-coverage-network"
+  },
+  {
+    "id": "sp-locaion-physical-type",
+    "type": "SearchParameter",
+    "url": "http://hl7.org/fhir/us/ndh/SearchParameter/sp-locaion-physical-type",
+    "version": "1.0.0",
+    "name": "Location-physical-type"
+  },
+  {
+    "id": "sp-network-coverage-area",
+    "type": "SearchParameter",
+    "url": "http://hl7.org/fhir/us/ndh/SearchParameter/sp-network-coverage-area",
+    "version": "1.0.0",
+    "name": "Network-coverage-area"
+  },
+  {
+    "id": "sp-organization-endpoint",
+    "type": "SearchParameter",
+    "url": "http://hl7.org/fhir/us/ndh/SearchParameter/sp-organization-endpoint",
+    "version": "1.0.0",
+    "name": "Organization-endpoint"
+  },
+  {
+    "id": "sp-practitioner-identifier-assigner",
+    "type": "SearchParameter",
+    "url": "http://hl7.org/fhir/us/ndh/SearchParameter/sp-practitioner-identifier-assigner",
+    "version": "1.0.0",
+    "name": "Practitioner-identifier-assigner"
+  },
+  {
+    "id": "sp-practitioner-qualification-code",
+    "type": "SearchParameter",
+    "url": "http://hl7.org/fhir/us/ndh/SearchParameter/sp-practitioner-qualification-code",
+    "version": "1.0.0",
+    "name": "Practitioner-qualification-code"
+  },
+  {
+    "id": "sp-practitioner-qualification-issuer",
+    "type": "SearchParameter",
+    "url": "http://hl7.org/fhir/us/ndh/SearchParameter/sp-practitioner-qualification-issuer",
+    "version": "1.0.0",
+    "name": "Practitioner-qualification-issuer"
+  },
+  {
+    "id": "sp-practitionerrole-network",
+    "type": "SearchParameter",
+    "url": "http://hl7.org/fhir/us/ndh/SearchParameter/sp-practitionerrole-network",
+    "version": "1.0.0",
+    "name": "PractitionerRole-network"
+  },
+  {
+    "id": "sp-verificationresult-attestation-who",
+    "type": "SearchParameter",
+    "url": "http://hl7.org/fhir/us/ndh/SearchParameter/sp-verificationresult-attestation-who",
+    "version": "1.0.0",
+    "name": "VerificationResult-attestation-who"
+  },
+  {
+    "id": "sp-verificationresult-primarysource-who",
+    "type": "SearchParameter",
+    "url": "http://hl7.org/fhir/us/ndh/SearchParameter/sp-verificationresult-primarysource-who",
+    "version": "1.0.0",
+    "name": "VerificationResult-primarysource-who"
+  },
+  {
+    "id": "base-ext-accessibility",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/accessibility",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-accessibility",
     "version": "1.0.0",
     "name": "Accessibility"
   },
   {
-    "id": "associatedServers",
+    "id": "base-ext-associatedServers",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/associatedServers",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-associatedServers",
     "version": "1.0.0",
     "name": "AssociatedServers"
   },
   {
-    "id": "careteam-alias",
+    "id": "base-ext-careteam-alias",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/careteam-alias",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-careteam-alias",
     "version": "1.0.0",
     "name": "CareteamAlias"
   },
   {
-    "id": "communication-proficiency",
+    "id": "base-ext-communication-proficiency",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/communication-proficiency",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-communication-proficiency",
     "version": "1.0.0",
     "name": "CommunicationProficiency"
   },
   {
-    "id": "contactpoint-availabletime",
+    "id": "base-ext-contactpoint-availabletime",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/contactpoint-availabletime",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-contactpoint-availabletime",
     "version": "1.0.0",
     "name": "ContactPointAvailableTime"
   },
   {
-    "id": "delivery-method",
+    "id": "base-ext-delivery-method",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/delivery-method",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-delivery-method",
     "version": "1.0.0",
     "name": "DeliveryMethod"
   },
   {
-    "id": "dynamicRegistration",
+    "id": "base-ext-dynamicRegistration",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/dynamicRegistration",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-dynamicRegistration",
     "version": "1.0.0",
     "name": "DynamicRegistration"
   },
   {
-    "id": "endpoint-reference",
+    "id": "base-ext-endpoint-reference",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/endpoint-reference",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-endpoint-reference",
     "version": "1.0.0",
     "name": "EndpointReference"
   },
   {
-    "id": "endpoint-usecase",
+    "id": "base-ext-endpoint-usecase",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/endpoint-usecase",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-endpoint-usecase",
     "version": "1.0.0",
     "name": "EndpointUsecase"
   },
   {
-    "id": "endpointType",
+    "id": "base-ext-endpointType",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/endpointType",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-endpointType",
     "version": "1.0.0",
     "name": "EndpointType"
   },
   {
-    "id": "fundingSource",
+    "id": "base-ext-fundingSource",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/fundingSource",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-fundingSource",
     "version": "1.0.0",
     "name": "FundingSource"
   },
   {
-    "id": "healthcareservice-reference",
+    "id": "base-ext-healthcareservice-reference",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/healthcareservice-reference",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-healthcareservice-reference",
     "version": "1.0.0",
     "name": "HealthcareServiceReference"
   },
   {
-    "id": "identifier-status",
+    "id": "base-ext-identifier-status",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/identifier-status",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-identifier-status",
     "version": "1.0.0",
     "name": "IdentifierStatus"
   },
   {
-    "id": "igsSupported",
+    "id": "base-ext-igsSupported",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/igsSupported",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-igsSupported",
     "version": "1.0.0",
     "name": "IGsSupported"
   },
   {
-    "id": "location-reference",
+    "id": "base-ext-location-reference",
     "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/location-reference",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-location-reference",
     "version": "1.0.0",
     "name": "LocationReference"
+  },
+  {
+    "id": "base-ext-network-reference",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-network-reference",
+    "version": "1.0.0",
+    "name": "NetworkReference"
+  },
+  {
+    "id": "base-ext-newpatients",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-newpatients",
+    "version": "1.0.0",
+    "name": "NewPatients"
+  },
+  {
+    "id": "base-ext-org-description",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-org-description",
+    "version": "1.0.0",
+    "name": "OrgDescription"
+  },
+  {
+    "id": "base-ext-paymentAccepted",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-paymentAccepted",
+    "version": "1.0.0",
+    "name": "PaymentAccepted"
+  },
+  {
+    "id": "base-ext-practitioner-qualification",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-practitioner-qualification",
+    "version": "1.0.0",
+    "name": "PractitionerQualification"
+  },
+  {
+    "id": "base-ext-rating",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-rating",
+    "version": "1.0.0",
+    "name": "Rating"
+  },
+  {
+    "id": "base-ext-requiredDocument",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-requiredDocument",
+    "version": "1.0.0",
+    "name": "RequiredDocument"
+  },
+  {
+    "id": "base-ext-secureEndpoint",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-secureEndpoint",
+    "version": "1.0.0",
+    "name": "SecureEndpoint"
+  },
+  {
+    "id": "base-ext-secureExchangeArtifacts",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-secureExchangeArtifacts",
+    "version": "1.0.0",
+    "name": "SecureExchangeArtifacts"
+  },
+  {
+    "id": "base-ext-trustFramework",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-trustFramework",
+    "version": "1.0.0",
+    "name": "TrustFramework"
+  },
+  {
+    "id": "base-ext-usage-restriction",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-usage-restriction",
+    "version": "1.0.0",
+    "name": "UsageRestriction"
+  },
+  {
+    "id": "base-ext-via-intermediary",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-via-intermediary",
+    "version": "1.0.0",
+    "name": "ViaIntermediary"
   },
   {
     "id": "ndh-CareTeam",
@@ -334,90 +572,6 @@
     "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Verification",
     "version": "1.0.0",
     "name": "NdhVerification"
-  },
-  {
-    "id": "network-reference",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/network-reference",
-    "version": "1.0.0",
-    "name": "NetworkReference"
-  },
-  {
-    "id": "newpatients",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/newpatients",
-    "version": "1.0.0",
-    "name": "NewPatients"
-  },
-  {
-    "id": "org-description",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/org-description",
-    "version": "1.0.0",
-    "name": "OrgDescription"
-  },
-  {
-    "id": "paymentAccepted",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/paymentAccepted",
-    "version": "1.0.0",
-    "name": "PaymentAccepted"
-  },
-  {
-    "id": "practitioner-qualification",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/practitioner-qualification",
-    "version": "1.0.0",
-    "name": "PractitionerQualification"
-  },
-  {
-    "id": "rating",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/rating",
-    "version": "1.0.0",
-    "name": "Rating"
-  },
-  {
-    "id": "requiredDocument",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/requiredDocument",
-    "version": "1.0.0",
-    "name": "RequiredDocument"
-  },
-  {
-    "id": "secureEndpoint",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/secureEndpoint",
-    "version": "1.0.0",
-    "name": "SecureEndpoint"
-  },
-  {
-    "id": "secureExchangeArtifacts",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/secureExchangeArtifacts",
-    "version": "1.0.0",
-    "name": "SecureExchangeArtifacts"
-  },
-  {
-    "id": "trustFramework",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/trustFramework",
-    "version": "1.0.0",
-    "name": "TrustFramework"
-  },
-  {
-    "id": "usage-restriction",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/usage-restriction",
-    "version": "1.0.0",
-    "name": "UsageRestriction"
-  },
-  {
-    "id": "via-intermediary",
-    "type": "StructureDefinition",
-    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/via-intermediary",
-    "version": "1.0.0",
-    "name": "ViaIntermediary"
   },
   {
     "id": "AcceptingPatientsVS",

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CapabilityStatement xmlns="http://hl7.org/fhir">
+  <id value="ndh-query-BasicEndpoint"/>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>NDH Query Basic Endpoint Capability Statement</h2><div><p>Capabilities for a basic Query Server where endpoint search capabilities are met</p>
+</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title="GET a resource (read interaction)">Read</b></th><th><b title="GET all set of resources of the type (search interaction)">Search</b></th><th><b title="PUT a new resource version (update interaction)">Update</b></th><th><b title="POST a new resource (create interaction)">Create</b></th></tr><tr><td>Endpoint</td><td>Supported profiles:<br/>  <a href="https://hl7.org/fhir/ndh/StructureDefinition/ndh-Endpoint">https://hl7.org/fhir/ndh/StructureDefinition/ndh-Endpoint</a></td><td>y</td><td></td><td></td><td></td></tr><tr><td>HealthcareService</td><td>Supported profiles:<br/>  <a href="https://hl7.org/fhir/ndh/StructureDefinition/ndh-HealthcareService">https://hl7.org/fhir/ndh/StructureDefinition/ndh-HealthcareService</a></td><td>y</td><td>y</td><td></td><td></td></tr></table></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/ndh/CapabilityStatement/ndh-query-BasicEndpoint"/>
+  <version value="1.0.0"/>
+  <name value="NDH Query Basic Endpoint Capability Statement"/>
+  <status value="draft"/>
+  <date value="2022-10-31"/>
+  <publisher value="HL7 International - Patient Administration Work Group"/>
+  <contact>
+    <name value="HL7 International - Patient Administration Work Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/Special/committees/pafm"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="pafm@lists.hl7.org"/>
+    </telecom>
+  </contact>
+  <description value="Capabilities for a basic Query Server where endpoint search capabilities are met"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <kind value="requirements"/>
+  <fhirVersion value="4.0.1"/>
+  <format value="json"/>
+  <rest>
+    <mode value="server"/>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <type value="Endpoint"/>
+      <supportedProfile value="https://hl7.org/fhir/ndh/StructureDefinition/ndh-Endpoint">
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+      </supportedProfile>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="read"/>
+      </interaction>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+      <type value="HealthcareService"/>
+      <supportedProfile value="https://hl7.org/fhir/ndh/StructureDefinition/ndh-HealthcareService">
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+      </supportedProfile>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="read"/>
+      </interaction>
+      <interaction>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <code value="search-type"/>
+      </interaction>
+    </resource>
+  </rest>
+</CapabilityStatement>
