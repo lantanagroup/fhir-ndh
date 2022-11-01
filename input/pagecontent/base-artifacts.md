@@ -1,3 +1,48 @@
+### Profiles Defined by NDH
+* [Organization]
+* [PractitionerRole]
+* [OrganizationAffiliation]
+* [Network]
+* [Practitioner]
+* [Location]
+* [HealthcareService]
+* [Endpoint]
+* [CareTeam]
+* [InsurancePlan]
+* [Verification]
+* [Restriction]
+
+
+### Extensions Defined by NDH
+* [Accessibility]
+* [AssociatedServers]
+* [CareteamAlias]
+* [CommunicationProficiency]
+* [ContactPointAvailableTime]
+* [DeliveryMethod]
+* [DynamicRegistration]
+* [EndpointReference]
+* [EndpointType]
+* [EndpointUsecase]
+* [FundingSource]
+* [HealthcareServiceReference]
+* [IdentifierStatus]
+* [IGsSupported]
+* [LocationReference]
+* [NewPatients]
+* [NetworkReference]
+* [OrgDescription]
+* [PaymentAccepted]
+* [PractitionerQualification]
+* [Rating]
+* [RequiredDocument]
+* [SecureEndpoint]
+* [SecureExchangeArtifacts]
+* [TrustFramework]
+* [UsageRestriction]
+* [ViaIntermediary]
+
+
 ### Code System Defined by NDH
 * [AcceptingPatientsCS]
 * [AccessibilityCS]
@@ -48,8 +93,6 @@
 * [TrustFrameworkTypeVS]
 * [ValidationProcessVS]
 * [VirtualModalitiesVS]
-
-
 
 
 {% include markdown-link-references.md %}

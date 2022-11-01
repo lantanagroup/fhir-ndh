@@ -1,6 +1,6 @@
 
 Extension: Accessibility
-Id: accessibility
+Id: base-ext-accessibility
 Title: "Accessibility"
 Description: "An extension to describe accessibility options offered by a practitioner or at a location."
 * value[x] 1..1 
@@ -8,7 +8,7 @@ Description: "An extension to describe accessibility options offered by a practi
 * value[x] from AccessibilityVS (extensible)
 
 Extension: AssociatedServers
-Id: associatedServers
+Id: base-ext-associatedServers
 Title: "Associated Servers"
 Description: "Associated Servers"
 * extension contains
@@ -22,7 +22,7 @@ Description: "Associated Servers"
 * extension[serverURL].value[x] 1..1
 
 Extension: CareteamAlias
-Id: careteam-alias
+Id: base-ext-careteam-alias
 Title: "NDH Careteam Alias"
 Description: "Alternate names by which the team is known"
 * ^context.expression = "CareTeam"
@@ -38,7 +38,7 @@ Description: "Alternate names by which the team is known"
 * valueString ^definition = "Alternate names by which the team is also known"
 
 Extension: CommunicationProficiency
-Id: communication-proficiency
+Id: base-ext-communication-proficiency
 Title: "Communication Proficiency"
 Description: "An extension to express a practitioner’s spoken proficiency with the language indicated in practitioner.communication."
 * value[x] 1..1 
@@ -47,7 +47,7 @@ Description: "An extension to express a practitioner’s spoken proficiency with
 
 
 Extension: ContactPointAvailableTime
-Id: contactpoint-availabletime
+Id: base-ext-contactpoint-availabletime
 Title: "Contactpoint Availabletime"
 Description: "An extension representing the days and times a contact point is available"
 * value[x] 0..0
@@ -64,7 +64,7 @@ Description: "An extension representing the days and times a contact point is av
 
 
 Extension: DeliveryMethod
-Id: delivery-method
+Id: base-ext-delivery-method
 Title: "Delivery Method"
 Description: "An extension describing the service delivery method.   If service delivery is virtual, one or more delivery modalities should be specified."
 * value[x] 0..0
@@ -81,7 +81,7 @@ Description: "An extension describing the service delivery method.   If service 
 * extension[virtualModalities] ^short = "Modalities of Virtual Delivery"
 
 Extension: DynamicRegistration
-Id: dynamicRegistration
+Id: base-ext-dynamicRegistration
 Title: "Dynamic Registration"
 Description: "Dynamic Registration"
 * extension contains
@@ -96,7 +96,7 @@ Description: "Dynamic Registration"
 
 
 Extension: EndpointReference
-Id: endpoint-reference
+Id: base-ext-endpoint-reference
 Title: "NDH Practitioner Endpoint Reference"
 Description: "The technical details of an endpoint that can be used for electronic services"
 * ^context[0].expression = "Practitioner"
@@ -113,7 +113,7 @@ Description: "The technical details of an endpoint that can be used for electron
 * valueReference ^definition = "A reference to the endpoint"
 
 Extension: EndpointType
-Id: endpointType
+Id: base-ext-endpointType
 Title: "Endpoint Type"
 Description: "Type of Endpoint"
 * extension contains 
@@ -124,7 +124,7 @@ Description: "Type of Endpoint"
 
 
 Extension: EndpointUsecase
-Id: endpoint-usecase
+Id: base-ext-endpoint-usecase
 Title: "Endpoint Usecase"
 Description: "EndpointUseCase is an enumeration of the specific use cases (service descriptions) supported by the endpoint"
 * value[x] 0..0
@@ -140,8 +140,8 @@ Description: "EndpointUseCase is an enumeration of the specific use cases (servi
 * extension[standard].value[x] 1..1
 
 
-Extension:      FundingSource
-Id:             fundingSource
+Extension: FundingSource
+Id: base-ext-fundingSource
 Title: "Funding Source"
 Description: "The sources of funding for a service or organization"
 * extension contains
@@ -153,7 +153,7 @@ Description: "The sources of funding for a service or organization"
 * extension[fundingOrganization].value[x] only Reference(NdhOrganization)
 
 Extension: HealthcareServiceReference
-Id: healthcareservice-reference
+Id: base-ext-healthcareservice-reference
 Title: "NDH Healthcareservice Reference"
 Description: "Reference to healthcareservice resource"
 * ^context.expression = "CareTeam"
@@ -170,7 +170,7 @@ Description: "Reference to healthcareservice resource"
 * valueReference ^comment = "Extension to careteam"
 
 Extension: IdentifierStatus
-Id: identifier-status
+Id: base-ext-identifier-status
 Title: "NDH Identifier Status"
 Description: "Describes the status of an identifier"
 * ^context.expression = "Identifier"
@@ -188,7 +188,7 @@ Description: "Describes the status of an identifier"
 * valueCode ^definition = "Describes the status of an identifier"
 
 Extension: IGsSupported
-Id: igsSupported
+Id: base-ext-igsSupported
 Title: "IGs Supported"
 Description: "IGs Supported document the different types of IGs supported by the Endpoint."
 * value[x] 0..0
@@ -209,7 +209,7 @@ Description: "IGs Supported document the different types of IGs supported by the
 * extension[versionCode] ^short = "IG Version Code"
 
 Extension: LocationReference
-Id: location-reference
+Id: base-ext-location-reference
 Title: "Location Reference"
 Description: "A reference to a Location resource (NDH-Location) defining the coverage area of a health insurance provider network"
 * value[x] only Reference (NdhLocation)
@@ -217,7 +217,7 @@ Description: "A reference to a Location resource (NDH-Location) defining the cov
 
 
 Extension: NewPatients
-Id: newpatients
+Id: base-ext-newpatients
 Title: "New Patients"
 Description: "New Patients indicates whether new patients are being accepted in general, or from a specific network.   
               This extension is included in the PractitionerRole, HealthcareService, and Location profiles.  
@@ -240,21 +240,21 @@ Description: "New Patients indicates whether new patients are being accepted in 
 * extension[characteristics] ^short = "Characteristics of accepted patients"
 
 Extension: NetworkReference
-Id: network-reference
+Id: base-ext-network-reference
 Title: "Network Reference"
 Description: "A reference to the healthcare provider insurance networks (NdhNetwork) the practitioner participates in through their role"
 * value[x] only Reference(NdhNetwork) 
 * value[x] 1..1 MS 
 
 Extension: OrgDescription
-Id: org-description
+Id: base-ext-org-description
 Title: "Org Description"
 Description: "An extension to provide a human-readable description of an organization"
 * value[x] 1..1 MS
 * value[x] only string 
 
 Extension: PaymentAccepted
-Id: paymentAccepted
+Id: base-ext-paymentAccepted
 Title: "Payment Accepted"
 Description: "Methods of payment that can be used for a healthcare service"
 * value[x] 0..1 
@@ -263,7 +263,7 @@ Description: "Methods of payment that can be used for a healthcare service"
 
 
 Extension: PractitionerQualification
-Id: practitioner-qualification
+Id: base-ext-practitioner-qualification
 Title: "Practitioner Qualification"
 Description: "An extension to add status and whereValid elements to a practitioner’s qualifications."
 * value[x] 0..0
@@ -281,7 +281,7 @@ Description: "An extension to add status and whereValid elements to a practition
 * extension[whereValid].value[x] 1..1
 
 Extension: Rating
-Id: rating
+Id: base-ext-rating
 Title: "Rating"
 Description: "Rating"
 * extension contains
@@ -294,7 +294,7 @@ Description: "Rating"
 * extension[ratingValue] ^short = "Rating"
 
 Extension: RequiredDocument
-Id: requiredDocument
+Id: base-ext-requiredDocument
 Title: "Required Document"
 Description: "Documents that are required in order to access or use services (eg. Gov't issued ID, passport)"
 * extension contains
@@ -305,14 +305,14 @@ Description: "Documents that are required in order to access or use services (eg
 
 
 Extension: SecureEndpoint
-Id: secureEndpoint
+Id: base-ext-secureEndpoint
 Title: "Secure Endpoint"
 Description: "Is the Endpoint Secured"
 * value[x] 1..1 
 * value[x] only boolean
 
 Extension: SecureExchangeArtifacts
-Id: secureExchangeArtifacts
+Id: base-ext-secureExchangeArtifacts
 Title: "Secure Exchange Artifacts"
 Description: "Secure Exchange Artifacts"
 * extension contains
@@ -329,7 +329,7 @@ Description: "Secure Exchange Artifacts"
 
 
 Extension: TrustFramework
-Id: trustFramework
+Id: base-ext-trustFramework
 Title: "Trust Framework"
 Description: "Trust Framework"
 * extension contains
@@ -351,7 +351,7 @@ Description: "Trust Framework"
 * extension[publicCertificate].value[x] 1..1
 
 Extension: UsageRestriction
-Id: usage-restriction
+Id: base-ext-usage-restriction
 Title: "NDH Usage Restriction"
 Description: """The FHIR specification contains a security meta tag which can be used to inform systems of the sensitivity of resources, as well as by access control 
 mechanisms to ensure content isn't exposed that shouldn't be. This mechanism only goes to the resource level, this reference to a usage-restriction (consent) extends 
@@ -371,7 +371,7 @@ to multiple properties in the same resource)"
 * valueReference.identifier ..0
 
 Extension: ViaIntermediary
-Id: via-intermediary
+Id: base-ext-via-intermediary
 Title: "Via Intermediary"
 Description: "A reference to an alternative point of contact (NdhPractitionerRole, NdhOrganization, NdhOrganizationAffiliation, or NdhLocation) for this organization"
 * value[x] only Reference(NdhPractitionerRole or NdhOrganizationAffiliation or NdhLocation or NdhOrganization) 
