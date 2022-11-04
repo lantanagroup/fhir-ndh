@@ -118,50 +118,6 @@
         ]
       }
     },
-    "/HealthcareService": {
-      "summary": "manage the collection of resources of type HealthcareService",
-      "description": "Access to services to manage the collection of all resources of type HealthcareService",
-      "get": {
-        "summary": "Search all resources of type HealthcareService based on a set of criteria",
-        "operationId": "searchHealthcareService",
-        "responses": {
-          "default": {
-            "description": "Error, with details",
-            "content": {
-              "application/fhir+json": {
-                "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/OperationOutcome"
-                }
-              }
-            }
-          },
-          "200": {
-            "description": "the resource being returned",
-            "content": {
-              "application/fhir+json": {
-                "schema": {
-                  "$ref": "https://hl7.org/fhir/R4/fhir.schema.json#/definitions/Bundle"
-                }
-              }
-            }
-          }
-        },
-        "parameters": [
-          {
-            "$ref": "#/components/parameters/format"
-          },
-          {
-            "$ref": "#/components/parameters/pretty"
-          },
-          {
-            "$ref": "#/components/parameters/summary"
-          },
-          {
-            "$ref": "#/components/parameters/elements"
-          }
-        ]
-      }
-    },
     "/HealthcareService/{rid}": {
       "summary": "Read/Write/etc resource instance of type HealthcareService",
       "description": "Access to services to manage the state of a single resource of type HealthcareService",

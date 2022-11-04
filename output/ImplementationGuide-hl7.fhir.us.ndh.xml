@@ -10,7 +10,7 @@
   <name value="NDH"/>
   <title value="National Directory of Healthcare Providers &amp; Services (NDH) Implementation Guide"/>
   <status value="active"/>
-  <date value="2022-10-31T22:12:57-04:00"/>
+  <date value="2022-11-04T11:24:16-04:00"/>
   <publisher value="HL7 International - Patient Administration Work Group"/>
   <contact>
     <name value="HL7 International - Patient Administration Work Group"/>
@@ -467,7 +467,7 @@
       <reference>
         <reference value="StructureDefinition/ndh-CareTeam"/>
       </reference>
-      <name value="NDH Care Team"/>
+      <name value="NDH Base CareTeam"/>
       <description value="Defines the basic constraints and extensions on the CareTeam resource for use in a Validated Healthcare Directory"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -478,7 +478,7 @@
       <reference>
         <reference value="StructureDefinition/ndh-Endpoint"/>
       </reference>
-      <name value="NDH Endpoint"/>
+      <name value="NDH Base Endpoint"/>
       <description value="The technical details of an endpoint that can be used for electronic services, such as a portal or FHIR REST services, messaging or operations, or DIRECT messaging."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -487,9 +487,20 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/ndh-HealthcareService"/>
+        <reference value="StructureDefinition/ndhEx-Endpoint"/>
       </reference>
-      <name value="NDH HealthcareService"/>
+      <name value="NDH Exchange Endpoint"/>
+      <description value="The technical details of an endpoint that can be used for electronic services, such as a portal or FHIR REST services, messaging or operations, &#xD;&#xA;or DIRECT messaging."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ndhEx-HealthcareService"/>
+      </reference>
+      <name value="NDH Exchange HealthcareService"/>
       <description value="The HealthCareService resource typically describes services offered by an organization/practitioner at a location. &#xD;&#xA;The resource may be used to encompass a variety of services covering the entire healthcare spectrum, including promotion, prevention, diagnostics, pharmacy, &#xD;&#xA;hospital and ambulatory care, home care, long-term care, and other health-related and community services."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -498,20 +509,9 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/ndh-InsurancePlan"/>
+        <reference value="StructureDefinition/ndhEx-Location"/>
       </reference>
-      <name value="NDH InsurancePlan"/>
-      <description value="An InsurancePlan is a discrete package of health insurance coverage benefits that are offered under a particular network type. A given payer’s products &#xD;&#xA;typically differ by network type and/or covered benefits. A plan pairs a product’s covered benefits with the particular cost sharing structure offered to a consumer. &#xD;&#xA;A given product may comprise multiple plans (i.e. each plan offers different cost sharing requirements for the same set of covered benefits).&#xD;&#xA;InsurancePlan describes a health insurance offering comprised of a list of covered benefits (i.e. the product), costs associated with those benefits (i.e. the plan), &#xD;&#xA;and additional information about the offering, such as who it is owned and administered by, a coverage area, contact information, etc."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/ndh-Location"/>
-      </reference>
-      <name value="NDH Location"/>
+      <name value="NDH Exchange Location"/>
       <description value="A Location is the physical place where healthcare services are provided, practitioners are employed, &#xD;&#xA;                 organizations are based, etc. Locations can range in scope from a room in a building to a geographic region/area."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -520,29 +520,7 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/ndh-Network"/>
-      </reference>
-      <name value="NDH Network"/>
-      <description value="A Network refers to a healthcare provider insurance network. A healthcare provider insurance network is an aggregation of organizations and individuals &#xD;&#xA;that deliver a set of services across a geography through health insurance products/plans. A network is typically owned by a payer.&#xD;&#xA;In the NDH IG, individuals and organizations are represented as participants in a National Directory Exchange Network through the practitionerRole and &#xD;&#xA;National Directory Exchange-organizationAffiliation resources, respectively."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/ndh-Organization"/>
-      </reference>
-      <name value="NDH Organization"/>
-      <description value="An organization is a formal or informal grouping of people or organizations with a common purpose, such as a company, institution, corporation, &#xD;&#xA;community group, or healthcare practice. Guidance: When the contact is a department name, rather than a human (e.g., patient help line), include a blank family &#xD;&#xA;and given name, and provide the department name in contact.name.text"/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:resource"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/ndh-OrganizationAffiliation"/>
+        <reference value="StructureDefinition/ndhEx-OrganizationAffiliation"/>
       </reference>
       <name value="NDH OrganizationAffiliation"/>
       <description value="The OrganizationAffiliation resource describes relationships between two or more organizations, including the services one organization provides another, &#xD;&#xA;the location(s) where they provide services, the availability of those services, electronic endpoints, and other relevant information."/>
@@ -553,9 +531,86 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/ndhEx-PractitionerRole"/>
+      </reference>
+      <name value="NDH Exchange PractitionerRole"/>
+      <description value="PractionerRole describes details about a provider, which can be a practitioner or an organization. When the provider is a practitioner, &#xD;&#xA;there may be a relationship to an organization. A provider renders services to patients at a location. When the provider is a practitioner, there may also &#xD;&#xA;be a relationship to an organization. Practitioner participation in healthcare provider insurance networks may be direct or through their role at an organization."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ndh-HealthcareService"/>
+      </reference>
+      <name value="NDH Base HealthcareService"/>
+      <description value="The HealthCareService resource typically describes services offered by an organization/practitioner at a location. &#xD;&#xA;The resource may be used to encompass a variety of services covering the entire healthcare spectrum, including promotion, prevention, diagnostics, pharmacy, &#xD;&#xA;hospital and ambulatory care, home care, long-term care, and other health-related and community services."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ndh-InsurancePlan"/>
+      </reference>
+      <name value="NDH Base InsurancePlan"/>
+      <description value="An InsurancePlan is a discrete package of health insurance coverage benefits that are offered under a particular network type. A given payer’s products &#xD;&#xA;typically differ by network type and/or covered benefits. A plan pairs a product’s covered benefits with the particular cost sharing structure offered to a consumer. &#xD;&#xA;A given product may comprise multiple plans (i.e. each plan offers different cost sharing requirements for the same set of covered benefits).&#xD;&#xA;InsurancePlan describes a health insurance offering comprised of a list of covered benefits (i.e. the product), costs associated with those benefits (i.e. the plan), &#xD;&#xA;and additional information about the offering, such as who it is owned and administered by, a coverage area, contact information, etc."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ndh-Location"/>
+      </reference>
+      <name value="NDH Base Location"/>
+      <description value="A Location is the physical place where healthcare services are provided, practitioners are employed, &#xD;&#xA;                 organizations are based, etc. Locations can range in scope from a room in a building to a geographic region/area."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ndh-Network"/>
+      </reference>
+      <name value="NDH Base Network"/>
+      <description value="A Network refers to a healthcare provider insurance network. A healthcare provider insurance network is an aggregation of organizations and individuals &#xD;&#xA;that deliver a set of services across a geography through health insurance products/plans. A network is typically owned by a payer.&#xD;&#xA;In the NDH IG, individuals and organizations are represented as participants in a National Directory Exchange Network through the practitionerRole and &#xD;&#xA;National Directory Exchange-organizationAffiliation resources, respectively."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ndh-Organization"/>
+      </reference>
+      <name value="NDH Base Organization"/>
+      <description value="An organization is a formal or informal grouping of people or organizations with a common purpose, such as a company, institution, corporation, &#xD;&#xA;community group, or healthcare practice. Guidance: When the contact is a department name, rather than a human (e.g., patient help line), include a blank family &#xD;&#xA;and given name, and provide the department name in contact.name.text"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ndh-OrganizationAffiliation"/>
+      </reference>
+      <name value="NDH Base OrganizationAffiliation"/>
+      <description value="The OrganizationAffiliation resource describes relationships between two or more organizations, including the services one organization provides another, &#xD;&#xA;the location(s) where they provide services, the availability of those services, electronic endpoints, and other relevant information."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/ndh-Practitioner"/>
       </reference>
-      <name value="NDH Practitioner"/>
+      <name value="NDH Base Practitioner"/>
       <description value="Practitioner is a person who is directly or indirectly involved in the provisioning of healthcare."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -566,7 +621,7 @@
       <reference>
         <reference value="StructureDefinition/ndh-PractitionerRole"/>
       </reference>
-      <name value="NDH PractitionerRole"/>
+      <name value="NDH Base PractitionerRole"/>
       <description value="PractionerRole describes details about a provider, which can be a practitioner or an organization. When the provider is a practitioner, &#xD;&#xA;there may be a relationship to an organization. A provider renders services to patients at a location. When the provider is a practitioner, there may also &#xD;&#xA;be a relationship to an organization. Practitioner participation in healthcare provider insurance networks may be direct or through their role at an organization."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -577,8 +632,19 @@
       <reference>
         <reference value="StructureDefinition/ndh-Restriction"/>
       </reference>
-      <name value="NDH Restriction"/>
+      <name value="NDH Base Restriction"/>
       <description value="Restriction on use/release of exchanged information"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/ndhVe-Verification"/>
+      </reference>
+      <name value="NDH Verification Verification"/>
+      <description value="Describes Verification requirements, source(s), status and dates for one or more elements"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -588,7 +654,7 @@
       <reference>
         <reference value="StructureDefinition/ndh-Verification"/>
       </reference>
-      <name value="NDH Verification"/>
+      <name value="NDH Base Verification"/>
       <description value="Describes Verification requirements, source(s), status and dates for one or more elements"/>
       <exampleBoolean value="false"/>
     </resource>
@@ -1437,6 +1503,17 @@
       </reference>
       <name value="Virtual Modalities Code System"/>
       <description value="Categories of virtual service delivery modalities."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CapabilityStatement"/>
+      </extension>
+      <reference>
+        <reference value="CapabilityStatement/ndh-exchange-server"/>
+      </reference>
+      <name value="NDH Exchange Capability Statement"/>
+      <description value="Capabilities for NDH Exchange Server"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

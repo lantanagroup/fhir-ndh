@@ -1,10 +1,11 @@
 ﻿NDH : Validation Results
 =========================================
 
-err = 1, warn = 67, info = 0
+err = 1, warn = 75, info = 0
 IG Publisher Version: 1.2.12
-Generated Mon Oct 31 22:19:26 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.ndh#1.0.0 (canonical = http://hl7.org/fhir/us/ndh)
+Generated Fri Nov 04 11:31:57 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.ndh#1.0.0 (canonical = http://hl7.org/fhir/us/ndh)
  Build Errors : 0 / 4 / 0
+ C:\FHIR-NDH\fsh-generated\resources\CapabilityStatement-ndh-exchange-server : 0 / 1 / 1
  C:\FHIR-NDH\fsh-generated\resources\CapabilityStatement-ndh-query-BasicEndpoint : 0 / 1 / 1
  C:\FHIR-NDH\fsh-generated\resources\CodeSystem-AcceptingPatientsCS : 0 / 0 / 1
  C:\FHIR-NDH\fsh-generated\resources\CodeSystem-AccessibilityCS : 0 / 0 / 1
@@ -87,6 +88,12 @@ Generated Mon Oct 31 22:19:26 EDT 2022. FHIR version 4.0.1 for hl7.fhir.us.ndh#1
  C:\FHIR-NDH\fsh-generated\resources\StructureDefinition-ndh-PractitionerRole : 0 / 2 / 1
  C:\FHIR-NDH\fsh-generated\resources\StructureDefinition-ndh-Restriction : 1 / 1 / 1
  C:\FHIR-NDH\fsh-generated\resources\StructureDefinition-ndh-Verification : 0 / 1 / 1
+ C:\FHIR-NDH\fsh-generated\resources\StructureDefinition-ndhEx-Endpoint : 0 / 1 / 1
+ C:\FHIR-NDH\fsh-generated\resources\StructureDefinition-ndhEx-HealthcareService : 0 / 1 / 1
+ C:\FHIR-NDH\fsh-generated\resources\StructureDefinition-ndhEx-Location : 0 / 1 / 1
+ C:\FHIR-NDH\fsh-generated\resources\StructureDefinition-ndhEx-OrganizationAffiliation : 0 / 1 / 1
+ C:\FHIR-NDH\fsh-generated\resources\StructureDefinition-ndhEx-PractitionerRole : 0 / 2 / 1
+ C:\FHIR-NDH\fsh-generated\resources\StructureDefinition-ndhVe-Verification : 0 / 1 / 1
  C:\FHIR-NDH\fsh-generated\resources\ValueSet-AcceptingPatientsVS : 0 / 0 / 1
  C:\FHIR-NDH\fsh-generated\resources\ValueSet-AccessibilityVS : 0 / 0 / 1
  C:\FHIR-NDH\fsh-generated\resources\ValueSet-DeliveryMethodVS : 0 / 0 / 1
@@ -123,6 +130,8 @@ WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in 
 WARNING: 2: The HTML fragment 'cross-version-analysis.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 3: The HTML fragment 'dependency-table.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+== fsh-generated\resources\CapabilityStatement-ndh-exchange-server.json ==
+WARNING: CapabilityStatement/ndh-exchange-server: CapabilityStatement: Rule cpb-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated\resources\CapabilityStatement-ndh-query-BasicEndpoint.json ==
 WARNING: CapabilityStatement/ndh-query-BasicEndpoint: CapabilityStatement: Rule cpb-0: 'Name should be usable as an identifier for the module by machine processing applications such as code generation' Failed
 == fsh-generated\resources\CodeSystem-AcceptingPatientsCS.json ==
@@ -269,6 +278,19 @@ ERROR: StructureDefinition/ndh-Restriction: StructureDefinition.snapshot.element
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Restriction'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\StructureDefinition-ndh-Verification.json ==
 WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Verification'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-ndhEx-Endpoint.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/ndhEx-Endpoint'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-ndhEx-HealthcareService.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/ndhEx-HealthcareService'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-ndhEx-Location.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/ndhEx-Location'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-ndhEx-OrganizationAffiliation.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/ndhEx-OrganizationAffiliation'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-ndhEx-PractitionerRole.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/ndhEx-PractitionerRole').baseDefinition: US FHIR Usage rules require that all profiles on PractitionerRole derive from the core US profile
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/ndhEx-PractitionerRole'): The Implementation Guide contains no examples for this profile
+== fsh-generated\resources\StructureDefinition-ndhVe-Verification.json ==
+WARNING: StructureDefinition.where(url = 'http://hl7.org/fhir/us/ndh/StructureDefinition/ndhVe-Verification'): The Implementation Guide contains no examples for this profile
 == fsh-generated\resources\ValueSet-AcceptingPatientsVS.json ==
 == fsh-generated\resources\ValueSet-AccessibilityVS.json ==
 == fsh-generated\resources\ValueSet-DeliveryMethodVS.json ==

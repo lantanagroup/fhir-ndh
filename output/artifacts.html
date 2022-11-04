@@ -267,6 +267,15 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <tbody>
             <tr>
                <td style="column-width:30%">
+                  <a href="CapabilityStatement-ndh-exchange-server.html"
+                     title="CapabilityStatement/ndh-exchange-server">NDH Exchange Capability Statement</a>
+               </td>
+               <td>
+<p>Capabilities for NDH Exchange Server</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="CapabilityStatement-ndh-query-BasicEndpoint.html"
                      title="CapabilityStatement/ndh-query-BasicEndpoint">NDH Query Basic Endpoint Capability Statement</a>
                </td>
@@ -490,7 +499,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-ndh-CareTeam.html"
-                     title="StructureDefinition/ndh-CareTeam">NDH Care Team</a>
+                     title="StructureDefinition/ndh-CareTeam">NDH Base CareTeam</a>
                </td>
                <td>
 <p>Defines the basic constraints and extensions on the CareTeam resource for use in a Validated Healthcare Directory</p>
@@ -499,7 +508,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-ndh-Endpoint.html"
-                     title="StructureDefinition/ndh-Endpoint">NDH Endpoint</a>
+                     title="StructureDefinition/ndh-Endpoint">NDH Base Endpoint</a>
                </td>
                <td>
 <p>The technical details of an endpoint that can be used for electronic services, such as a portal or FHIR REST services, messaging or operations, or DIRECT messaging.</p>
@@ -507,8 +516,60 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-ndhEx-Endpoint.html"
+                     title="StructureDefinition/ndhEx-Endpoint">NDH Exchange Endpoint</a>
+               </td>
+               <td>
+<p>The technical details of an endpoint that can be used for electronic services, such as a portal or FHIR REST services, messaging or operations, 
+or DIRECT messaging.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ndhEx-HealthcareService.html"
+                     title="StructureDefinition/ndhEx-HealthcareService">NDH Exchange HealthcareService</a>
+               </td>
+               <td>
+<p>The HealthCareService resource typically describes services offered by an organization/practitioner at a location. 
+The resource may be used to encompass a variety of services covering the entire healthcare spectrum, including promotion, prevention, diagnostics, pharmacy, 
+hospital and ambulatory care, home care, long-term care, and other health-related and community services.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ndhEx-Location.html"
+                     title="StructureDefinition/ndhEx-Location">NDH Exchange Location</a>
+               </td>
+               <td>
+<p>A Location is the physical place where healthcare services are provided, practitioners are employed, 
+                 organizations are based, etc. Locations can range in scope from a room in a building to a geographic region/area.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ndhEx-OrganizationAffiliation.html"
+                     title="StructureDefinition/ndhEx-OrganizationAffiliation">NDH OrganizationAffiliation</a>
+               </td>
+               <td>
+<p>The OrganizationAffiliation resource describes relationships between two or more organizations, including the services one organization provides another, 
+the location(s) where they provide services, the availability of those services, electronic endpoints, and other relevant information.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
+                  <a href="StructureDefinition-ndhEx-PractitionerRole.html"
+                     title="StructureDefinition/ndhEx-PractitionerRole">NDH Exchange PractitionerRole</a>
+               </td>
+               <td>
+<p>PractionerRole describes details about a provider, which can be a practitioner or an organization. When the provider is a practitioner, 
+there may be a relationship to an organization. A provider renders services to patients at a location. When the provider is a practitioner, there may also 
+be a relationship to an organization. Practitioner participation in healthcare provider insurance networks may be direct or through their role at an organization.</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-ndh-HealthcareService.html"
-                     title="StructureDefinition/ndh-HealthcareService">NDH HealthcareService</a>
+                     title="StructureDefinition/ndh-HealthcareService">NDH Base HealthcareService</a>
                </td>
                <td>
 <p>The HealthCareService resource typically describes services offered by an organization/practitioner at a location. 
@@ -519,7 +580,7 @@ hospital and ambulatory care, home care, long-term care, and other health-relate
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-ndh-InsurancePlan.html"
-                     title="StructureDefinition/ndh-InsurancePlan">NDH InsurancePlan</a>
+                     title="StructureDefinition/ndh-InsurancePlan">NDH Base InsurancePlan</a>
                </td>
                <td>
 <p>An InsurancePlan is a discrete package of health insurance coverage benefits that are offered under a particular network type. A given payer’s products 
@@ -532,7 +593,7 @@ and additional information about the offering, such as who it is owned and admin
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-ndh-Location.html"
-                     title="StructureDefinition/ndh-Location">NDH Location</a>
+                     title="StructureDefinition/ndh-Location">NDH Base Location</a>
                </td>
                <td>
 <p>A Location is the physical place where healthcare services are provided, practitioners are employed, 
@@ -542,7 +603,7 @@ and additional information about the offering, such as who it is owned and admin
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-ndh-Network.html"
-                     title="StructureDefinition/ndh-Network">NDH Network</a>
+                     title="StructureDefinition/ndh-Network">NDH Base Network</a>
                </td>
                <td>
 <p>A Network refers to a healthcare provider insurance network. A healthcare provider insurance network is an aggregation of organizations and individuals 
@@ -554,7 +615,7 @@ National Directory Exchange-organizationAffiliation resources, respectively.</p>
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-ndh-Organization.html"
-                     title="StructureDefinition/ndh-Organization">NDH Organization</a>
+                     title="StructureDefinition/ndh-Organization">NDH Base Organization</a>
                </td>
                <td>
 <p>An organization is a formal or informal grouping of people or organizations with a common purpose, such as a company, institution, corporation, 
@@ -565,7 +626,7 @@ and given name, and provide the department name in contact.name.text</p>
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-ndh-OrganizationAffiliation.html"
-                     title="StructureDefinition/ndh-OrganizationAffiliation">NDH OrganizationAffiliation</a>
+                     title="StructureDefinition/ndh-OrganizationAffiliation">NDH Base OrganizationAffiliation</a>
                </td>
                <td>
 <p>The OrganizationAffiliation resource describes relationships between two or more organizations, including the services one organization provides another, 
@@ -575,7 +636,7 @@ the location(s) where they provide services, the availability of those services,
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-ndh-Practitioner.html"
-                     title="StructureDefinition/ndh-Practitioner">NDH Practitioner</a>
+                     title="StructureDefinition/ndh-Practitioner">NDH Base Practitioner</a>
                </td>
                <td>
 <p>Practitioner is a person who is directly or indirectly involved in the provisioning of healthcare.</p>
@@ -584,7 +645,7 @@ the location(s) where they provide services, the availability of those services,
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-ndh-PractitionerRole.html"
-                     title="StructureDefinition/ndh-PractitionerRole">NDH PractitionerRole</a>
+                     title="StructureDefinition/ndh-PractitionerRole">NDH Base PractitionerRole</a>
                </td>
                <td>
 <p>PractionerRole describes details about a provider, which can be a practitioner or an organization. When the provider is a practitioner, 
@@ -595,7 +656,7 @@ be a relationship to an organization. Practitioner participation in healthcare p
             <tr>
                <td style="column-width:30%">
                   <a href="StructureDefinition-ndh-Restriction.html"
-                     title="StructureDefinition/ndh-Restriction">NDH Restriction</a>
+                     title="StructureDefinition/ndh-Restriction">NDH Base Restriction</a>
                </td>
                <td>
 <p>Restriction on use/release of exchanged information</p>
@@ -603,8 +664,17 @@ be a relationship to an organization. Practitioner participation in healthcare p
             </tr>
             <tr>
                <td style="column-width:30%">
+                  <a href="StructureDefinition-ndhVe-Verification.html"
+                     title="StructureDefinition/ndhVe-Verification">NDH Verification Verification</a>
+               </td>
+               <td>
+<p>Describes Verification requirements, source(s), status and dates for one or more elements</p>
+</td>
+            </tr>
+            <tr>
+               <td style="column-width:30%">
                   <a href="StructureDefinition-ndh-Verification.html"
-                     title="StructureDefinition/ndh-Verification">NDH Verification</a>
+                     title="StructureDefinition/ndh-Verification">NDH Base Verification</a>
                </td>
                <td>
 <p>Describes Verification requirements, source(s), status and dates for one or more elements</p>
@@ -1358,7 +1428,7 @@ then all the properties of the identifier should not be exposed unless it is und
 
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/pafm">HL7 International - Patient Administration Work Group</a>.  Package hl7.fhir.us.ndh#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Oct 31, 2022 22:12-0400">2022-10-31</span>
+          IG &#169; 2022+ <a style="color:var(--footer-hyperlink-text-color)" href="http://hl7.org/Special/committees/pafm">HL7 International - Patient Administration Work Group</a>.  Package hl7.fhir.us.ndh#1.0.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, Nov 4, 2022 11:24-0400">2022-11-04</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
                       Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |

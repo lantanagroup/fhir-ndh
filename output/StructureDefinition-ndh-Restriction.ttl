@@ -24,7 +24,7 @@
   fhir:StructureDefinition.url [ fhir:value "http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Restriction"];
   fhir:StructureDefinition.version [ fhir:value "1.0.0"];
   fhir:StructureDefinition.name [ fhir:value "NdhRestriction"];
-  fhir:StructureDefinition.title [ fhir:value "NDH Restriction"];
+  fhir:StructureDefinition.title [ fhir:value "NDH Base Restriction"];
   fhir:StructureDefinition.status [ fhir:value "active"];
   fhir:StructureDefinition.date [ fhir:value "2017-12-15T01:01:31.325+11:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 International - Patient Administration Work Group"];

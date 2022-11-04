@@ -17,7 +17,7 @@
   fhir:StructureDefinition.name [ fhir:value "SecureEndpoint"];
   fhir:StructureDefinition.title [ fhir:value "Secure Endpoint"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2022-10-31T22:12:57-04:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2022-11-04T11:24:16-04:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "HL7 International - Patient Administration Work Group"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

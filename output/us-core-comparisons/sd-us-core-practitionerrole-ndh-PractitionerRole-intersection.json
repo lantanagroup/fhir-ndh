@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "1b2a1f42-9b6f-491e-9c3d-9dc1b1054ccd-9",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/1b2a1f42-9b6f-491e-9c3d-9dc1b1054ccd-9",
+  "id" : "9e539f91-4940-40ed-8125-4e1c50293411-9",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/9e539f91-4940-40ed-8125-4e1c50293411-9",
   "name" : "IntersectionUSCorePractitionerRoleProfileAndNdhPractitionerRole",
-  "title" : "Intersection of US Core PractitionerRole Profile And NDH PractitionerRole",
+  "title" : "Intersection of US Core PractitionerRole Profile And NDH Base PractitionerRole",
   "status" : "active",
-  "date" : "2022-10-31T22:13:36-04:00",
+  "date" : "2022-11-04T11:25:05-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -648,7 +648,7 @@
       "path" : "PractitionerRole.practitioner",
       "short" : "Practitioner that is able to provide the defined services for the organization",
       "definition" : "Practitioner that is able to provide the defined services for the organization.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "type" : [{
         "code" : "Reference",
@@ -674,7 +674,7 @@
       "path" : "PractitionerRole.organization",
       "short" : "Organization where the roles are available",
       "definition" : "The organization where the Practitioner performs the roles associated.",
-      "min" : 1,
+      "min" : 0,
       "max" : "1",
       "type" : [{
         "code" : "Reference",
@@ -721,7 +721,7 @@
       "binding" : {
         "strength" : "required",
         "description" : "Provider role codes consisting of NUCC Health Care Provider Taxonomy Code Set for providers.",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/1b2a1f42-9b6f-491e-9c3d-9dc1b1054ccd-12"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/9e539f91-4940-40ed-8125-4e1c50293411-12"
       },
       "mapping" : [{
         "identity" : "v2",
@@ -758,7 +758,7 @@
       "isSummary" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/1b2a1f42-9b6f-491e-9c3d-9dc1b1054ccd-15"
+        "valueSet" : "http://hl7.org/fhir/comparison/ValueSet/9e539f91-4940-40ed-8125-4e1c50293411-15"
       },
       "mapping" : [{
         "identity" : "v2",

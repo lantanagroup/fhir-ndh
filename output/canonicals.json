@@ -1,5 +1,12 @@
 [
   {
+    "id": "ndh-exchange-server",
+    "type": "CapabilityStatement",
+    "url": "http://hl7.org/fhir/us/ndh/CapabilityStatement/ndh-exchange-server",
+    "version": "1.0.0",
+    "name": "NDH Exchange Capability Statement"
+  },
+  {
     "id": "ndh-query-BasicEndpoint",
     "type": "CapabilityStatement",
     "url": "http://hl7.org/fhir/us/ndh/CapabilityStatement/ndh-query-BasicEndpoint",
@@ -572,6 +579,48 @@
     "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Verification",
     "version": "1.0.0",
     "name": "NdhVerification"
+  },
+  {
+    "id": "ndhEx-Endpoint",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndhEx-Endpoint",
+    "version": "1.0.0",
+    "name": "NdhExEndpoint"
+  },
+  {
+    "id": "ndhEx-HealthcareService",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndhEx-HealthcareService",
+    "version": "1.0.0",
+    "name": "NdhExHealthcareService"
+  },
+  {
+    "id": "ndhEx-Location",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndhEx-Location",
+    "version": "1.0.0",
+    "name": "NdhExLocation"
+  },
+  {
+    "id": "ndhEx-OrganizationAffiliation",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndhEx-OrganizationAffiliation",
+    "version": "1.0.0",
+    "name": "NdhExOrganizationAffiliation"
+  },
+  {
+    "id": "ndhEx-PractitionerRole",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndhEx-PractitionerRole",
+    "version": "1.0.0",
+    "name": "NdhExPractitionerRole"
+  },
+  {
+    "id": "ndhVe-Verification",
+    "type": "StructureDefinition",
+    "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndhVe-Verification",
+    "version": "1.0.0",
+    "name": "NdhVeVerification"
   },
   {
     "id": "AcceptingPatientsVS",

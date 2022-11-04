@@ -10,7 +10,7 @@
   fhir:Resource.id [ fhir:value "ndh-query-BasicEndpoint"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "extensions" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NDH Query Basic Endpoint Capability Statement</h2><div><p>Capabilities for a basic Query Server where endpoint search capabilities are met</p>\n</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title=\"GET a resource (read interaction)\">Read</b></th><th><b title=\"GET all set of resources of the type (search interaction)\">Search</b></th><th><b title=\"PUT a new resource version (update interaction)\">Update</b></th><th><b title=\"POST a new resource (create interaction)\">Create</b></th></tr><tr><td>Endpoint</td><td>Supported profiles:<br/>  <a href=\"https://hl7.org/fhir/ndh/StructureDefinition/ndh-Endpoint\">https://hl7.org/fhir/ndh/StructureDefinition/ndh-Endpoint</a></td><td>y</td><td></td><td></td><td></td></tr><tr><td>HealthcareService</td><td>Supported profiles:<br/>  <a href=\"https://hl7.org/fhir/ndh/StructureDefinition/ndh-HealthcareService\">https://hl7.org/fhir/ndh/StructureDefinition/ndh-HealthcareService</a></td><td>y</td><td>y</td><td></td><td></td></tr></table></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>NDH Query Basic Endpoint Capability Statement</h2><div><p>Capabilities for a basic Query Server where endpoint search capabilities are met</p>\n</div><table><tr><td>Mode</td><td>SERVER</td></tr><tr><td>Description</td><td/></tr><tr><td>Transaction</td><td></td></tr><tr><td>System History</td><td></td></tr><tr><td>System Search</td><td></td></tr></table><table><tr><th><b>Resource Type</b></th><th><b>Profile</b></th><th><b title=\"GET a resource (read interaction)\">Read</b></th><th><b title=\"GET all set of resources of the type (search interaction)\">Search</b></th><th><b title=\"PUT a new resource version (update interaction)\">Update</b></th><th><b title=\"POST a new resource (create interaction)\">Create</b></th></tr><tr><td>Endpoint</td><td>Supported profiles:<br/>  <a href=\"https://hl7.org/fhir/ndh/StructureDefinition/ndh-Endpoint\">https://hl7.org/fhir/ndh/StructureDefinition/ndh-Endpoint</a></td><td>y</td><td></td><td></td><td></td></tr><tr><td>HealthcareService</td><td>Supported profiles:<br/>  <a href=\"https://hl7.org/fhir/ndh/StructureDefinition/ndh-HealthcareService\">https://hl7.org/fhir/ndh/StructureDefinition/ndh-HealthcareService</a></td><td>y</td><td></td><td></td><td></td></tr></table></div>"
   ];
   fhir:CapabilityStatement.url [ fhir:value "http://hl7.org/fhir/us/ndh/CapabilityStatement/ndh-query-BasicEndpoint"];
   fhir:CapabilityStatement.version [ fhir:value "1.0.0"];
@@ -103,14 +103,6 @@
            fhir:Extension.valueCode [ fhir:value "SHALL" ]
          ];
          fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "read" ]
-       ], [
-         fhir:index 1;
-         fhir:Element.extension [
-           fhir:index 0;
-           fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation" ];
-           fhir:Extension.valueCode [ fhir:value "SHALL" ]
-         ];
-         fhir:CapabilityStatement.rest.resource.interaction.code [ fhir:value "search-type" ]
        ]
      ]
   ] .

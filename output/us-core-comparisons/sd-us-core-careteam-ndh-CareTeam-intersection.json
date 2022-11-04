@@ -1,11 +1,11 @@
 {
   "resourceType" : "StructureDefinition",
-  "id" : "1b2a1f42-9b6f-491e-9c3d-9dc1b1054ccd-3",
-  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/1b2a1f42-9b6f-491e-9c3d-9dc1b1054ccd-3",
+  "id" : "9e539f91-4940-40ed-8125-4e1c50293411-3",
+  "url" : "http://hl7.org/fhir/comparison/StructureDefinition/9e539f91-4940-40ed-8125-4e1c50293411-3",
   "name" : "IntersectionUSCoreCareTeamAndNdhCareTeam",
-  "title" : "Intersection of US Core CareTeam Profile And NDH Care Team",
+  "title" : "Intersection of US Core CareTeam Profile And NDH Base CareTeam",
   "status" : "active",
-  "date" : "2022-10-31T22:13:36-04:00",
+  "date" : "2022-11-04T11:25:05-04:00",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",

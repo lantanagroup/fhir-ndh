@@ -935,79 +935,83 @@
     "CareTeam": [
       {
         "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-CareTeam",
-        "title": "NDH Care Team"
+        "title": "NDH Base CareTeam"
       }
     ],
     "Endpoint": [
       {
-        "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Endpoint",
-        "title": "NDH Endpoint"
+        "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndhEx-Endpoint",
+        "title": "NDH Exchange Endpoint"
       }
     ],
     "HealthcareService": [
       {
-        "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-HealthcareService",
-        "title": "NDH HealthcareService"
+        "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndhEx-HealthcareService",
+        "title": "NDH Exchange HealthcareService"
       }
     ],
     "InsurancePlan": [
       {
         "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-InsurancePlan",
-        "title": "NDH InsurancePlan"
+        "title": "NDH Base InsurancePlan"
       }
     ],
     "Location": [
       {
-        "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Location",
-        "title": "NDH Location"
+        "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndhEx-Location",
+        "title": "NDH Exchange Location"
       }
     ],
     "Organization": [
       {
         "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Network",
-        "title": "NDH Network"
+        "title": "NDH Base Network"
       },
       {
         "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Organization",
-        "title": "NDH Organization"
+        "title": "NDH Base Organization"
       }
     ],
     "OrganizationAffiliation": [
       {
-        "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-OrganizationAffiliation",
+        "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndhEx-OrganizationAffiliation",
         "title": "NDH OrganizationAffiliation"
       }
     ],
     "Practitioner": [
       {
         "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Practitioner",
-        "title": "NDH Practitioner"
+        "title": "NDH Base Practitioner"
       }
     ],
     "PractitionerRole": [
       {
-        "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-PractitionerRole",
-        "title": "NDH PractitionerRole"
+        "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndhEx-PractitionerRole",
+        "title": "NDH Exchange PractitionerRole"
       }
     ],
     "Consent": [
       {
         "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Restriction",
-        "title": "NDH Restriction"
+        "title": "NDH Base Restriction"
       }
     ],
     "VerificationResult": [
       {
-        "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Verification",
-        "title": "NDH Verification"
+        "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndhVe-Verification",
+        "title": "NDH Verification Verification"
       }
     ]
   },
   "usage": {
     "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation": [
+      "CapabilityStatement.rest.mode",
       "CapabilityStatement.rest.resource",
       "CapabilityStatement.rest.resource.interaction",
-      "CapabilityStatement.rest.resource.supportedProfile"
+      "CapabilityStatement.rest.resource.interaction.code",
+      "CapabilityStatement.rest.resource.searchParam",
+      "CapabilityStatement.rest.resource.supportedProfile",
+      "CapabilityStatement.rest.resource.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"

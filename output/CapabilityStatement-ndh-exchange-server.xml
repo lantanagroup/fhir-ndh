@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CapabilityStatement xmlns="http://hl7.org/fhir">
+  <id value="ndh-exchange-server"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><h3 id="resource-details">FHIR RESTful Capabilities by Resource/Profile:</h3><h4>Summary</h4><table class="grid"><thead><tr><th>Resource Type</th><th>Supported Profiles</th><th>Conformance Expectation</th><th>Supported Searches</th><th>Supported <code>_includes</code></th><th>Supported <code>_revincludes</code></th><th>Supported Operations</th></tr></thead><tbody><tr><td><a href="#endpoint">Endpoint</a></td><td><a href="StructureDefinition-ndhEx-endpoint.html">NDH Exchange Endpoint</a></td><td><strong>SHALL</strong></td><td>mime-type, organization, usecase-standard, usecase-type</td><td>-</td><td>-</td><td>-</td></tr><tr><td><a href="#healthcareService">HealthcareService</a></td><td><a href="StructureDefinition-ndhEx-healthcareService.html">NDH Exchange HealthcareService</a></td><td><strong>SHALL</strong></td><td>endpoint, coverage-area, location, name, organization, service-category, service-type, specialty</td><td>-</td><td>-</td><td>-</td></tr><tr><td><a href="#location">Location</a></td><td><a href="StructureDefinition-ndhEx-location.html">NDH Exchange Location</a></td><td><strong>SHALL</strong></td><td>address, endpoint, organization, partOf, physicalType, type</td><td>-</td><td>-</td><td>-</td></tr><tr><td><a href="#organizationAffiliation">OrganizationAffiliation</a></td><td><a href="StructureDefinition-ndhEx-organizationAffiliation.html">NDH Exchange OrganizationAffiliation</a></td><td><strong>SHALL</strong></td><td>endpoint, location, network, participating-orgnization, primary-orgnization, role, service, specialty</td><td>-</td><td>-</td><td>-</td></tr><tr><td><a href="#practitionerRole">PractitionerRole</a></td><td><a href="StructureDefinition-ndhEx-practitionerRole.html">NDH Exchange practitionerRole</a></td><td><strong>SHALL</strong></td><td>endpoint, location, network, orgnization, practitioner, role, service, specialty</td><td>-</td><td>-</td><td>-</td></tr></tbody></table><h4 id="endpoint" class="no_toc">Endpoint</h4><p>Conformance Expectation: <strong>SHALL</strong></p><p>Interactions:</p><ul><li>A Server <strong>SHALL</strong> be capable of returning a Endpoint resource using: <code class="highlighter-rouge">GET [base]/Endpoint/[id]</code></li><li>A Server <strong>SHALL</strong> be capable of searching for Endpoint resources using: <code class="highlighter-rouge">GET [base]/Endpoint/?[parameters]</code></li></ul><p>Search Parameter Defined by NDH:</p><table class="grid"><thead><tr><th>Conformance</th><th>Parameter</th><th>Type</th></tr></thead><tbody><tr><td><strong>SHALL</strong></td><td><a href="SearchParameter-sp-endpoint-mime-type.html">mime-type</a></td><td>token</td></tr><tr><td><strong>SHALL</strong></td><td><a href="SearchParameter-sp-endpoint-organization.html">organization</a></td><td>reference</td></tr><tr><td><strong>SHOULD</strong></td><td><a href="SearchParameter-sp-endpoint-usecase-standard.html">usecase-standard</a></td><td>uri</td></tr><tr><td><strong>SHOULD</strong></td><td><a href="SearchParameter-sp-endpoint-usecase-type.html">usecase-type</a></td><td>token</td></tr></tbody></table><h4 id="healthcareService" class="no_toc">HealthcareService</h4><p>Conformance Expectation: <strong>SHALL</strong></p><h4 id="location" class="no_toc">Location</h4><p>Conformance Expectation: <strong>SHALL</strong></p><h4 id="organizationAffiliation" class="no_toc">OrganizationAffiliation</h4><p>Conformance Expectation: <strong>SHALL</strong></p><h4 id="practitionerRole" class="no_toc">PractitionerRole</h4><p>Conformance Expectation: <strong>SHALL</strong></p></div>
+  </text>
+  <url value="http://hl7.org/fhir/us/ndh/CapabilityStatement/ndh-exchange-server"/>
+  <version value="1.0.0"/>
+  <name value="NDH Exchange Capability Statement"/>
+  <status value="active"/>
+  <date value="2022-11-01"/>
+  <publisher value="HL7 International - Patient Administration Work Group"/>
+  <contact>
+    <name value="HL7 International - Patient Administration Work Group"/>
+    <telecom>
+      <system value="url"/>
+      <value value="http://hl7.org/Special/committees/pafm"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="pafm@lists.hl7.org"/>
+    </telecom>
+  </contact>
+  <description value="Capabilities for NDH Exchange Server"/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="US"/>
+      <display value="United States of America"/>
+    </coding>
+  </jurisdiction>
+  <kind value="requirements"/>
+  <fhirVersion value="4.0.1"/>
+  <format value="xml"/>
+  <format value="json"/>
+  <rest>
+    <mode value="server">
+      <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+        <valueCode value="SHALL"/>
+      </extension>
+    </mode>
+    <resource>
+      <type value="Endpoint">
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+      </type>
+      <supportedProfile value="http://hl7.org/fhir/us/ndh/StructureDefinition/ndhEx-Endpoint">
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+      </supportedProfile>
+      <interaction>
+        <code value="read">
+          <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+            <valueCode value="SHALL"/>
+          </extension>
+        </code>
+      </interaction>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <name value="mime-type"/>
+        <definition value="http://hl7.org/fhir/us/ndh/SearchParameter/sp-endpoint-mime-type"/>
+        <type value="token"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <name value="organization"/>
+        <definition value="http://hl7.org/fhir/us/ndh/SearchParameter/sp-endpoint-organization"/>
+        <type value="reference"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <name value="usecase-standard"/>
+        <definition value="http://hl7.org/fhir/us/ndh/SearchParameter/sp-endpoint-usecase-standard"/>
+        <type value="uri"/>
+      </searchParam>
+      <searchParam>
+        <extension url="http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation">
+          <valueCode value="SHALL"/>
+        </extension>
+        <name value="usecase-type"/>
+        <definition value="http://hl7.org/fhir/us/ndh/SearchParameter/sp-endpoint-usecase-type"/>
+        <type value="token"/>
+      </searchParam>
+    </resource>
+  </rest>
+</CapabilityStatement>

@@ -18,7 +18,7 @@
   "url": "http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Restriction",
   "version": "1.0.0",
   "name": "NdhRestriction",
-  "title": "NDH Restriction",
+  "title": "NDH Base Restriction",
   "status": "active",
   "date": "2017-12-15T01:01:31.325+11:00",
   "publisher": "HL7 International - Patient Administration Work Group",
