@@ -1,7 +1,7 @@
 Profile:        NdhOrganization
 Parent:         $USCoreOrganization
 Id:             ndh-Organization
-Title:          "NDH Organization"
+Title:          "NDH Base Organization"
 Description:    "An organization is a formal or informal grouping of people or organizations with a common purpose, such as a company, institution, corporation, 
 community group, or healthcare practice. Guidance: When the contact is a department name, rather than a human (e.g., patient help line), include a blank family 
 and given name, and provide the department name in contact.name.text"
@@ -56,7 +56,7 @@ and given name, and provide the department name in contact.name.text"
 Profile:        NdhPractitionerRole
 Parent:         PractitionerRole
 Id:             ndh-PractitionerRole
-Title:          "NDH PractitionerRole"
+Title:          "NDH Base PractitionerRole"
 Description:    "PractionerRole describes details about a provider, which can be a practitioner or an organization. When the provider is a practitioner, 
 there may be a relationship to an organization. A provider renders services to patients at a location. When the provider is a practitioner, there may also 
 be a relationship to an organization. Practitioner participation in healthcare provider insurance networks may be direct or through their role at an organization."
@@ -75,10 +75,10 @@ be a relationship to an organization. Practitioner participation in healthcare p
 * active 1..1 
 //* active = true // Jira ticket FHIR-33206-SMM to support incoming/outcgoing practititcioners
 //* period  
-* practitioner only Reference(NdhPractitioner)   // 1..1 from USCore
-* organization only Reference(NdhOrganization)         // 1..1 from USCore
-* practitioner 1..1 MS     // 1..1 from USCore
-* organization 1..1 MS     // 1..1 from USCore
+* practitioner only Reference(NdhPractitioner)   
+* organization only Reference(NdhOrganization)   
+* practitioner MS     
+* organization MS  
 * code   MS
 * code from PractitionerRoleVS
 * specialty MS 
@@ -109,7 +109,7 @@ be a relationship to an organization. Practitioner participation in healthcare p
 Profile:        NdhOrganizationAffiliation
 Parent:         OrganizationAffiliation
 Id:             ndh-OrganizationAffiliation
-Title:          "NDH OrganizationAffiliation"
+Title:          "NDH Base OrganizationAffiliation"
 Description:    "The OrganizationAffiliation resource describes relationships between two or more organizations, including the services one organization provides another, 
 the location(s) where they provide services, the availability of those services, electronic endpoints, and other relevant information."
 * meta.lastUpdated 1..1
@@ -145,7 +145,7 @@ the location(s) where they provide services, the availability of those services,
 Profile:        NdhNetwork
 Parent:         $USCoreOrganization
 Id:             ndh-Network
-Title:          "NDH Network"
+Title:          "NDH Base Network"
 Description:    "A Network refers to a healthcare provider insurance network. A healthcare provider insurance network is an aggregation of organizations and individuals 
 that deliver a set of services across a geography through health insurance products/plans. A network is typically owned by a payer.
 In the NDH IG, individuals and organizations are represented as participants in a National Directory Exchange Network through the practitionerRole and 
@@ -183,7 +183,7 @@ National Directory Exchange-organizationAffiliation resources, respectively."
 Profile:        NdhPractitioner
 Parent:         $USCorePractitioner
 Id:             ndh-Practitioner
-Title:          "NDH Practitioner"
+Title:          "NDH Base Practitioner"
 Description:    "Practitioner is a person who is directly or indirectly involved in the provisioning of healthcare."
 * meta.lastUpdated 1..1
 * identifier 1..* MS
@@ -220,7 +220,7 @@ Description:    "Practitioner is a person who is directly or indirectly involved
 Profile:        NdhLocation
 Parent:         $USCoreLocation
 Id:             ndh-Location
-Title:          "NDH Location"
+Title:          "NDH Base Location"
 Description:    "A Location is the physical place where healthcare services are provided, practitioners are employed, 
                  organizations are based, etc. Locations can range in scope from a room in a building to a geographic region/area."
 * meta.lastUpdated 1..1
@@ -266,7 +266,7 @@ Description:    "A Location is the physical place where healthcare services are 
 Profile:        NdhHealthcareService
 Parent:         HealthcareService
 Id:             ndh-HealthcareService
-Title:          "NDH HealthcareService"
+Title:          "NDH Base HealthcareService"
 Description:    "The HealthCareService resource typically describes services offered by an organization/practitioner at a location. 
 The resource may be used to encompass a variety of services covering the entire healthcare spectrum, including promotion, prevention, diagnostics, pharmacy, 
 hospital and ambulatory care, home care, long-term care, and other health-related and community services."
@@ -327,7 +327,7 @@ hospital and ambulatory care, home care, long-term care, and other health-relate
 Profile:        NdhEndpoint
 Parent:         Endpoint
 Id:             ndh-Endpoint
-Title:          "NDH Endpoint"
+Title:          "NDH Base Endpoint"
 Description:    "The technical details of an endpoint that can be used for electronic services, such as a portal or FHIR REST services, messaging or operations, or DIRECT messaging."
 * meta.lastUpdated 1..1
 * extension contains 
@@ -362,7 +362,7 @@ Description:    "The technical details of an endpoint that can be used for elect
 Profile: NdhCareTeam
 Parent: CareTeam
 Id: ndh-CareTeam
-Title: "NDH Care Team"
+Title: "NDH Base CareTeam"
 Description: "Defines the basic constraints and extensions on the CareTeam resource for use in a Validated Healthcare Directory"
 * ^copyright = "HL7 International"
 * ^publisher = "HL7 International"
@@ -433,7 +433,7 @@ Description: "Defines the basic constraints and extensions on the CareTeam resou
 Profile:        NdhInsurancePlan
 Parent:         InsurancePlan
 Id:             ndh-InsurancePlan
-Title:          "NDH InsurancePlan"
+Title:          "NDH Base InsurancePlan"
 Description:    "An InsurancePlan is a discrete package of health insurance coverage benefits that are offered under a particular network type. A given payer’s products 
 typically differ by network type and/or covered benefits. A plan pairs a product’s covered benefits with the particular cost sharing structure offered to a consumer. 
 A given product may comprise multiple plans (i.e. each plan offers different cost sharing requirements for the same set of covered benefits).
@@ -485,7 +485,7 @@ and additional information about the offering, such as who it is owned and admin
 Profile: NdhVerification
 Parent: VerificationResult
 Id: ndh-Verification
-Title: "NDH Verification"
+Title: "NDH Base Verification"
 Description: "Describes Verification requirements, source(s), status and dates for one or more elements"
 * ^date = "2017-12-10T12:42:47.483-05:00"
 * ^status = #active
@@ -501,7 +501,7 @@ Description: "Describes Verification requirements, source(s), status and dates f
 * validationType ^short = "nothing|single|multiple"
 * validationType ^definition = "What the target is validated against (nothing|single source|multiple sources)"
 * validationProcess 1..* MS
-* validationProcess from ValidationProcessVS (example)
+//* validationProcess from ValidationProcessVS (example)
 * validationProcess ^short = "The process(es) by which the target is validated"
 * validationProcess ^definition = "The process(es) by which the target is validated"
 * frequency MS
@@ -541,7 +541,7 @@ Description: "Describes Verification requirements, source(s), status and dates f
 Profile: NdhRestriction
 Parent: Consent
 Id: ndh-Restriction
-Title: "NDH Restriction"
+Title: "NDH Base Restriction"
 Description: "Restriction on use/release of exchanged information"
 * ^status = #active
 * ^date = "2017-12-15T01:01:31.325+11:00"

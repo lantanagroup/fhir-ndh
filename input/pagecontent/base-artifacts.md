@@ -1,19 +1,42 @@
-### Profiles Defined by NDH
-* [Organization]
-* [PractitionerRole]
-* [OrganizationAffiliation]
-* [Network]
-* [Practitioner]
-* [Location]
-* [HealthcareService]
-* [Endpoint]
-* [CareTeam]
-* [InsurancePlan]
-* [Verification]
-* [Restriction]
+### NDH Base Profiles
+* [NDH Base CareTeam]
+* [NDH Base Endpoint]
+* [NDH Base HealthcareService]
+* [NDH Base InsurancePlan]
+* [NDH Base Location]
+* [NDH Base Network]
+* [NDH Base Organization]
+* [NDH Base OrganizationAffiliation]
+* [NDH Base Practitioner]
+* [NDH Base PractitionerRole]
+* [NDH Base Restriction]
+* [NDH Base Verification]
+
+### NDH Base Search Parameters
+* [sp-careteam-endpoint]
+* [sp-careteam-location]
+* [sp-careteam-organization]
+* [sp-careteam-service]
+* [sp-careteam-name]
+* [sp-endpoint-mime-type]
+* [sp-endpoint-organization]
+* [sp-endpoint-usecase-standard]
+* [sp-endpoint-usecase-type]
+* [sp-insuranceplan-coverage-area]
+* [sp-insuranceplan-coverage-benefit-type]
+* [sp-insuranceplan-coverage-network]
+* [sp-locaion-physical-type]
+* [sp-network-coverage-area]
+* [sp-organization-endpoint]
+* [sp-practitioner-identifier-assigner]
+* [sp-practitioner-qualification-issuer]
+* [sp-practitioner-qualification-code]
+* [sp-practitionerrole-network]
+* [sp-verificationresult-attestation-who]
+* [sp-verificationresult-primarysource-who]
 
 
-### Extensions Defined by NDH
+### NDH Base Extensions 
 * [Accessibility]
 * [AssociatedServers]
 * [CareteamAlias]
@@ -43,7 +66,7 @@
 * [ViaIntermediary]
 
 
-### Code System Defined by NDH
+### NDH Base Code System
 * [AcceptingPatientsCS]
 * [AccessibilityCS]
 * [CredentialStatusCS]
@@ -64,7 +87,7 @@
 * [TrustFrameworkTypeCS]
 * [ValidationTypeCS]
 
-### Value Sets Defined by NDH
+### NDH Base Value Sets
 * [AcceptingPatientsVS]
 * [AccessibilityVS]
 * [DeliveryMethodVS]

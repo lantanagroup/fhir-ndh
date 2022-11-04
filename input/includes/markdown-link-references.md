@@ -79,23 +79,57 @@
 [UsageRestriction]: StructureDefinition-base-ext-usage-restriction.html
 [ViaIntermediary]: StructureDefinition-base-ext-via-intermediary.html
 
+<!-- Base Search Parameters -->
+[sp-endpoint-mime-type]: SearchParameter-sp-endpoint-mime-type.html
+[sp-endpoint-organization]: SearchParameter-sp-endpoint-organization.html
+[sp-endpoint-usecase-standard]: SearchParameter-sp-endpoint-usecase-standard.html
+[sp-endpoint-usecase-type]: SearchParameter-sp-endpoint-usecase-type.html
+[sp-organization-endpoint]: SearchParameter-sp-organization-endpoint.html
+[sp-practitioner-identifier-assigner]: SearchParameter-sp-practitioner-identifier-assigner.html
+[sp-practitioner-qualification-issuer]: SearchParameter-sp-practitioner-qualification-issuer.html
+[sp-practitioner-qualification-code]: SearchParameter-sp-practitioner-qualification-code.html
+[sp-practitionerrole-network]: SearchParameter-sp-practitionerrole-network.html
+[sp-insuranceplan-coverage-area]: SearchParameter-sp-insuranceplan-coverage-area.html
+[sp-insuranceplan-coverage-benefit-type]: SearchParameter-sp-insuranceplan-coverage-benefit-type.html
+[sp-insuranceplan-coverage-network]: SearchParameter-sp-insuranceplan-coverage-network.html
+[sp-careteam-endpoint]: SearchParameter-sp-careteam-endpoint.html
+[sp-careteam-location]: SearchParameter-sp-careteam-location.html
+[sp-careteam-organization]: SearchParameter-sp-careteam-organization.html
+[sp-careteam-service]: SearchParameter-sp-careteam-service.html
+[sp-careteam-name]: SearchParameter-sp-careteam-name.html
+[sp-network-coverage-area]: SearchParameter-sp-network-coverage-area.html
+[sp-locaion-physical-type]: SearchParameter-sp-locaion-physical-type.html
+[sp-verificationresult-attestation-who]: SearchParameter-sp-verificationresult-attestation-who.html
+[sp-verificationresult-primarysource-who]: SearchParameter-sp-verificationresult-primarysource-who.html
+
+
 <!--Base Profiles -->
-[Organization]: StructureDefinition-ndh-Organization.html
-[PractitionerRole]: StructureDefinition-ndh-PractitionerRole.html
-[OrganizationAffiliation]: StructureDefinition-ndh-OrganizationAffiliation.html
-[Network]: StructureDefinition-ndh-Network.html
-[Practitioner]: StructureDefinition-ndh-Practitioner.html
-[Location]: StructureDefinition-ndh-Location.html
-[HealthcareService]: StructureDefinition-ndh-HealthcareService.html
-[Endpoint]: StructureDefinition-ndh-Endpoint.html
-[CareTeam]: StructureDefinition-ndh-CareTeam.html
-[InsurancePlan]: StructureDefinition-ndh-InsurancePlan.html
-[Verification]: StructureDefinition-ndh-Verification.html
-[Restriction]: StructureDefinition-ndh-Restriction.html
+[NDH Base Organization]: StructureDefinition-ndh-Organization.html
+[NDH Base PractitionerRole]: StructureDefinition-ndh-PractitionerRole.html
+[NDH Base OrganizationAffiliation]: StructureDefinition-ndh-OrganizationAffiliation.html
+[NDH Base Network]: StructureDefinition-ndh-Network.html
+[NDH Base Practitioner]: StructureDefinition-ndh-Practitioner.html
+[NDH Base Location]: StructureDefinition-ndh-Location.html
+[NDH Base HealthcareService]: StructureDefinition-ndh-HealthcareService.html
+[NDH Base Endpoint]: StructureDefinition-ndh-Endpoint.html
+[NDH Base CareTeam]: StructureDefinition-ndh-CareTeam.html
+[NDH Base InsurancePlan]: StructureDefinition-ndh-InsurancePlan.html
+[NDH Base Verification]: StructureDefinition-ndh-Verification.html
+[NDH Base Restriction]: StructureDefinition-ndh-Restriction.html
+
+<!--Exchange Profiles -->
+[NDH Exchange PractitionerRole]: StructureDefinition-ndhEx-PractitionerRole.html
+[NDH Exchange OrganizationAffiliation]: StructureDefinition-ndhEx-OrganizationAffiliation.html
+[NDH Exchange Location]: StructureDefinition-ndhEx-Location.html
+[NDH Exchange HealthcareService]: StructureDefinition-ndhEx-HealthcareService.html
+[NDH Exchange Endpoint]: StructureDefinition-ndhEx-Endpoint.html
+
+
 
 
 <!-- Query Capability Statement -->
 [ndh-query-BasicEndpoint]: CapabilityStatement-ndh-query-BasicEndpoint.html
+[ndh-exchange-CapabilityStatement]: CapabilityStatement-ndh-exchange-server.html
 
 
 

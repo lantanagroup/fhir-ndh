@@ -37,3 +37,10 @@ Alias: $QualificationStatusCS = http://hl7.org/fhir/us/davinci-pdex-plan-net/Cod
 
 
 //???Alias: $MinValueSet =  http://hl7.org/fhir/us/ndh/ValueSet/EndpointConnectionTypeVS
+
+//NDH Alias
+Alias: $NdhEndpoint = http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Endpoint
+Alias: $NdhHealthcareService = http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-HealthcareService
+Alias: $NdhLocation = http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-Location
+Alias: $NdhOrganizationAffiliation = http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-OrganizationAffiliation
+Alias: $NdhPractitionerRole = http://hl7.org/fhir/us/ndh/StructureDefinition/ndh-PractitionerRole

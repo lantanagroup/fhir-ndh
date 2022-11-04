@@ -35,7 +35,7 @@ This diagram depicts the high-level conceptual design of a central source of NDH
 ![concetDiagram](NDH Architectures and Workflow.png)
 
 
-In this diagram, RESTful FHIR APIs facilitate the movement of data into and out of a verified healthcare directory at different points, including:
+In this diagram, RESTful FHIR APIs facilitate the movement of data into and out of NDH at different points, including:
 
 - Attestation: Individuals and organizations (via an authorized representative) attest to information about themselves, their relationships, and services for inclusion in the NDH. See [below](attestation-ig.html) for more information about attestitation. 
 - Validation: An implementer of the NDH must validate attested data against the underlying standards defined.  See [below](verification-ig.html) for more information about validation.

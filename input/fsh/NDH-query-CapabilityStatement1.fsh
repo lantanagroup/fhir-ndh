@@ -29,7 +29,7 @@ Title: "NDH Query Basic Endpoint Capability Statement"
 * insert SupportResource(HealthcareService, #SHALL)
 * insert SupportProfile(https://hl7.org/fhir/ndh/StructureDefinition/ndh-HealthcareService, #SHALL)
 * insert SupportInteraction(#read, #SHALL)
-* insert SupportInteraction(#search-type, #SHALL)
+//* insert SupportInteraction(#search-type, #SHALL)
 //* insert SupportSearchParam(_id, http://hl7.org/fhir/SearchParameter/Resource-id, #token, #SHALL)
 //* insert SupportSearchParam(_lastUpdated, http://hl7.org/fhir/SearchParameter/Resource-lastUpdated, #date, #SHALL)
 //* insert SupportSearchParam(date, http://hl7.org/fhir/SearchParameter/MeasureReport-date, #date, #SHALL)
