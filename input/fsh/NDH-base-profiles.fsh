@@ -393,13 +393,13 @@ Description: "Defines the basic constraints and extensions on the CareTeam resou
 * identifier.extension contains IdentifierStatus named status 1..1 
 * identifier.extension[status] ^short = "Status"
 * identifier.extension[status] ^definition = "Describes the status of an identifier"
-//* identifier.use 
-//* identifier.type 
-//* identifier.system 
-//* identifier.value 
-//* identifier.period 
+* identifier.use 
+* identifier.type 
+* identifier.system 
+* identifier.value 
+* identifier.period 
 * identifier.assigner only Reference(NdhOrganization)
-//* identifier.assigner 
+* identifier.assigner 
 * status 1.. 
 * category 1..* MS
 * name MS
