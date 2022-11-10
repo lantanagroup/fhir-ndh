@@ -80,27 +80,27 @@
 [ViaIntermediary]: StructureDefinition-base-ext-via-intermediary.html
 
 <!-- Base Search Parameters -->
-[sp-endpoint-mime-type]: SearchParameter-sp-endpoint-mime-type.html
-[sp-endpoint-organization]: SearchParameter-sp-endpoint-organization.html
-[sp-endpoint-usecase-standard]: SearchParameter-sp-endpoint-usecase-standard.html
-[sp-endpoint-usecase-type]: SearchParameter-sp-endpoint-usecase-type.html
-[sp-organization-endpoint]: SearchParameter-sp-organization-endpoint.html
-[sp-practitioner-identifier-assigner]: SearchParameter-sp-practitioner-identifier-assigner.html
-[sp-practitioner-qualification-issuer]: SearchParameter-sp-practitioner-qualification-issuer.html
-[sp-practitioner-qualification-code]: SearchParameter-sp-practitioner-qualification-code.html
-[sp-practitionerrole-network]: SearchParameter-sp-practitionerrole-network.html
-[sp-insuranceplan-coverage-area]: SearchParameter-sp-insuranceplan-coverage-area.html
-[sp-insuranceplan-coverage-benefit-type]: SearchParameter-sp-insuranceplan-coverage-benefit-type.html
-[sp-insuranceplan-coverage-network]: SearchParameter-sp-insuranceplan-coverage-network.html
-[sp-careteam-endpoint]: SearchParameter-sp-careteam-endpoint.html
-[sp-careteam-location]: SearchParameter-sp-careteam-location.html
-[sp-careteam-organization]: SearchParameter-sp-careteam-organization.html
-[sp-careteam-service]: SearchParameter-sp-careteam-service.html
-[sp-careteam-name]: SearchParameter-sp-careteam-name.html
-[sp-network-coverage-area]: SearchParameter-sp-network-coverage-area.html
-[sp-locaion-physical-type]: SearchParameter-sp-locaion-physical-type.html
-[sp-verificationresult-attestation-who]: SearchParameter-sp-verificationresult-attestation-who.html
-[sp-verificationresult-primarysource-who]: SearchParameter-sp-verificationresult-primarysource-who.html
+[sp-endpoint-mime-type]: SearchParameter-endpoint-mime-type.html
+[sp-endpoint-organization]: SearchParameter-endpoint-organization.html
+[sp-endpoint-usecase-standard]: SearchParameter-endpoint-usecase-standard.html
+[sp-endpoint-usecase-type]: SearchParameter-endpoint-usecase-type.html
+[sp-organization-endpoint]: SearchParameter-organization-endpoint.html
+[sp-practitioner-identifier-assigner]: SearchParameter-practitioner-identifier-assigner.html
+[sp-practitioner-qualification-issuer]: SearchParameter-practitioner-qualification-issuer.html
+[sp-practitioner-qualification-code]: SearchParameter-practitioner-qualification-code.html
+[sp-practitionerrole-network]: SearchParameter-practitionerrole-network.html
+[sp-insuranceplan-coverage-area]: SearchParameter-insuranceplan-coverage-area.html
+[sp-insuranceplan-coverage-benefit-type]: SearchParameter-insuranceplan-coverage-benefit-type.html
+[sp-insuranceplan-coverage-network]: SearchParameter-insuranceplan-coverage-network.html
+[sp-careteam-endpoint]: SearchParameter-careteam-endpoint.html
+[sp-careteam-location]: SearchParameter-careteam-location.html
+[sp-careteam-organization]: SearchParameter-careteam-organization.html
+[sp-careteam-service]: SearchParameter-careteam-service.html
+[sp-careteam-name]: SearchParameter-careteam-name.html
+[sp-network-coverage-area]: SearchParameter-network-coverage-area.html
+[sp-locaion-physical-type]: SearchParameter-locaion-physical-type.html
+[sp-verificationresult-attestation-who]: SearchParameter-verificationresult-attestation-who.html
+[sp-verificationresult-primarysource-who]: SearchParameter-verificationresult-primarysource-who.html
 
 
 <!--Base Profiles -->

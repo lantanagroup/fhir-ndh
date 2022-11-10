@@ -1,13 +1,13 @@
 
-Instance: sp-endpoint-mime-type
+Instance: endpoint-mime-type
 InstanceOf: SearchParameter
 Usage: #definition
 Title: "Endpoint mime-type"
 * status = #active
-* code = #mime-type
-* name = "Endpoint-mine-type"
+* code = #endpoint-mime-type
+* name = "EndpointMineTypeSearchParameter"
 * description = "Select Endpoints that support the specified mime-type"
-* url = "http://hl7.org/fhir/us/ndh/SearchParameter/sp-endpoint-mime-type"
+* url = "http://hl7.org/fhir/us/ndh/SearchParameter/endpoint-mime-type"
 * base[0] = #Endpoint
 * type = #token
 * expression = "Endpoint.payloadMimeType"
@@ -15,15 +15,15 @@ Title: "Endpoint mime-type"
 * multipleAnd = true
 
 
-Instance: sp-endpoint-organization
+Instance: endpoint-organization
 InstanceOf: SearchParameter
 Usage: #definition
 Title: "Endpoint organization"
 * status = #active
-* code = #organization
-* name = "Endpoint-organization"
+* code = #endpoint-organization
+* name = "EndpointOrganizationSearchParameter"
 * description = "Select Endpoints managed by the specified organization"
-* url = "http://hl7.org/fhir/us/ndh/SearchParameter/sp-endpoint-organization"
+* url = "http://hl7.org/fhir/us/ndh/SearchParameter/endpoint-organization"
 * base[0] = #Endpoint
 * type = #reference
 * target[+] = #Organization
@@ -39,15 +39,15 @@ Title: "Endpoint organization"
 * chain[+] = "type"
 
 
-Instance: sp-endpoint-usecase-standard
+Instance: endpoint-usecase-standard
 InstanceOf: SearchParameter
 Usage: #definition
 Title: "Endpoint usecase-standard"
 * status = #active
-* code = #usecase-standard
-* name = "Endpoint-usecase-standard"
+* code = #endpoint-usecase-standard
+* name = "EndpointUsecaseStandardSearchParameter"
 * description = "Select Endpoints that support the specified usecase standard"
-* url = "http://hl7.org/fhir/us/ndh/SearchParameter/sp-endpoint-usecase-standard"
+* url = "http://hl7.org/fhir/us/ndh/SearchParameter/endpoint-usecase-standard"
 * base[0] = #Endpoint
 * type = #uri
 * expression = "Endpoint.extension('http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-endpoint-usecase').extention('standard')"
@@ -56,15 +56,15 @@ Title: "Endpoint usecase-standard"
 * modifier[+] = #below
 
 
-Instance: sp-endpoint-usecase-type
+Instance: endpoint-usecase-type
 InstanceOf: SearchParameter
 Usage: #definition
 Title: "Endpoint usecase-type"
 * status = #active
-* code = #usecase-type
-* name = "Endpoint-usecase-type"
+* code = #endpoint-usecase-type
+* name = "EndpointUsecaseTypeSearchParameter"
 * description = "Select Endpoints that support the type of services indicated by the specified usecase-type"
-* url = "http://hl7.org/fhir/us/ndh/SearchParameter/sp-endpoint-usecase-type"
+* url = "http://hl7.org/fhir/us/ndh/SearchParameter/endpoint-usecase-type"
 * base[0] = #Endpoint
 * type = #token
 * expression = "Endpoint.extension('http://hl7.org/fhir/us/ndh/StructureDefinition/base-ext-endpoint-usecase').extention('type')"
@@ -72,15 +72,16 @@ Title: "Endpoint usecase-type"
 * multipleAnd = true
 * modifier[+] = #text
 
-Instance: sp-organization-endpoint
+//good one
+Instance: organization-endpoint
 InstanceOf: SearchParameter
 Usage: #definition
 Title: "Organization endpoint"
 * status = #active
-* code = #endpoint
-* name = "Organization-endpoint"
+* code = #organization-endpoint
+* name = "OrganizationEndpointSearchParameter"
 * description = "Select Organizations with the specified endpoint"
-* url = "http://hl7.org/fhir/us/ndh/SearchParameter/sp-organization-endpoint"
+* url = "http://hl7.org/fhir/us/ndh/SearchParameter/organization-endpoint"
 * base[0] = #Organization
 * type = #reference
 * target[+] = #Endpoint
@@ -90,17 +91,19 @@ Title: "Organization endpoint"
 * chain[+] = "identifier"
 * chain[+] = "connection-type"
 * chain[+] = "organization"
+* xpath = "f:Organization/f:endpoint"
+* xpathUsage = #normal
 
 
-Instance: sp-practitioner-identifier-assigner
+Instance: practitioner-identifier-assigner
 InstanceOf: SearchParameter
 Usage: #definition
 Title: "Practitioner identifier-assigner"
 * status = #active
-* code = #identifier-assigner
-* name = "Practitioner-identifier-assigner"
+* code = #practitioner-identifier-assigner
+* name = "PractitionerIdentifierAssignerSearchParameter"
 * description = "Select Practitioners with an identifier issued by the specified organition"
-* url = "http://hl7.org/fhir/us/ndh/SearchParameter/sp-practitioner-identifier-assigner"
+* url = "http://hl7.org/fhir/us/ndh/SearchParameter/practitioner-identifier-assigner"
 * base[0] = #Practitioner
 * type = #reference
 * target[+] = #Organization
@@ -108,15 +111,15 @@ Title: "Practitioner identifier-assigner"
 * multipleOr = true
 * multipleAnd = true
 
-Instance: sp-practitioner-qualification-issuer
+Instance: practitioner-qualification-issuer
 InstanceOf: SearchParameter
 Usage: #definition
 Title: "Practitioner qualification-issuer"
 * status = #active
-* code = #qualification-issuer
-* name = "Practitioner-qualification-issuer"
+* code = #practitioner-qualification-issuer
+* name = "PractitionerQualificationIssuerSearchParameter"
 * description = "Select Practitioners with a qualification issued by the specified organition"
-* url = "http://hl7.org/fhir/us/ndh/SearchParameter/sp-practitioner-qualification-issuer"
+* url = "http://hl7.org/fhir/us/ndh/SearchParameter/practitioner-qualification-issuer"
 * base[0] = #Practitioner
 * type = #reference
 * target[+] = #Organization
@@ -127,15 +130,15 @@ Title: "Practitioner qualification-issuer"
 * chain[+] = "identifier"
 * chain[+] = "name"
 
-Instance: sp-practitioner-qualification-code
+Instance: practitioner-qualification-code
 InstanceOf: SearchParameter
 Usage: #definition
 Title: "Practitioner qualification-code"
 * status = #active
-* code = #qualification-code
-* name = "Practitioner-qualification-code"
+* code = #practitioner-qualification-code
+* name = "PractitionerQualificationCodeSearchParameter"
 * description = "Select Practitioner with a type of qualification matching the specific code"
-* url = "http://hl7.org/fhir/us/ndh/SearchParameter/sp-practitioner-qualification-code"
+* url = "http://hl7.org/fhir/us/ndh/SearchParameter/practitioner-qualification-code"
 * base[0] = #Practitioner
 * type = #token
 * expression = "Practitioner.qualification.code"
@@ -143,15 +146,15 @@ Title: "Practitioner qualification-code"
 * multipleAnd = true
 * modifier[+] = #text
 
-Instance: sp-practitionerrole-network
+Instance: practitionerrole-network
 InstanceOf: SearchParameter
 Usage: #definition
 Title: "PractitionerRole network"
 * status = #active
-* code = #network
-* name = "PractitionerRole-network"
+* code = #practitionerrole-network
+* name = "PractitionerroleNetworkSearchParameter"
 * description = "Select roles where the practitioner is a member of the specified health insurance provider network"
-* url = "http://hl7.org/fhir/us/ndh/SearchParameter/sp-practitionerrole-network"
+* url = "http://hl7.org/fhir/us/ndh/SearchParameter/practitionerrole-network"
 * base[0] = #PractitionerRole
 * type = #reference
 * target[+] = #Organization
@@ -162,15 +165,15 @@ Title: "PractitionerRole network"
 * chain[+] = "name"
 * chain[+] = "partof"
 
-Instance: sp-insuranceplan-coverage-area
+Instance: insuranceplan-coverage-area
 InstanceOf: SearchParameter
 Usage: #definition
 Title: "InsurancePlan coverage-area"
 * status = #active
 * code = #insuranceplan-coverage-area
-* name = "Insurance-coverage-area"
+* name = "InsuranceCoverageAreaSearchParameter"
 * description = "Select products that are offered in the specified location"
-* url = "http://hl7.org/fhir/us/ndh/SearchParameter/sp-insuranceplan-coverage-area"
+* url = "http://hl7.org/fhir/us/ndh/SearchParameter/insuranceplan-coverage-area"
 * base[0] = #InsurancePlan
 * type = #reference
 * target[+] = #Location
@@ -181,15 +184,15 @@ Title: "InsurancePlan coverage-area"
 * chain[+] = "contains"
 
 
-Instance: sp-insuranceplan-coverage-benefit-type
+Instance: insuranceplan-coverage-benefit-type
 InstanceOf: SearchParameter
 Usage: #definition
 Title: "InsurancePlan coverage-benefit-type"
 * status = #active
 * code = #insuranceplan-coverage-benefit-type
-* name = "Insuranceplan-coverage-benefit-type"
+* name = "InsuranceplanCoverageCenefitTypeSearchParameter"
 * description = "Select products that are offered in the specified location"
-* url = "http://hl7.org/fhir/us/ndh/SearchParameter/sp-insuranceplan-coverage-benefit-type"
+* url = "http://hl7.org/fhir/us/ndh/SearchParameter/insuranceplan-coverage-benefit-type"
 * base[0] = #InsurancePlan
 * type = #token
 * expression = "InsurancePlan.coverage.benefit.type"
@@ -197,15 +200,15 @@ Title: "InsurancePlan coverage-benefit-type"
 * multipleAnd = true
 * modifier = #text
 
-Instance: sp-insuranceplan-coverage-network
+Instance: insuranceplan-coverage-network
 InstanceOf: SearchParameter
 Usage: #definition
 Title: "InsurancePlan coverage-network"
 * status = #active
 * code = #insuranceplan-coverage-network
-* name = "Insuranceplan-coverage-network"
+* name = "InsuranceplanCoverageNetworkSearchParameter"
 * description = "Select products offering covered benefits through the specified health insurance provider network"
-* url = "http://hl7.org/fhir/us/ndh/SearchParameter/sp-insuranceplan-coverage-network"
+* url = "http://hl7.org/fhir/us/ndh/SearchParameter/insuranceplan-coverage-network"
 * base[0] = #InsurancePlan
 * type = #reference
 * expression = "InsurancePlan.coverage.network"
@@ -216,15 +219,15 @@ Title: "InsurancePlan coverage-network"
 * chain[+] = "organization-name"
 * chain[+] = "organization-partof"
 
-Instance: sp-careteam-endpoint
+Instance: careteam-endpoint
 InstanceOf: SearchParameter
 Usage: #definition
 Title: "CareTeam endpoint"
 * status = #active
-* code = #endpoint
-* name = "CareTeam-endpoint"
+* code = #careteam-endpoint
+* name = "CareTeamEndpointSearchParameter"
 * description = "Select CareTeams with the specified endpoint"
-* url = "http://hl7.org/fhir/us/ndh/SearchParameter/sp-careteam-endpoint"
+* url = "http://hl7.org/fhir/us/ndh/SearchParameter/careteam-endpoint"
 * base[0] = #CareTeam
 * type = #reference
 * expression = "CareTeam.extension('http://hl7.org/fhir/us/ndh/StructureDefinition/endpoint-reference')"
@@ -235,15 +238,15 @@ Title: "CareTeam endpoint"
 * chain[+] = "connection-type"
 * chain[+] = "organization"
 
-Instance: sp-careteam-location
+Instance: careteam-location
 InstanceOf: SearchParameter
 Usage: #definition
 Title: "CareTeam location"
 * status = #active
 * code = #location
-* name = "CareTeam-location"
+* name = "CareTeamLocationSearchParameter"
 * description = "Select CareTeams operating at the specified location"
-* url = "http://hl7.org/fhir/us/ndh/SearchParameter/sp-careteam-location"
+* url = "http://hl7.org/fhir/us/ndh/SearchParameter/careteam-location"
 * base[0] = #CareTeam
 * type = #reference
 * expression = "CareTeam.extension('http://hl7.org/fhir/us/ndh/StructureDefinition/locaion-reference')"
@@ -257,15 +260,15 @@ Title: "CareTeam location"
 * chain[+] = "organization"
 * chain[+] = "type"
 
-Instance: sp-careteam-organization
+Instance: careteam-organization
 InstanceOf: SearchParameter
 Usage: #definition
 Title: "CareTeam organization"
 * status = #active
-* code = #organization
-* name = "CareTeam-organization"
+* code = #careteam-organization
+* name = "CareTeamOrganizationSearchParameter"
 * description = "Select CareTeams managed by the specified organization"
-* url = "http://hl7.org/fhir/us/ndh/SearchParameter/sp-careteam-organization"
+* url = "http://hl7.org/fhir/us/ndh/SearchParameter/careteam-organization"
 * base[0] = #CareTeam
 * type = #reference
 * expression = "CareTeam.managingOrganization"
@@ -280,15 +283,15 @@ Title: "CareTeam organization"
 * chain[+] = "partof"
 * chain[+] = "type"
 
-Instance: sp-careteam-service
+Instance: careteam-service
 InstanceOf: SearchParameter
 Usage: #definition
 Title: "CareTeam service"
 * status = #active
-* code = #service
-* name = "CareTeam-service"
+* code = #careteam-service
+* name = "CareTeamServiceSearchParameter"
 * description = "Select CareTeams providing the specified service"
-* url = "http://hl7.org/fhir/us/ndh/SearchParameter/sp-careteam-service"
+* url = "http://hl7.org/fhir/us/ndh/SearchParameter/careteam-service"
 * base[0] = #CareTeam
 * type = #reference
 * expression = "CareTeam.extension('http://hl7.org/fhir/us/ndh/StructureDefinition/healthcareservice-reference')"
@@ -300,15 +303,15 @@ Title: "CareTeam service"
 * chain[+] = "organization"
 * chain[+] = "location"
 
-Instance: sp-careteam-name
+Instance: careteam-name
 InstanceOf: SearchParameter
 Usage: #definition
 Title: "CareTeam name"
 * status = #active
-* code = #name
-* name = "CareTeam-service"
+* code = #careteam-name
+* name = "CareTeamServiceSearchParameter"
 * description = "Select CareTeams with the specified name"
-* url = "http://hl7.org/fhir/us/ndh/SearchParameter/sp-careteam-name"
+* url = "http://hl7.org/fhir/us/ndh/SearchParameter/careteam-name"
 * base[0] = #CareTeam
 * type = #string
 * expression = "CareTeam.name|CareTeam.extension('http://hl7.org/fhir/us/ndh/StructureDefinition/careteam-alias')"
@@ -317,15 +320,15 @@ Title: "CareTeam name"
 * modifier[+] = #exact
 * modifier[+] = #contains
 
-Instance: sp-network-coverage-area
+Instance: network-coverage-area
 InstanceOf: SearchParameter
 Usage: #definition
 Title: "Network coverage-area"
 * status = #active
-* code = #service
-* name = "Network-coverage-area"
+* code = #network-coverage-area
+* name = "NetworkCoverageAreaSearchParameter"
 * description = "Select health insurance provider networks available in a regin described by the specified location"
-* url = "http://hl7.org/fhir/us/ndh/SearchParameter/sp-network-coverage-area"
+* url = "http://hl7.org/fhir/us/ndh/SearchParameter/network-coverage-area"
 * base[0] = #Organization
 * type = #reference
 * expression = "Organization.extension('http://hl7.org/fhir/us/ndh/StructureDefinition/location-reference')"
@@ -336,15 +339,15 @@ Title: "Network coverage-area"
 * chain[+] = "location-contains"
 
 
-Instance: sp-locaion-physical-type
+Instance: locaion-physical-type
 InstanceOf: SearchParameter
 Usage: #definition
 Title: "Location physical-type"
 * status = #active
-* code = #physical-type
-* name = "Location-physical-type"
+* code = #location-physical-type
+* name = "LocationPhysicalTypeSearchParameter"
 * description = "Select Locations of the specified physical type"
-* url = "http://hl7.org/fhir/us/ndh/SearchParameter/sp-locaion-physical-type"
+* url = "http://hl7.org/fhir/us/ndh/SearchParameter/locaion-physical-type"
 * base[0] = #Location
 * type = #token
 * expression = "Location.physicalType"
@@ -352,15 +355,15 @@ Title: "Location physical-type"
 * multipleAnd = true
 * modifier[+] = #text
 
-Instance: sp-verificationresult-attestation-who
+Instance: verificationresult-attestation-who
 InstanceOf: SearchParameter
 Usage: #definition
 Title: "VerificationResult attestation-who"
 * status = #active
 * code = #verificationresult-attestation-who
-* name = "VerificationResult-attestation-who"
+* name = "VerificationResultAttestationWhoSearchParameter"
 * description = "Select validation information for data that was attested to by the specified individual or organization"
-* url = "http://hl7.org/fhir/us/ndh/SearchParameter/sp-verificationresult-attestation-who"
+* url = "http://hl7.org/fhir/us/ndh/SearchParameter/verificationresult-attestation-who"
 * base[0] = #VerificationResult
 * type = #reference
 * expression = "VerificationResult.attestation.who"
@@ -381,15 +384,15 @@ Title: "VerificationResult attestation-who"
 * chain[+] = "practitionerrole-organization"
 
 
-Instance: sp-verificationresult-primarysource-who
+Instance: verificationresult-primarysource-who
 InstanceOf: SearchParameter
 Usage: #definition
 Title: "VerificationResult primarysource-who"
 * status = #active
 * code = #verificationresult-primarysource-who
-* name = "VerificationResult-primarysource-who"
+* name = "VerificationResultPrimarysourceWhoSearchParameter"
 * description = "Select verification information for data that was verified against the specified primary source"
-* url = "http://hl7.org/fhir/us/ndh/SearchParameter/sp-verificationresult-primarysource-who"
+* url = "http://hl7.org/fhir/us/ndh/SearchParameter/verificationresult-primarysource-who"
 * base[0] = #VerificationResult
 * type = #reference
 * expression = "VerificationResult.primarysource.who"

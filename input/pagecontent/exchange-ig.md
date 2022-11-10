@@ -8,7 +8,7 @@ NDH exchange actor IG conformant implementation:
 
 - SHALL support profiles: Endpoint, HealthcareService, Location, Organization, OrganizationAffiliation, Practitioner,  PractitionerRole,   Restriction
 - SHOULD support profiles: CareTeam, InsurancePlan, Network
-- MAY  Validation
+- MAY  Verification
 
 In profiles, the "Must Support" flag indicates if data exists for the specific property, then it must be represented as defined in the NDH exchange actor IG. If the element is not available from a system, this is not required, and may be omitted.
 
